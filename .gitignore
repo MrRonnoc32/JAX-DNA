@@ -1,0 +1,6 @@
+.env
+data/*.sqlite-*
+__pycache__/
+.venv/
+_to_delete_unzip_tmp/
+.DS_Store

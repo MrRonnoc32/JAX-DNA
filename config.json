@@ -1,0 +1,45 @@
+{
+  "database": "data/jaxdna.sqlite",
+  "export_path": "data/export.json",
+  "reddit": {
+    "enabled": true,
+    "subreddits": ["jacksonville", "jaxbeach"],
+    "site_wide_search_terms": ["jacksonville florida", "jacksonville fl", "duval county"],
+    "site_wide_time_filter": "week",
+    "submissions_per_subreddit": 500,
+    "include_comments": true,
+    "max_comments_per_submission": 200,
+    "user_agent": "JAX-DNA sentiment research by Jacksonville Civic Council (contact: connor@jaxciviccouncil.com)"
+  },
+  "bluesky": {
+    "enabled": true,
+    "search_terms": ["jacksonville", "duval county", "#jaxfl", "#duvalcounty"],
+    "max_posts_per_term": 2000,
+    "lookback_days": 365
+  },
+  "filters": {
+    "min_chars": 15,
+    "exclude_if_contains": [
+      "jacksonville, nc", "jacksonville nc", "jacksonville, north carolina", "camp lejeune", "onslow",
+      "jacksonville, il", "jacksonville illinois", "jacksonville, ar", "jacksonville arkansas",
+      "jacksonville, tx", "jacksonville texas", "jacksonville state", "jacksonville, al", "jacksonville alabama",
+      "jacksonville, or", "jacksonville oregon"
+    ]
+  },
+  "index": {
+    "smoothing_days": 7,
+    "baseline": "full_period",
+    "baseline_days": 90,
+    "min_posts_per_day": 5,
+    "sports_topics": ["jaguars_sports"]
+  },
+  "scoring": {
+    "use_roberta": true,
+    "roberta_model": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+    "batch_size": 32
+  },
+  "validation": {
+    "sample_size": 200,
+    "output_csv": "data/validation_sample.csv"
+  }
+}

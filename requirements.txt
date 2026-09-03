@@ -1,0 +1,8 @@
+praw>=7.7
+atproto>=0.0.55
+vaderSentiment>=3.3
+pandas>=2.0
+python-dotenv>=1.0
+# Optional, for the RoBERTa model (about 500 MB download on first run):
+# torch
+# transformers

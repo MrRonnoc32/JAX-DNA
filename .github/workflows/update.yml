@@ -18,9 +18,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
@@ -28,8 +28,9 @@ jobs:
       - name: Install packages
         run: |
           pip install -r requirements.txt
-          # Remove the next line to run VADER only (faster, no model download).
-          pip install torch --index-url https://download.pytorch.org/whl/cpu transformers
+          # Remove the next two lines to run VADER only (faster, no model download).
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install transformers
 
       - name: Cache the RoBERTa model between runs
         uses: actions/cache@v4

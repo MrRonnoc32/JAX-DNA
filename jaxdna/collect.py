@@ -2,7 +2,8 @@
 
 Credentials come from environment variables (see .env.example):
   REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET
-Bluesky search uses the public AppView and needs no credentials.
+  BSKY_HANDLE, BSKY_APP_PASSWORD  (Bluesky app password; the public no-login
+  endpoint returns 403 to cloud servers such as GitHub Actions)
 """
 import datetime as dt
 import os
@@ -115,7 +116,19 @@ def collect_bluesky(conn, cfg):
         _log("atproto not installed; skipping Bluesky. pip install atproto")
         return
 
-    client = Client(base_url="https://public.api.bsky.app")
+    handle, app_pw = os.getenv("BSKY_HANDLE"), os.getenv("BSKY_APP_PASSWORD")
+    if handle and app_pw:
+        # Authenticated: goes through bsky.social, which is not blocked for cloud runners.
+        client = Client()
+        try:
+            client.login(handle, app_pw)
+            _log(f"bluesky: logged in as {handle}")
+        except Exception as e:  # noqa: BLE001
+            _log(f"bluesky login failed ({e}); falling back to public AppView")
+            client = Client(base_url="https://public.api.bsky.app")
+    else:
+        _log("BSKY_HANDLE / BSKY_APP_PASSWORD not set; using public AppView (often 403 from cloud servers)")
+        client = Client(base_url="https://public.api.bsky.app")
     lookback = bcfg.get("lookback_days", 365)
     since_floor = int((dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=lookback)).timestamp())
 

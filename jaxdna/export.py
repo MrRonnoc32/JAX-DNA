@@ -107,12 +107,28 @@ def _examples(sub, score_col, k=3):
     return {"positive": fmt(sub.nlargest(k, score_col)), "negative": fmt(sub.nsmallest(k, score_col))}
 
 
+def _recent_log(conn, n=12):
+    rows = conn.execute("SELECT run_utc, source, subsource, fetched, inserted, note FROM collection_log ORDER BY run_utc DESC LIMIT ?", (n,)).fetchall()
+    return [{"run_utc": r["run_utc"], "source": r["source"], "subsource": r["subsource"], "fetched": r["fetched"],
+             "inserted": r["inserted"], "note": (r["note"] or "")[:160]} for r in rows]
+
+
 def build(conn, cfg, synthetic=False):
     icfg = cfg["index"]
     df, topics = load_frame(conn)
     if df.empty:
-        _log("no scored posts; nothing to export")
-        return None
+        _log("no scored posts; writing empty export")
+        export = {"meta": {"generated_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                           "synthetic": False, "empty": True, "primary_model": "vader", "roberta_used": "no",
+                           "n_posts": 0, "n_days": 0, "date_min": None, "date_max": None, "baseline_mean": 0,
+                           "baseline_sd": 0, "smoothing_days": icfg.get("smoothing_days", 7),
+                           "min_posts_per_day": icfg.get("min_posts_per_day", 5), "latest_index": None,
+                           "change_30d": None, "pct_positive": None, "pct_negative": None, "vader_roberta_corr": None,
+                           "collection_log": _recent_log(conn)},
+                  "series": {"all": {"vader": []}, "no_sports": {"vader": []}}, "topics": [], "sources": []}
+        with open(cfg["export_path"], "w", encoding="utf-8") as f:
+            json.dump(export, f, ensure_ascii=False, indent=1)
+        return export
 
     roberta_ok = df["roberta"].notna().mean() > 0.9
     primary = "roberta" if roberta_ok else "vader"
@@ -180,6 +196,7 @@ def build(conn, cfg, synthetic=False):
             "pct_positive": round(float((df[primary] > 0.05).mean()), 4),
             "pct_negative": round(float((df[primary] < -0.05).mean()), 4),
             "vader_roberta_corr": None if not roberta_ok else round(float(df[["vader", "roberta"]].corr().iloc[0, 1]), 3),
+            "collection_log": _recent_log(conn),
         },
         "series": series,
         "topics": topic_rows,

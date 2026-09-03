@@ -157,13 +157,21 @@ if (M.synthetic) {
   const b = $("#banner"); b.hidden = false;
   b.textContent = "Sample data. These posts were generated to test the pipeline and do not describe real opinion. Run the collector to replace them.";
 }
+if (M.empty || M.n_posts === 0) {
+  const b = $("#banner"); b.hidden = false;
+  b.textContent = "No posts collected yet. The last collection run returned nothing; see the collection log at the bottom of the page.";
+}
+if (!M.empty && M.n_posts > 0 && M.n_days < 14) {
+  const b = $("#banner"); b.hidden = false;
+  b.textContent = `Early data: only ${M.n_days} day(s) with enough posts. Treat the index as provisional until several weeks have accumulated.`;
+}
 
 // ---------- tiles
 (function tiles() {
   const t = [
     ["Latest index", fmt(M.latest_index, 2), M.latest_index === null ? "not enough days yet" : (M.latest_index >= 0 ? "happier than the period average" : "gloomier than the period average")],
     ["30-day change", M.change_30d === null ? "–" : (M.change_30d > 0 ? "+" : "") + fmt(M.change_30d, 2), "in index units"],
-    ["Posts analyzed", M.n_posts.toLocaleString(), `${M.date_min} to ${M.date_max}`],
+    ["Posts analyzed", M.n_posts.toLocaleString(), M.n_posts ? `${M.date_min} to ${M.date_max}` : "nothing collected yet"],
     ["Positive posts", pct(M.pct_positive), `negative: ${pct(M.pct_negative)}; rest neutral`],
     ["Primary model", M.primary_model === "roberta" ? "RoBERTa" : "VADER", M.vader_roberta_corr === null ? "RoBERTa not run" : `agreement with other model r = ${fmt(M.vader_roberta_corr, 2)}`],
   ];
@@ -171,7 +179,7 @@ if (M.synthetic) {
 })();
 
 // ---------- model toggle
-const models = Object.keys(DATA.series.all);
+const models = Object.keys(DATA.series.all || {});
 const segModel = $("#seg-model");
 models.forEach((m, i) => {
   const id = "model-" + m;
@@ -302,6 +310,7 @@ drawLine();
   $("#topic-table").innerHTML = `<table><thead><tr><th>Topic</th><th class="num">Posts</th><th class="num">Share</th><th class="num">Mean (VADER)</th><th class="num">Mean (RoBERTa)</th><th class="num">Positive</th><th class="num">Negative</th></tr></thead><tbody>` +
     DATA.topics.map(r => `<tr><td>${esc(r.label)}</td><td class="num">${r.n}</td><td class="num">${pct(r.share)}</td><td class="num">${fmt(r.mean_vader, 3)}</td><td class="num">${fmt(r.mean_roberta, 3)}</td><td class="num">${pct(r.pct_positive)}</td><td class="num">${pct(r.pct_negative)}</td></tr>`).join("") + "</tbody></table>";
   if (rows.length) showTopic(rows[0], key);
+  else svg.innerHTML = `<text x="${W/2}" y="40" text-anchor="middle" fill="var(--ink-2)">No topic data yet</text>`;
 })();
 
 function showTopic(r, key) {
@@ -316,6 +325,9 @@ function showTopic(r, key) {
 }
 
 // ---------- sources + footer
+const logRows = (M.collection_log || []);
+$("#sources").insertAdjacentHTML("afterend", logRows.length ? `<details><summary>Recent collection runs</summary><table><thead><tr><th>Run (UTC)</th><th>Source</th><th>Query</th><th class="num">Fetched</th><th class="num">New</th><th>Note</th></tr></thead><tbody>` +
+  logRows.map(r => `<tr><td>${new Date(r.run_utc*1000).toISOString().slice(0,16).replace("T"," ")}</td><td>${esc(r.source)}</td><td>${esc(r.subsource||"")}</td><td class="num">${r.fetched}</td><td class="num">${r.inserted}</td><td>${esc(r.note||"")}</td></tr>`).join("") + "</tbody></table></details>" : "");
 $("#sources").innerHTML = `<table><thead><tr><th>Source</th><th class="num">Posts</th><th class="num">Mean (VADER)</th><th class="num">Mean (RoBERTa)</th></tr></thead><tbody>` +
   DATA.sources.map(s => `<tr><td>${esc(s.source)}</td><td class="num">${s.n}</td><td class="num">${fmt(s.mean_vader, 3)}</td><td class="num">${fmt(s.mean_roberta, 3)}</td></tr>`).join("") + "</tbody></table>";
 $("#foot").textContent = `Generated ${M.generated_utc}. ${M.n_posts} posts over ${M.n_days} days with at least ${M.min_posts_per_day} posts. Smoothing window ${M.smoothing_days} days. Baseline mean ${fmt(M.baseline_mean, 3)}, SD ${fmt(M.baseline_sd, 3)}. Data collected through public APIs only; no usernames stored.`;

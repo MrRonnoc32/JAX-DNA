@@ -1,23 +1,55 @@
 {
  "meta": {
-  "generated_utc": "2026-10-04T15:06:07+00:00",
+  "generated_utc": "2026-10-05T19:01:09+00:00",
   "synthetic": false,
   "primary_model": "roberta",
   "roberta_used": "yes",
-  "n_posts": 8420,
-  "n_days": 223,
+  "n_posts": 8775,
+  "n_days": 224,
   "date_min": "2019-03-17",
-  "date_max": "2026-10-04",
+  "date_max": "2026-10-05",
   "baseline_mean": -0.0103,
-  "baseline_sd": 0.1171,
+  "baseline_sd": 0.117,
   "smoothing_days": 14,
   "min_posts_per_day": 3,
-  "latest_index": 0.24,
-  "change_30d": 0.09,
-  "pct_positive": 0.3624,
-  "pct_negative": 0.3012,
-  "vader_roberta_corr": 0.522,
+  "latest_index": 0.25,
+  "change_30d": 0.08,
+  "pct_positive": 0.3634,
+  "pct_negative": 0.301,
+  "vader_roberta_corr": 0.525,
   "collection_log": [
+   {
+    "run_utc": 1791226833,
+    "source": "bluesky",
+    "subsource": "search:jacksonville",
+    "fetched": 380,
+    "inserted": 355,
+    "note": ""
+   },
+   {
+    "run_utc": 1791226833,
+    "source": "bluesky",
+    "subsource": "search:duval county",
+    "fetched": 12,
+    "inserted": 0,
+    "note": ""
+   },
+   {
+    "run_utc": 1791226833,
+    "source": "bluesky",
+    "subsource": "search:#jaxfl",
+    "fetched": 1,
+    "inserted": 0,
+    "note": ""
+   },
+   {
+    "run_utc": 1791226833,
+    "source": "bluesky",
+    "subsource": "search:#duvalcounty",
+    "fetched": 1,
+    "inserted": 0,
+    "note": ""
+   },
    {
     "run_utc": 1791126338,
     "source": "bluesky",
@@ -81,38 +113,6 @@
     "fetched": 10,
     "inserted": 3,
     "note": ""
-   },
-   {
-    "run_utc": 1790957035,
-    "source": "bluesky",
-    "subsource": "search:jacksonville",
-    "fetched": 202,
-    "inserted": 185,
-    "note": ""
-   },
-   {
-    "run_utc": 1790957035,
-    "source": "bluesky",
-    "subsource": "search:duval county",
-    "fetched": 14,
-    "inserted": 11,
-    "note": ""
-   },
-   {
-    "run_utc": 1790957035,
-    "source": "bluesky",
-    "subsource": "search:#jaxfl",
-    "fetched": 1,
-    "inserted": 0,
-    "note": ""
-   },
-   {
-    "run_utc": 1790957035,
-    "source": "bluesky",
-    "subsource": "search:#duvalcounty",
-    "fetched": 1,
-    "inserted": 0,
-    "note": ""
    }
   ]
  },
@@ -152,7 +152,7 @@
      "n": 4,
      "mean": -0.1608,
      "smoothed": -0.0483,
-     "index": -0.684
+     "index": -0.686
     },
     {
      "date": "2025-09-08",
@@ -250,35 +250,35 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.0653,
-     "index": 0.049
+     "index": 0.048
     },
     {
      "date": "2025-09-22",
      "n": 5,
      "mean": 0.5675,
      "smoothed": 0.2517,
-     "index": 1.252
+     "index": 1.253
     },
     {
      "date": "2025-09-23",
      "n": 0,
      "mean": null,
      "smoothed": 0.2517,
-     "index": 1.252
+     "index": 1.253
     },
     {
      "date": "2025-09-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.2517,
-     "index": 1.252
+     "index": 1.253
     },
     {
      "date": "2025-09-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.2957,
-     "index": 1.536
+     "index": 1.537
     },
     {
      "date": "2025-09-26",
@@ -292,7 +292,7 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.2634,
-     "index": 1.327
+     "index": 1.328
     },
     {
      "date": "2025-09-28",
@@ -362,21 +362,21 @@
      "n": 8,
      "mean": -0.0965,
      "smoothed": 0.0275,
-     "index": -0.195
+     "index": -0.196
     },
     {
      "date": "2025-10-08",
      "n": 0,
      "mean": null,
      "smoothed": 0.0275,
-     "index": -0.195
+     "index": -0.196
     },
     {
      "date": "2025-10-09",
      "n": 5,
      "mean": 0.1681,
      "smoothed": 0.0442,
-     "index": -0.087
+     "index": -0.088
     },
     {
      "date": "2025-10-10",
@@ -418,28 +418,28 @@
      "n": 3,
      "mean": -0.23,
      "smoothed": 0.071,
-     "index": 0.086
+     "index": 0.085
     },
     {
      "date": "2025-10-16",
      "n": 6,
      "mean": -0.004,
      "smoothed": 0.0693,
-     "index": 0.075
+     "index": 0.074
     },
     {
      "date": "2025-10-17",
      "n": 4,
      "mean": 0.0193,
      "smoothed": 0.066,
-     "index": 0.054
+     "index": 0.053
     },
     {
      "date": "2025-10-18",
      "n": 9,
      "mean": 0.0736,
      "smoothed": 0.067,
-     "index": 0.06
+     "index": 0.059
     },
     {
      "date": "2025-10-19",
@@ -453,7 +453,7 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.0421,
-     "index": -0.101
+     "index": -0.102
     },
     {
      "date": "2025-10-21",
@@ -474,28 +474,28 @@
      "n": 4,
      "mean": 0.1197,
      "smoothed": 0.0579,
-     "index": 0.001
+     "index": 0.0
     },
     {
      "date": "2025-10-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.0374,
-     "index": -0.131
+     "index": -0.132
     },
     {
      "date": "2025-10-25",
      "n": 3,
      "mean": 0.2464,
      "smoothed": 0.0421,
-     "index": -0.101
+     "index": -0.102
     },
     {
      "date": "2025-10-26",
      "n": 0,
      "mean": null,
      "smoothed": 0.0372,
-     "index": -0.133
+     "index": -0.134
     },
     {
      "date": "2025-10-27",
@@ -509,49 +509,49 @@
      "n": 3,
      "mean": -0.2232,
      "smoothed": 0.0323,
-     "index": -0.164
+     "index": -0.165
     },
     {
      "date": "2025-10-29",
      "n": 10,
      "mean": -0.1738,
      "smoothed": 0.002,
-     "index": -0.36
+     "index": -0.361
     },
     {
      "date": "2025-10-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.003,
-     "index": -0.353
+     "index": -0.354
     },
     {
      "date": "2025-10-31",
      "n": 4,
      "mean": 0.2378,
      "smoothed": 0.0273,
-     "index": -0.197
+     "index": -0.198
     },
     {
      "date": "2025-11-01",
      "n": 4,
      "mean": -0.2248,
      "smoothed": -0.0187,
-     "index": -0.494
+     "index": -0.495
     },
     {
      "date": "2025-11-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0406,
-     "index": -0.635
+     "index": -0.636
     },
     {
      "date": "2025-11-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.0406,
-     "index": -0.635
+     "index": -0.636
     },
     {
      "date": "2025-11-04",
@@ -586,21 +586,21 @@
      "n": 5,
      "mean": 0.0577,
      "smoothed": 0.0944,
-     "index": 0.237
+     "index": 0.236
     },
     {
      "date": "2025-11-09",
      "n": 0,
      "mean": null,
      "smoothed": 0.0944,
-     "index": 0.237
+     "index": 0.236
     },
     {
      "date": "2025-11-10",
      "n": 0,
      "mean": null,
      "smoothed": 0.0944,
-     "index": 0.237
+     "index": 0.236
     },
     {
      "date": "2025-11-11",
@@ -614,7 +614,7 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.2033,
-     "index": 0.939
+     "index": 0.94
     },
     {
      "date": "2025-11-13",
@@ -628,168 +628,168 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.2218,
-     "index": 1.059
+     "index": 1.06
     },
     {
      "date": "2025-11-15",
      "n": 4,
      "mean": 0.3841,
      "smoothed": 0.3088,
-     "index": 1.62
+     "index": 1.622
     },
     {
      "date": "2025-11-16",
      "n": 0,
      "mean": null,
      "smoothed": 0.3088,
-     "index": 1.62
+     "index": 1.622
     },
     {
      "date": "2025-11-17",
      "n": 0,
      "mean": null,
      "smoothed": 0.3088,
-     "index": 1.62
+     "index": 1.622
     },
     {
      "date": "2025-11-18",
      "n": 0,
      "mean": null,
      "smoothed": 0.2703,
-     "index": 1.372
+     "index": 1.373
     },
     {
      "date": "2025-11-19",
      "n": 0,
      "mean": null,
      "smoothed": 0.2847,
-     "index": 1.465
+     "index": 1.466
     },
     {
      "date": "2025-11-20",
      "n": 4,
      "mean": 0.5291,
      "smoothed": 0.2915,
-     "index": 1.509
+     "index": 1.51
     },
     {
      "date": "2025-11-21",
      "n": 0,
      "mean": null,
      "smoothed": 0.2638,
-     "index": 1.33
+     "index": 1.331
     },
     {
      "date": "2025-11-22",
      "n": 0,
      "mean": null,
      "smoothed": 0.3374,
-     "index": 1.805
+     "index": 1.807
     },
     {
      "date": "2025-11-23",
      "n": 0,
      "mean": null,
      "smoothed": 0.3374,
-     "index": 1.805
+     "index": 1.807
     },
     {
      "date": "2025-11-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.3374,
-     "index": 1.805
+     "index": 1.807
     },
     {
      "date": "2025-11-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.4472,
-     "index": 2.514
+     "index": 2.516
     },
     {
      "date": "2025-11-26",
      "n": 4,
      "mean": 0.4052,
      "smoothed": 0.436,
-     "index": 2.441
+     "index": 2.444
     },
     {
      "date": "2025-11-27",
      "n": 0,
      "mean": null,
      "smoothed": 0.4395,
-     "index": 2.464
+     "index": 2.466
     },
     {
      "date": "2025-11-28",
      "n": 0,
      "mean": null,
      "smoothed": 0.4395,
-     "index": 2.464
+     "index": 2.466
     },
     {
      "date": "2025-11-29",
      "n": 0,
      "mean": null,
      "smoothed": 0.4672,
-     "index": 2.643
+     "index": 2.645
     },
     {
      "date": "2025-11-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.4672,
-     "index": 2.643
+     "index": 2.645
     },
     {
      "date": "2025-12-01",
      "n": 0,
      "mean": null,
      "smoothed": 0.4672,
-     "index": 2.643
+     "index": 2.645
     },
     {
      "date": "2025-12-02",
      "n": 6,
      "mean": -0.1432,
      "smoothed": 0.2056,
-     "index": 0.954
+     "index": 0.955
     },
     {
      "date": "2025-12-03",
      "n": 5,
      "mean": 0.0868,
      "smoothed": 0.1743,
-     "index": 0.752
+     "index": 0.753
     },
     {
      "date": "2025-12-04",
      "n": 0,
      "mean": null,
      "smoothed": 0.0797,
-     "index": 0.142
+     "index": 0.141
     },
     {
      "date": "2025-12-05",
      "n": 0,
      "mean": null,
      "smoothed": 0.0797,
-     "index": 0.142
+     "index": 0.141
     },
     {
      "date": "2025-12-06",
      "n": 0,
      "mean": null,
      "smoothed": 0.0797,
-     "index": 0.142
+     "index": 0.141
     },
     {
      "date": "2025-12-07",
      "n": 0,
      "mean": null,
      "smoothed": 0.0797,
-     "index": 0.142
+     "index": 0.141
     },
     {
      "date": "2025-12-08",
@@ -803,231 +803,231 @@
      "n": 5,
      "mean": -0.6584,
      "smoothed": -0.1241,
-     "index": -1.174
+     "index": -1.176
     },
     {
      "date": "2025-12-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.2203,
-     "index": -1.795
+     "index": -1.797
     },
     {
      "date": "2025-12-11",
      "n": 0,
      "mean": null,
      "smoothed": -0.2203,
-     "index": -1.795
+     "index": -1.797
     },
     {
      "date": "2025-12-12",
      "n": 0,
      "mean": null,
      "smoothed": -0.2203,
-     "index": -1.795
+     "index": -1.797
     },
     {
      "date": "2025-12-13",
      "n": 0,
      "mean": null,
      "smoothed": -0.2203,
-     "index": -1.795
+     "index": -1.797
     },
     {
      "date": "2025-12-14",
      "n": 4,
      "mean": -0.296,
      "smoothed": -0.232,
-     "index": -1.87
+     "index": -1.873
     },
     {
      "date": "2025-12-15",
      "n": 6,
      "mean": -0.1351,
      "smoothed": -0.2138,
-     "index": -1.753
+     "index": -1.755
     },
     {
      "date": "2025-12-16",
      "n": 0,
      "mean": null,
      "smoothed": -0.2301,
-     "index": -1.858
+     "index": -1.86
     },
     {
      "date": "2025-12-17",
      "n": 0,
      "mean": null,
      "smoothed": -0.3055,
-     "index": -2.345
+     "index": -2.348
     },
     {
      "date": "2025-12-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.3055,
-     "index": -2.345
+     "index": -2.348
     },
     {
      "date": "2025-12-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.3055,
-     "index": -2.345
+     "index": -2.348
     },
     {
      "date": "2025-12-20",
      "n": 0,
      "mean": null,
      "smoothed": -0.3055,
-     "index": -2.345
+     "index": -2.348
     },
     {
      "date": "2025-12-21",
      "n": 0,
      "mean": null,
      "smoothed": -0.3055,
-     "index": -2.345
+     "index": -2.348
     },
     {
      "date": "2025-12-22",
      "n": 0,
      "mean": null,
      "smoothed": -0.3524,
-     "index": -2.647
+     "index": -2.651
     },
     {
      "date": "2025-12-23",
      "n": 0,
      "mean": null,
      "smoothed": -0.1994,
-     "index": -1.66
+     "index": -1.662
     },
     {
      "date": "2025-12-24",
      "n": 0,
      "mean": null,
      "smoothed": -0.1994,
-     "index": -1.66
+     "index": -1.662
     },
     {
      "date": "2025-12-25",
      "n": 0,
      "mean": null,
      "smoothed": -0.1994,
-     "index": -1.66
+     "index": -1.662
     },
     {
      "date": "2025-12-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.1994,
-     "index": -1.66
+     "index": -1.662
     },
     {
      "date": "2025-12-27",
      "n": 0,
      "mean": null,
      "smoothed": -0.1994,
-     "index": -1.66
+     "index": -1.662
     },
     {
      "date": "2025-12-28",
      "n": 3,
      "mean": -0.5737,
      "smoothed": -0.2813,
-     "index": -2.188
+     "index": -2.191
     },
     {
      "date": "2025-12-29",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.075
+     "index": -4.081
     },
     {
      "date": "2025-12-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.075
+     "index": -4.081
     },
     {
      "date": "2025-12-31",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.075
+     "index": -4.081
     },
     {
      "date": "2026-01-01",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.075
+     "index": -4.081
     },
     {
      "date": "2026-01-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.075
+     "index": -4.081
     },
     {
      "date": "2026-01-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.075
+     "index": -4.081
     },
     {
      "date": "2026-01-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.075
+     "index": -4.081
     },
     {
      "date": "2026-01-05",
      "n": 3,
      "mean": 0.2592,
      "smoothed": -0.1572,
-     "index": -1.387
+     "index": -1.39
     },
     {
      "date": "2026-01-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.1572,
-     "index": -1.387
+     "index": -1.39
     },
     {
      "date": "2026-01-07",
      "n": 0,
      "mean": null,
      "smoothed": -0.1572,
-     "index": -1.387
+     "index": -1.39
     },
     {
      "date": "2026-01-08",
      "n": 3,
      "mean": -0.0806,
      "smoothed": -0.1317,
-     "index": -1.223
+     "index": -1.225
     },
     {
      "date": "2026-01-09",
      "n": 3,
      "mean": -0.1589,
      "smoothed": -0.1385,
-     "index": -1.267
+     "index": -1.269
     },
     {
      "date": "2026-01-10",
      "n": 3,
      "mean": 0.4598,
      "smoothed": -0.0188,
-     "index": -0.494
+     "index": -0.495
     },
     {
      "date": "2026-01-11",
@@ -1048,63 +1048,63 @@
      "n": 10,
      "mean": 0.4139,
      "smoothed": 0.2149,
-     "index": 1.014
+     "index": 1.015
     },
     {
      "date": "2026-01-14",
      "n": 7,
      "mean": 0.5154,
      "smoothed": 0.2689,
-     "index": 1.363
+     "index": 1.364
     },
     {
      "date": "2026-01-15",
      "n": 0,
      "mean": null,
      "smoothed": 0.2689,
-     "index": 1.363
+     "index": 1.364
     },
     {
      "date": "2026-01-16",
      "n": 5,
      "mean": -0.1284,
      "smoothed": 0.2237,
-     "index": 1.071
+     "index": 1.072
     },
     {
      "date": "2026-01-17",
      "n": 0,
      "mean": null,
      "smoothed": 0.2237,
-     "index": 1.071
+     "index": 1.072
     },
     {
      "date": "2026-01-18",
      "n": 0,
      "mean": null,
      "smoothed": 0.2237,
-     "index": 1.071
+     "index": 1.072
     },
     {
      "date": "2026-01-19",
      "n": 0,
      "mean": null,
      "smoothed": 0.2211,
-     "index": 1.054
+     "index": 1.055
     },
     {
      "date": "2026-01-20",
      "n": 4,
      "mean": 0.1317,
      "smoothed": 0.2132,
-     "index": 1.003
+     "index": 1.004
     },
     {
      "date": "2026-01-21",
      "n": 0,
      "mean": null,
      "smoothed": 0.2132,
-     "index": 1.003
+     "index": 1.004
     },
     {
      "date": "2026-01-22",
@@ -1118,105 +1118,105 @@
      "n": 3,
      "mean": 0.6343,
      "smoothed": 0.2908,
-     "index": 1.504
+     "index": 1.506
     },
     {
      "date": "2026-01-24",
      "n": 3,
      "mean": 0.134,
      "smoothed": 0.2675,
-     "index": 1.354
+     "index": 1.355
     },
     {
      "date": "2026-01-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.3105,
-     "index": 1.631
+     "index": 1.633
     },
     {
      "date": "2026-01-26",
      "n": 0,
      "mean": null,
      "smoothed": 0.3105,
-     "index": 1.631
+     "index": 1.633
     },
     {
      "date": "2026-01-27",
      "n": 0,
      "mean": null,
      "smoothed": 0.2635,
-     "index": 1.328
+     "index": 1.329
     },
     {
      "date": "2026-01-28",
      "n": 0,
      "mean": null,
      "smoothed": 0.146,
-     "index": 0.569
+     "index": 0.57
     },
     {
      "date": "2026-01-29",
      "n": 0,
      "mean": null,
      "smoothed": 0.146,
-     "index": 0.569
+     "index": 0.57
     },
     {
      "date": "2026-01-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.2831,
-     "index": 1.455
+     "index": 1.456
     },
     {
      "date": "2026-01-31",
      "n": 0,
      "mean": null,
      "smoothed": 0.2831,
-     "index": 1.455
+     "index": 1.456
     },
     {
      "date": "2026-02-01",
      "n": 0,
      "mean": null,
      "smoothed": 0.2831,
-     "index": 1.455
+     "index": 1.456
     },
     {
      "date": "2026-02-02",
      "n": 0,
      "mean": null,
      "smoothed": 0.2831,
-     "index": 1.455
+     "index": 1.456
     },
     {
      "date": "2026-02-03",
      "n": 0,
      "mean": null,
      "smoothed": 0.3841,
-     "index": 2.107
+     "index": 2.109
     },
     {
      "date": "2026-02-04",
      "n": 0,
      "mean": null,
      "smoothed": 0.3841,
-     "index": 2.107
+     "index": 2.109
     },
     {
      "date": "2026-02-05",
      "n": 3,
      "mean": 0.2238,
      "smoothed": 0.3307,
-     "index": 1.762
+     "index": 1.763
     },
     {
      "date": "2026-02-06",
      "n": 6,
      "mean": -0.2427,
      "smoothed": -0.0319,
-     "index": -0.579
+     "index": -0.58
     },
     {
      "date": "2026-02-07",
@@ -1244,7 +1244,7 @@
      "n": 7,
      "mean": 0.1509,
      "smoothed": 0.0761,
-     "index": 0.119
+     "index": 0.118
     },
     {
      "date": "2026-02-11",
@@ -1328,7 +1328,7 @@
      "n": 3,
      "mean": -0.2083,
      "smoothed": 0.0815,
-     "index": 0.154
+     "index": 0.153
     },
     {
      "date": "2026-02-23",
@@ -1342,21 +1342,21 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.0169,
-     "index": -0.264
+     "index": -0.265
     },
     {
      "date": "2026-02-25",
      "n": 0,
      "mean": null,
      "smoothed": -0.0251,
-     "index": -0.535
+     "index": -0.536
     },
     {
      "date": "2026-02-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.0522,
-     "index": -0.709
+     "index": -0.711
     },
     {
      "date": "2026-02-27",
@@ -1384,42 +1384,42 @@
      "n": 0,
      "mean": null,
      "smoothed": -0.0015,
-     "index": -0.383
+     "index": -0.384
     },
     {
      "date": "2026-03-03",
      "n": 4,
      "mean": 0.2213,
      "smoothed": 0.0542,
-     "index": -0.023
+     "index": -0.024
     },
     {
      "date": "2026-03-04",
      "n": 3,
      "mean": 0.162,
      "smoothed": 0.0712,
-     "index": 0.087
+     "index": 0.086
     },
     {
      "date": "2026-03-05",
      "n": 0,
      "mean": null,
      "smoothed": 0.0712,
-     "index": 0.087
+     "index": 0.086
     },
     {
      "date": "2026-03-06",
      "n": 0,
      "mean": null,
      "smoothed": 0.0647,
-     "index": 0.045
+     "index": 0.044
     },
     {
      "date": "2026-03-07",
      "n": 7,
      "mean": 0.0265,
      "smoothed": 0.053,
-     "index": -0.03
+     "index": -0.031
     },
     {
      "date": "2026-03-08",
@@ -1468,7 +1468,7 @@
      "n": 4,
      "mean": -0.0559,
      "smoothed": 0.0636,
-     "index": 0.038
+     "index": 0.037
     },
     {
      "date": "2026-03-15",
@@ -1559,7 +1559,7 @@
      "n": 5,
      "mean": -0.2245,
      "smoothed": 0.0645,
-     "index": 0.044
+     "index": 0.043
     },
     {
      "date": "2026-03-28",
@@ -1573,112 +1573,112 @@
      "n": 3,
      "mean": -0.0741,
      "smoothed": -0.0039,
-     "index": -0.398
+     "index": -0.399
     },
     {
      "date": "2026-03-30",
      "n": 6,
      "mean": 0.0377,
      "smoothed": 0.0015,
-     "index": -0.363
+     "index": -0.364
     },
     {
      "date": "2026-03-31",
      "n": 3,
      "mean": 0.0,
      "smoothed": -0.0453,
-     "index": -0.665
+     "index": -0.666
     },
     {
      "date": "2026-04-01",
      "n": 4,
      "mean": -0.0863,
      "smoothed": -0.0489,
-     "index": -0.688
+     "index": -0.69
     },
     {
      "date": "2026-04-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0524,
-     "index": -0.711
+     "index": -0.712
     },
     {
      "date": "2026-04-03",
      "n": 4,
      "mean": 0.4942,
      "smoothed": -0.0003,
-     "index": -0.375
+     "index": -0.376
     },
     {
      "date": "2026-04-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.0003,
-     "index": -0.375
+     "index": -0.376
     },
     {
      "date": "2026-04-05",
      "n": 0,
      "mean": null,
      "smoothed": -0.0003,
-     "index": -0.375
+     "index": -0.376
     },
     {
      "date": "2026-04-06",
      "n": 7,
      "mean": -0.1019,
      "smoothed": -0.0161,
-     "index": -0.477
+     "index": -0.478
     },
     {
      "date": "2026-04-07",
      "n": 10,
      "mean": -0.0566,
      "smoothed": -0.0296,
-     "index": -0.564
+     "index": -0.565
     },
     {
      "date": "2026-04-08",
      "n": 10,
      "mean": -0.0891,
      "smoothed": -0.0394,
-     "index": -0.627
+     "index": -0.628
     },
     {
      "date": "2026-04-09",
      "n": 4,
      "mean": -0.1082,
      "smoothed": -0.0358,
-     "index": -0.604
+     "index": -0.605
     },
     {
      "date": "2026-04-10",
      "n": 3,
      "mean": -0.1014,
      "smoothed": -0.0234,
-     "index": -0.524
+     "index": -0.525
     },
     {
      "date": "2026-04-11",
      "n": 3,
      "mean": 0.5197,
      "smoothed": 0.0051,
-     "index": -0.34
+     "index": -0.341
     },
     {
      "date": "2026-04-12",
      "n": 3,
      "mean": 0.4324,
      "smoothed": 0.0317,
-     "index": -0.168
+     "index": -0.169
     },
     {
      "date": "2026-04-13",
      "n": 6,
      "mean": 0.1713,
      "smoothed": 0.0458,
-     "index": -0.077
+     "index": -0.078
     },
     {
      "date": "2026-04-14",
@@ -1692,189 +1692,189 @@
      "n": 7,
      "mean": -0.1517,
      "smoothed": 0.0268,
-     "index": -0.2
+     "index": -0.201
     },
     {
      "date": "2026-04-16",
      "n": 0,
      "mean": null,
      "smoothed": 0.0268,
-     "index": -0.2
+     "index": -0.201
     },
     {
      "date": "2026-04-17",
      "n": 0,
      "mean": null,
      "smoothed": -0.0055,
-     "index": -0.408
+     "index": -0.409
     },
     {
      "date": "2026-04-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.0055,
-     "index": -0.408
+     "index": -0.409
     },
     {
      "date": "2026-04-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.0055,
-     "index": -0.408
+     "index": -0.409
     },
     {
      "date": "2026-04-20",
      "n": 0,
      "mean": null,
      "smoothed": 0.0077,
-     "index": -0.323
+     "index": -0.324
     },
     {
      "date": "2026-04-21",
      "n": 0,
      "mean": null,
      "smoothed": 0.0234,
-     "index": -0.221
+     "index": -0.222
     },
     {
      "date": "2026-04-22",
      "n": 0,
      "mean": null,
      "smoothed": 0.0597,
-     "index": 0.013
+     "index": 0.012
     },
     {
      "date": "2026-04-23",
      "n": 0,
      "mean": null,
      "smoothed": 0.0846,
-     "index": 0.174
+     "index": 0.173
     },
     {
      "date": "2026-04-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.1079,
-     "index": 0.324
+     "index": 0.323
     },
     {
      "date": "2026-04-25",
      "n": 6,
      "mean": 0.0197,
      "smoothed": 0.0425,
-     "index": -0.098
+     "index": -0.099
     },
     {
      "date": "2026-04-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.0062,
-     "index": -0.413
+     "index": -0.414
     },
     {
      "date": "2026-04-27",
      "n": 0,
      "mean": null,
      "smoothed": -0.0654,
-     "index": -0.795
+     "index": -0.796
     },
     {
      "date": "2026-04-28",
      "n": 4,
      "mean": -0.2746,
      "smoothed": -0.1201,
-     "index": -1.148
+     "index": -1.15
     },
     {
      "date": "2026-04-29",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.006
+     "index": -1.007
     },
     {
      "date": "2026-04-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.006
+     "index": -1.007
     },
     {
      "date": "2026-05-01",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.006
+     "index": -1.007
     },
     {
      "date": "2026-05-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.006
+     "index": -1.007
     },
     {
      "date": "2026-05-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.006
+     "index": -1.007
     },
     {
      "date": "2026-05-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.006
+     "index": -1.007
     },
     {
      "date": "2026-05-05",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.006
+     "index": -1.007
     },
     {
      "date": "2026-05-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.006
+     "index": -1.007
     },
     {
      "date": "2026-05-07",
      "n": 3,
      "mean": 0.0,
      "smoothed": -0.0754,
-     "index": -0.86
+     "index": -0.861
     },
     {
      "date": "2026-05-08",
      "n": 4,
      "mean": -0.1531,
      "smoothed": -0.0937,
-     "index": -0.978
+     "index": -0.979
     },
     {
      "date": "2026-05-09",
      "n": 4,
      "mean": 0.1277,
      "smoothed": -0.08,
-     "index": -0.889
+     "index": -0.891
     },
     {
      "date": "2026-05-10",
      "n": 3,
      "mean": 0.4298,
      "smoothed": 0.0049,
-     "index": -0.341
+     "index": -0.342
     },
     {
      "date": "2026-05-11",
      "n": 8,
      "mean": 0.0863,
      "smoothed": 0.03,
-     "index": -0.179
+     "index": -0.18
     },
     {
      "date": "2026-05-12",
@@ -1972,7 +1972,7 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.2079,
-     "index": 0.969
+     "index": 0.97
     },
     {
      "date": "2026-05-26",
@@ -1993,21 +1993,21 @@
      "n": 9,
      "mean": 0.5446,
      "smoothed": 0.1844,
-     "index": 0.817
+     "index": 0.818
     },
     {
      "date": "2026-05-29",
      "n": 7,
      "mean": -0.13,
      "smoothed": 0.1529,
-     "index": 0.614
+     "index": 0.615
     },
     {
      "date": "2026-05-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.1529,
-     "index": 0.614
+     "index": 0.615
     },
     {
      "date": "2026-05-31",
@@ -2028,7 +2028,7 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.1172,
-     "index": 0.384
+     "index": 0.383
     },
     {
      "date": "2026-06-03",
@@ -2049,14 +2049,14 @@
      "n": 7,
      "mean": 0.3122,
      "smoothed": 0.0741,
-     "index": 0.106
+     "index": 0.105
     },
     {
      "date": "2026-06-06",
      "n": 3,
      "mean": 0.0,
      "smoothed": 0.0707,
-     "index": 0.084
+     "index": 0.083
     },
     {
      "date": "2026-06-07",
@@ -2070,7 +2070,7 @@
      "n": 3,
      "mean": 0.0232,
      "smoothed": 0.0623,
-     "index": 0.03
+     "index": 0.029
     },
     {
      "date": "2026-06-09",
@@ -2091,42 +2091,42 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.0053,
-     "index": -0.338
+     "index": -0.339
     },
     {
      "date": "2026-06-12",
      "n": 0,
      "mean": null,
      "smoothed": 0.0332,
-     "index": -0.158
+     "index": -0.159
     },
     {
      "date": "2026-06-13",
      "n": 10,
      "mean": -0.1742,
      "smoothed": -0.0139,
-     "index": -0.463
+     "index": -0.464
     },
     {
      "date": "2026-06-14",
      "n": 9,
      "mean": 0.1674,
      "smoothed": 0.0308,
-     "index": -0.174
+     "index": -0.175
     },
     {
      "date": "2026-06-15",
      "n": 0,
      "mean": null,
      "smoothed": 0.0543,
-     "index": -0.022
+     "index": -0.023
     },
     {
      "date": "2026-06-16",
      "n": 10,
      "mean": 0.306,
      "smoothed": 0.1009,
-     "index": 0.279
+     "index": 0.278
     },
     {
      "date": "2026-06-17",
@@ -2168,7 +2168,7 @@
      "n": 6,
      "mean": 0.3546,
      "smoothed": 0.1821,
-     "index": 0.802
+     "index": 0.803
     },
     {
      "date": "2026-06-23",
@@ -2203,21 +2203,21 @@
      "n": 5,
      "mean": 0.29,
      "smoothed": 0.1837,
-     "index": 0.813
+     "index": 0.814
     },
     {
      "date": "2026-06-28",
      "n": 0,
      "mean": null,
      "smoothed": 0.1865,
-     "index": 0.831
+     "index": 0.832
     },
     {
      "date": "2026-06-29",
      "n": 3,
      "mean": 0.1379,
      "smoothed": 0.1839,
-     "index": 0.814
+     "index": 0.815
     },
     {
      "date": "2026-06-30",
@@ -2245,42 +2245,42 @@
      "n": 3,
      "mean": -0.614,
      "smoothed": 0.0877,
-     "index": 0.194
+     "index": 0.193
     },
     {
      "date": "2026-07-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.0675,
-     "index": -0.808
+     "index": -0.81
     },
     {
      "date": "2026-07-05",
      "n": 6,
      "mean": 0.2069,
      "smoothed": -0.0253,
-     "index": -0.536
+     "index": -0.537
     },
     {
      "date": "2026-07-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.0943,
-     "index": -0.982
+     "index": -0.983
     },
     {
      "date": "2026-07-07",
      "n": 0,
      "mean": null,
      "smoothed": 0.0196,
-     "index": -0.246
+     "index": -0.247
     },
     {
      "date": "2026-07-08",
      "n": 3,
      "mean": -0.1973,
      "smoothed": -0.0028,
-     "index": -0.391
+     "index": -0.392
     },
     {
      "date": "2026-07-09",
@@ -2294,63 +2294,63 @@
      "n": 3,
      "mean": -0.4083,
      "smoothed": -0.0105,
-     "index": -0.44
+     "index": -0.442
     },
     {
      "date": "2026-07-11",
      "n": 13,
      "mean": -0.2775,
      "smoothed": -0.1163,
-     "index": -1.124
+     "index": -1.125
     },
     {
      "date": "2026-07-12",
      "n": 6,
      "mean": 0.6523,
      "smoothed": -0.0293,
-     "index": -0.562
+     "index": -0.563
     },
     {
      "date": "2026-07-13",
      "n": 8,
      "mean": -0.0819,
      "smoothed": -0.0452,
-     "index": -0.665
+     "index": -0.666
     },
     {
      "date": "2026-07-14",
      "n": 6,
      "mean": 0.3438,
      "smoothed": -0.0087,
-     "index": -0.429
+     "index": -0.43
     },
     {
      "date": "2026-07-15",
      "n": 0,
      "mean": null,
      "smoothed": -0.0091,
-     "index": -0.431
+     "index": -0.432
     },
     {
      "date": "2026-07-16",
      "n": 6,
      "mean": -0.062,
      "smoothed": -0.0029,
-     "index": -0.392
+     "index": -0.393
     },
     {
      "date": "2026-07-17",
      "n": 5,
      "mean": 0.1913,
      "smoothed": 0.0416,
-     "index": -0.104
+     "index": -0.105
     },
     {
      "date": "2026-07-18",
      "n": 0,
      "mean": null,
      "smoothed": 0.0416,
-     "index": -0.104
+     "index": -0.105
     },
     {
      "date": "2026-07-19",
@@ -2364,7 +2364,7 @@
      "n": 5,
      "mean": 0.0426,
      "smoothed": 0.0257,
-     "index": -0.207
+     "index": -0.208
     },
     {
      "date": "2026-07-21",
@@ -2378,126 +2378,126 @@
      "n": 7,
      "mean": -0.5617,
      "smoothed": -0.0195,
-     "index": -0.499
+     "index": -0.5
     },
     {
      "date": "2026-07-23",
      "n": 5,
      "mean": -0.1085,
      "smoothed": -0.0416,
-     "index": -0.641
+     "index": -0.642
     },
     {
      "date": "2026-07-24",
      "n": 6,
      "mean": -0.3144,
      "smoothed": -0.0493,
-     "index": -0.691
+     "index": -0.692
     },
     {
      "date": "2026-07-25",
      "n": 10,
      "mean": -0.2512,
      "smoothed": -0.0351,
-     "index": -0.599
+     "index": -0.601
     },
     {
      "date": "2026-07-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -1.036
+     "index": -1.037
     },
     {
      "date": "2026-07-27",
      "n": 0,
      "mean": null,
      "smoothed": -0.1059,
-     "index": -1.056
+     "index": -1.058
     },
     {
      "date": "2026-07-28",
      "n": 3,
      "mean": 0.354,
      "smoothed": -0.1322,
-     "index": -1.226
+     "index": -1.228
     },
     {
      "date": "2026-07-29",
      "n": 19,
      "mean": -0.0831,
      "smoothed": -0.1187,
-     "index": -1.139
+     "index": -1.141
     },
     {
      "date": "2026-07-30",
      "n": 3,
      "mean": 0.0731,
      "smoothed": -0.1151,
-     "index": -1.116
+     "index": -1.118
     },
     {
      "date": "2026-07-31",
      "n": 11,
      "mean": 0.1432,
      "smoothed": -0.097,
-     "index": -0.998
+     "index": -1.0
     },
     {
      "date": "2026-08-01",
      "n": 3,
      "mean": 0.3308,
      "smoothed": -0.0798,
-     "index": -0.888
+     "index": -0.89
     },
     {
      "date": "2026-08-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0798,
-     "index": -0.888
+     "index": -0.89
     },
     {
      "date": "2026-08-03",
      "n": 6,
      "mean": -0.172,
      "smoothed": -0.0952,
-     "index": -0.987
+     "index": -0.989
     },
     {
      "date": "2026-08-04",
      "n": 16,
      "mean": 0.1715,
      "smoothed": -0.055,
-     "index": -0.727
+     "index": -0.729
     },
     {
      "date": "2026-08-05",
      "n": 10,
      "mean": 0.0391,
      "smoothed": -0.0062,
-     "index": -0.413
+     "index": -0.414
     },
     {
      "date": "2026-08-06",
      "n": 5,
      "mean": 0.0509,
      "smoothed": 0.0025,
-     "index": -0.357
+     "index": -0.358
     },
     {
      "date": "2026-08-07",
      "n": 9,
      "mean": -0.061,
      "smoothed": 0.0165,
-     "index": -0.266
+     "index": -0.267
     },
     {
      "date": "2026-08-08",
      "n": 13,
      "mean": 0.0265,
      "smoothed": 0.0451,
-     "index": -0.081
+     "index": -0.082
     },
     {
      "date": "2026-08-09",
@@ -2567,7 +2567,7 @@
      "n": 25,
      "mean": -0.0125,
      "smoothed": 0.0849,
-     "index": 0.176
+     "index": 0.175
     },
     {
      "date": "2026-08-19",
@@ -2616,14 +2616,14 @@
      "n": 333,
      "mean": 0.1334,
      "smoothed": 0.0977,
-     "index": 0.258
+     "index": 0.257
     },
     {
      "date": "2026-08-26",
      "n": 198,
      "mean": 0.0549,
      "smoothed": 0.0898,
-     "index": 0.207
+     "index": 0.206
     },
     {
      "date": "2026-08-27",
@@ -2714,7 +2714,7 @@
      "n": 121,
      "mean": 0.1431,
      "smoothed": 0.1288,
-     "index": 0.458
+     "index": 0.459
     },
     {
      "date": "2026-09-09",
@@ -2742,7 +2742,7 @@
      "n": 184,
      "mean": 0.1401,
      "smoothed": 0.1508,
-     "index": 0.6
+     "index": 0.601
     },
     {
      "date": "2026-09-13",
@@ -2791,7 +2791,7 @@
      "n": 131,
      "mean": 0.1049,
      "smoothed": 0.1029,
-     "index": 0.292
+     "index": 0.291
     },
     {
      "date": "2026-09-20",
@@ -2812,7 +2812,7 @@
      "n": 142,
      "mean": -0.0557,
      "smoothed": 0.076,
-     "index": 0.118
+     "index": 0.117
     },
     {
      "date": "2026-09-23",
@@ -2833,7 +2833,7 @@
      "n": 178,
      "mean": -0.0012,
      "smoothed": 0.0467,
-     "index": -0.071
+     "index": -0.072
     },
     {
      "date": "2026-09-26",
@@ -2847,14 +2847,14 @@
      "n": 230,
      "mean": -0.0023,
      "smoothed": 0.0269,
-     "index": -0.199
+     "index": -0.2
     },
     {
      "date": "2026-09-28",
      "n": 185,
      "mean": 0.0593,
      "smoothed": 0.0298,
-     "index": -0.18
+     "index": -0.181
     },
     {
      "date": "2026-09-29",
@@ -2868,14 +2868,14 @@
      "n": 127,
      "mean": 0.146,
      "smoothed": 0.041,
-     "index": -0.108
+     "index": -0.109
     },
     {
      "date": "2026-10-01",
      "n": 186,
      "mean": 0.0789,
      "smoothed": 0.0487,
-     "index": -0.058
+     "index": -0.059
     },
     {
      "date": "2026-10-02",
@@ -2893,10 +2893,17 @@
     },
     {
      "date": "2026-10-04",
-     "n": 46,
-     "mean": 0.0841,
-     "smoothed": 0.0795,
-     "index": 0.14
+     "n": 289,
+     "mean": 0.1014,
+     "smoothed": 0.0819,
+     "index": 0.156
+    },
+    {
+     "date": "2026-10-05",
+     "n": 112,
+     "mean": 0.2092,
+     "smoothed": 0.0861,
+     "index": 0.183
     }
    ],
    "roberta": [
@@ -2905,98 +2912,98 @@
      "n": 3,
      "mean": -0.2442,
      "smoothed": -0.2442,
-     "index": -1.998
+     "index": -2.001
     },
     {
      "date": "2025-09-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.2442,
-     "index": -1.998
+     "index": -2.001
     },
     {
      "date": "2025-09-05",
      "n": 0,
      "mean": null,
      "smoothed": -0.2442,
-     "index": -1.998
+     "index": -2.001
     },
     {
      "date": "2025-09-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.2442,
-     "index": -1.998
+     "index": -2.001
     },
     {
      "date": "2025-09-07",
      "n": 4,
      "mean": -0.0819,
      "smoothed": -0.1515,
-     "index": -1.205
+     "index": -1.207
     },
     {
      "date": "2025-09-08",
      "n": 8,
      "mean": -0.0209,
      "smoothed": -0.0818,
-     "index": -0.611
+     "index": -0.612
     },
     {
      "date": "2025-09-09",
      "n": 0,
      "mean": null,
      "smoothed": -0.0818,
-     "index": -0.611
+     "index": -0.612
     },
     {
      "date": "2025-09-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.0818,
-     "index": -0.611
+     "index": -0.612
     },
     {
      "date": "2025-09-11",
      "n": 3,
      "mean": 0.2102,
      "smoothed": -0.0332,
-     "index": -0.195
+     "index": -0.196
     },
     {
      "date": "2025-09-12",
      "n": 0,
      "mean": null,
      "smoothed": -0.0332,
-     "index": -0.195
+     "index": -0.196
     },
     {
      "date": "2025-09-13",
      "n": 4,
      "mean": 0.1213,
      "smoothed": -0.0051,
-     "index": 0.045
+     "index": 0.044
     },
     {
      "date": "2025-09-14",
      "n": 0,
      "mean": null,
      "smoothed": -0.0051,
-     "index": 0.045
+     "index": 0.044
     },
     {
      "date": "2025-09-15",
      "n": 0,
      "mean": null,
      "smoothed": -0.0051,
-     "index": 0.045
+     "index": 0.044
     },
     {
      "date": "2025-09-16",
      "n": 0,
      "mean": null,
      "smoothed": -0.0051,
-     "index": 0.045
+     "index": 0.044
     },
     {
      "date": "2025-09-17",
@@ -3038,28 +3045,28 @@
      "n": 5,
      "mean": 0.2485,
      "smoothed": 0.1965,
-     "index": 1.767
+     "index": 1.768
     },
     {
      "date": "2025-09-23",
      "n": 0,
      "mean": null,
      "smoothed": 0.1965,
-     "index": 1.767
+     "index": 1.768
     },
     {
      "date": "2025-09-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.1965,
-     "index": 1.767
+     "index": 1.768
     },
     {
      "date": "2025-09-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.192,
-     "index": 1.728
+     "index": 1.729
     },
     {
      "date": "2025-09-26",
@@ -3073,7 +3080,7 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.0315,
-     "index": 0.358
+     "index": 0.357
     },
     {
      "date": "2025-09-28",
@@ -3157,35 +3164,35 @@
      "n": 5,
      "mean": 0.2709,
      "smoothed": 0.12,
-     "index": 1.113
+     "index": 1.114
     },
     {
      "date": "2025-10-10",
      "n": 3,
      "mean": 0.3096,
      "smoothed": 0.169,
-     "index": 1.531
+     "index": 1.532
     },
     {
      "date": "2025-10-11",
      "n": 5,
      "mean": -0.1015,
      "smoothed": 0.1396,
-     "index": 1.28
+     "index": 1.281
     },
     {
      "date": "2025-10-12",
      "n": 6,
      "mean": 0.0042,
      "smoothed": 0.1406,
-     "index": 1.289
+     "index": 1.29
     },
     {
      "date": "2025-10-13",
      "n": 3,
      "mean": -0.0117,
      "smoothed": 0.1319,
-     "index": 1.214
+     "index": 1.215
     },
     {
      "date": "2025-10-14",
@@ -3199,21 +3206,21 @@
      "n": 3,
      "mean": -0.1203,
      "smoothed": 0.0806,
-     "index": 0.776
+     "index": 0.777
     },
     {
      "date": "2025-10-16",
      "n": 6,
      "mean": -0.2953,
      "smoothed": 0.0608,
-     "index": 0.607
+     "index": 0.608
     },
     {
      "date": "2025-10-17",
      "n": 4,
      "mean": 0.3733,
      "smoothed": 0.0813,
-     "index": 0.782
+     "index": 0.783
     },
     {
      "date": "2025-10-18",
@@ -3255,147 +3262,147 @@
      "n": 4,
      "mean": -0.337,
      "smoothed": -0.0627,
-     "index": -0.447
+     "index": -0.448
     },
     {
      "date": "2025-10-24",
      "n": 0,
      "mean": null,
      "smoothed": -0.0864,
-     "index": -0.65
+     "index": -0.651
     },
     {
      "date": "2025-10-25",
      "n": 3,
      "mean": 0.2962,
      "smoothed": -0.0592,
-     "index": -0.418
+     "index": -0.419
     },
     {
      "date": "2025-10-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.069,
-     "index": -0.501
+     "index": -0.502
     },
     {
      "date": "2025-10-27",
      "n": 0,
      "mean": null,
      "smoothed": -0.0738,
-     "index": -0.542
+     "index": -0.543
     },
     {
      "date": "2025-10-28",
      "n": 3,
      "mean": -0.5105,
      "smoothed": -0.0747,
-     "index": -0.549
+     "index": -0.551
     },
     {
      "date": "2025-10-29",
      "n": 10,
      "mean": -0.4633,
      "smoothed": -0.164,
-     "index": -1.312
+     "index": -1.314
     },
     {
      "date": "2025-10-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.1421,
-     "index": -1.125
+     "index": -1.127
     },
     {
      "date": "2025-10-31",
      "n": 4,
      "mean": 0.128,
      "smoothed": -0.1693,
-     "index": -1.358
+     "index": -1.36
     },
     {
      "date": "2025-11-01",
      "n": 4,
      "mean": -0.238,
      "smoothed": -0.2156,
-     "index": -1.753
+     "index": -1.755
     },
     {
      "date": "2025-11-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.2523,
-     "index": -2.066
+     "index": -2.069
     },
     {
      "date": "2025-11-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.2523,
-     "index": -2.066
+     "index": -2.069
     },
     {
      "date": "2025-11-04",
      "n": 3,
      "mean": 0.0184,
      "smoothed": -0.2261,
-     "index": -1.843
+     "index": -1.846
     },
     {
      "date": "2025-11-05",
      "n": 4,
      "mean": 0.4199,
      "smoothed": -0.1523,
-     "index": -1.212
+     "index": -1.214
     },
     {
      "date": "2025-11-06",
      "n": 3,
      "mean": 0.6559,
      "smoothed": -0.0592,
-     "index": -0.418
+     "index": -0.419
     },
     {
      "date": "2025-11-07",
      "n": 3,
      "mean": 0.2508,
      "smoothed": -0.0341,
-     "index": -0.203
+     "index": -0.204
     },
     {
      "date": "2025-11-08",
      "n": 5,
      "mean": 0.0169,
      "smoothed": -0.053,
-     "index": -0.364
+     "index": -0.365
     },
     {
      "date": "2025-11-09",
      "n": 0,
      "mean": null,
      "smoothed": -0.053,
-     "index": -0.364
+     "index": -0.365
     },
     {
      "date": "2025-11-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.053,
-     "index": -0.364
+     "index": -0.365
     },
     {
      "date": "2025-11-11",
      "n": 3,
      "mean": -0.1392,
      "smoothed": -0.0244,
-     "index": -0.12
+     "index": -0.121
     },
     {
      "date": "2025-11-12",
      "n": 0,
      "mean": null,
      "smoothed": 0.1269,
-     "index": 1.172
+     "index": 1.173
     },
     {
      "date": "2025-11-13",
@@ -3409,35 +3416,35 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.1231,
-     "index": 1.139
+     "index": 1.14
     },
     {
      "date": "2025-11-15",
      "n": 4,
      "mean": -0.0879,
      "smoothed": 0.1445,
-     "index": 1.323
+     "index": 1.324
     },
     {
      "date": "2025-11-16",
      "n": 0,
      "mean": null,
      "smoothed": 0.1445,
-     "index": 1.323
+     "index": 1.324
     },
     {
      "date": "2025-11-17",
      "n": 0,
      "mean": null,
      "smoothed": 0.1445,
-     "index": 1.323
+     "index": 1.324
     },
     {
      "date": "2025-11-18",
      "n": 0,
      "mean": null,
      "smoothed": 0.1597,
-     "index": 1.452
+     "index": 1.453
     },
     {
      "date": "2025-11-19",
@@ -3493,7 +3500,7 @@
      "n": 4,
      "mean": -0.0728,
      "smoothed": 0.0209,
-     "index": 0.267
+     "index": 0.266
     },
     {
      "date": "2025-11-27",
@@ -3542,140 +3549,140 @@
      "n": 5,
      "mean": -0.2681,
      "smoothed": -0.0838,
-     "index": -0.628
+     "index": -0.629
     },
     {
      "date": "2025-12-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.1515,
-     "index": -1.205
+     "index": -1.207
     },
     {
      "date": "2025-12-05",
      "n": 0,
      "mean": null,
      "smoothed": -0.1515,
-     "index": -1.205
+     "index": -1.207
     },
     {
      "date": "2025-12-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.1515,
-     "index": -1.205
+     "index": -1.207
     },
     {
      "date": "2025-12-07",
      "n": 0,
      "mean": null,
      "smoothed": -0.1515,
-     "index": -1.205
+     "index": -1.207
     },
     {
      "date": "2025-12-08",
      "n": 6,
      "mean": -0.2765,
      "smoothed": -0.1872,
-     "index": -1.51
+     "index": -1.513
     },
     {
      "date": "2025-12-09",
      "n": 5,
      "mean": -0.2772,
      "smoothed": -0.2045,
-     "index": -1.658
+     "index": -1.661
     },
     {
      "date": "2025-12-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.2284,
-     "index": -1.863
+     "index": -1.865
     },
     {
      "date": "2025-12-11",
      "n": 0,
      "mean": null,
      "smoothed": -0.2284,
-     "index": -1.863
+     "index": -1.865
     },
     {
      "date": "2025-12-12",
      "n": 0,
      "mean": null,
      "smoothed": -0.2284,
-     "index": -1.863
+     "index": -1.865
     },
     {
      "date": "2025-12-13",
      "n": 0,
      "mean": null,
      "smoothed": -0.2284,
-     "index": -1.863
+     "index": -1.865
     },
     {
      "date": "2025-12-14",
      "n": 4,
      "mean": -0.0018,
      "smoothed": -0.1936,
-     "index": -1.565
+     "index": -1.567
     },
     {
      "date": "2025-12-15",
      "n": 6,
      "mean": 0.0978,
      "smoothed": -0.1389,
-     "index": -1.098
+     "index": -1.1
     },
     {
      "date": "2025-12-16",
      "n": 0,
      "mean": null,
      "smoothed": -0.1464,
-     "index": -1.162
+     "index": -1.164
     },
     {
      "date": "2025-12-17",
      "n": 0,
      "mean": null,
      "smoothed": -0.1174,
-     "index": -0.914
+     "index": -0.916
     },
     {
      "date": "2025-12-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.1174,
-     "index": -0.914
+     "index": -0.916
     },
     {
      "date": "2025-12-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.1174,
-     "index": -0.914
+     "index": -0.916
     },
     {
      "date": "2025-12-20",
      "n": 0,
      "mean": null,
      "smoothed": -0.1174,
-     "index": -0.914
+     "index": -0.916
     },
     {
      "date": "2025-12-21",
      "n": 0,
      "mean": null,
      "smoothed": -0.1174,
-     "index": -0.914
+     "index": -0.916
     },
     {
      "date": "2025-12-22",
      "n": 0,
      "mean": null,
      "smoothed": -0.0538,
-     "index": -0.371
+     "index": -0.372
     },
     {
      "date": "2025-12-23",
@@ -3717,98 +3724,98 @@
      "n": 3,
      "mean": -0.3716,
      "smoothed": -0.0587,
-     "index": -0.413
+     "index": -0.414
     },
     {
      "date": "2025-12-29",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.085
+     "index": -3.09
     },
     {
      "date": "2025-12-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.085
+     "index": -3.09
     },
     {
      "date": "2025-12-31",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.085
+     "index": -3.09
     },
     {
      "date": "2026-01-01",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.085
+     "index": -3.09
     },
     {
      "date": "2026-01-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.085
+     "index": -3.09
     },
     {
      "date": "2026-01-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.085
+     "index": -3.09
     },
     {
      "date": "2026-01-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.085
+     "index": -3.09
     },
     {
      "date": "2026-01-05",
      "n": 3,
      "mean": 0.0665,
      "smoothed": -0.1526,
-     "index": -1.215
+     "index": -1.217
     },
     {
      "date": "2026-01-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.1526,
-     "index": -1.215
+     "index": -1.217
     },
     {
      "date": "2026-01-07",
      "n": 0,
      "mean": null,
      "smoothed": -0.1526,
-     "index": -1.215
+     "index": -1.217
     },
     {
      "date": "2026-01-08",
      "n": 3,
      "mean": -0.0608,
      "smoothed": -0.122,
-     "index": -0.953
+     "index": -0.955
     },
     {
      "date": "2026-01-09",
      "n": 3,
      "mean": -0.2004,
      "smoothed": -0.1416,
-     "index": -1.121
+     "index": -1.123
     },
     {
      "date": "2026-01-10",
      "n": 3,
      "mean": 0.0466,
      "smoothed": -0.1039,
-     "index": -0.799
+     "index": -0.801
     },
     {
      "date": "2026-01-11",
@@ -3829,175 +3836,175 @@
      "n": 10,
      "mean": 0.4342,
      "smoothed": 0.1783,
-     "index": 1.611
+     "index": 1.613
     },
     {
      "date": "2026-01-14",
      "n": 7,
      "mean": 0.3976,
      "smoothed": 0.2177,
-     "index": 1.947
+     "index": 1.949
     },
     {
      "date": "2026-01-15",
      "n": 0,
      "mean": null,
      "smoothed": 0.2177,
-     "index": 1.947
+     "index": 1.949
     },
     {
      "date": "2026-01-16",
      "n": 5,
      "mean": 0.0324,
      "smoothed": 0.1966,
-     "index": 1.768
+     "index": 1.769
     },
     {
      "date": "2026-01-17",
      "n": 0,
      "mean": null,
      "smoothed": 0.1966,
-     "index": 1.768
+     "index": 1.769
     },
     {
      "date": "2026-01-18",
      "n": 0,
      "mean": null,
      "smoothed": 0.1966,
-     "index": 1.768
+     "index": 1.769
     },
     {
      "date": "2026-01-19",
      "n": 0,
      "mean": null,
      "smoothed": 0.2062,
-     "index": 1.849
+     "index": 1.851
     },
     {
      "date": "2026-01-20",
      "n": 4,
      "mean": 0.1886,
      "smoothed": 0.2046,
-     "index": 1.836
+     "index": 1.837
     },
     {
      "date": "2026-01-21",
      "n": 0,
      "mean": null,
      "smoothed": 0.2046,
-     "index": 1.836
+     "index": 1.837
     },
     {
      "date": "2026-01-22",
      "n": 0,
      "mean": null,
      "smoothed": 0.2236,
-     "index": 1.997
+     "index": 1.999
     },
     {
      "date": "2026-01-23",
      "n": 3,
      "mean": 0.5524,
      "smoothed": 0.2773,
-     "index": 2.457
+     "index": 2.459
     },
     {
      "date": "2026-01-24",
      "n": 3,
      "mean": 0.0389,
      "smoothed": 0.2768,
-     "index": 2.452
+     "index": 2.454
     },
     {
      "date": "2026-01-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.3067,
-     "index": 2.708
+     "index": 2.71
     },
     {
      "date": "2026-01-26",
      "n": 0,
      "mean": null,
      "smoothed": 0.3067,
-     "index": 2.708
+     "index": 2.71
     },
     {
      "date": "2026-01-27",
      "n": 0,
      "mean": null,
      "smoothed": 0.2488,
-     "index": 2.213
+     "index": 2.215
     },
     {
      "date": "2026-01-28",
      "n": 0,
      "mean": null,
      "smoothed": 0.1793,
-     "index": 1.62
+     "index": 1.621
     },
     {
      "date": "2026-01-29",
      "n": 0,
      "mean": null,
      "smoothed": 0.1793,
-     "index": 1.62
+     "index": 1.621
     },
     {
      "date": "2026-01-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.2528,
-     "index": 2.247
+     "index": 2.249
     },
     {
      "date": "2026-01-31",
      "n": 0,
      "mean": null,
      "smoothed": 0.2528,
-     "index": 2.247
+     "index": 2.249
     },
     {
      "date": "2026-02-01",
      "n": 0,
      "mean": null,
      "smoothed": 0.2528,
-     "index": 2.247
+     "index": 2.249
     },
     {
      "date": "2026-02-02",
      "n": 0,
      "mean": null,
      "smoothed": 0.2528,
-     "index": 2.247
+     "index": 2.249
     },
     {
      "date": "2026-02-03",
      "n": 0,
      "mean": null,
      "smoothed": 0.2957,
-     "index": 2.613
+     "index": 2.616
     },
     {
      "date": "2026-02-04",
      "n": 0,
      "mean": null,
      "smoothed": 0.2957,
-     "index": 2.613
+     "index": 2.616
     },
     {
      "date": "2026-02-05",
      "n": 3,
      "mean": 0.0809,
      "smoothed": 0.2241,
-     "index": 2.002
+     "index": 2.004
     },
     {
      "date": "2026-02-06",
      "n": 6,
      "mean": -0.138,
      "smoothed": -0.039,
-     "index": -0.245
+     "index": -0.246
     },
     {
      "date": "2026-02-07",
@@ -4025,28 +4032,28 @@
      "n": 7,
      "mean": 0.1723,
      "smoothed": 0.0937,
-     "index": 0.888
+     "index": 0.889
     },
     {
      "date": "2026-02-11",
      "n": 3,
      "mean": 0.0525,
      "smoothed": 0.088,
-     "index": 0.84
+     "index": 0.841
     },
     {
      "date": "2026-02-12",
      "n": 3,
      "mean": -0.139,
      "smoothed": 0.0608,
-     "index": 0.607
+     "index": 0.608
     },
     {
      "date": "2026-02-13",
      "n": 0,
      "mean": null,
      "smoothed": 0.0608,
-     "index": 0.607
+     "index": 0.608
     },
     {
      "date": "2026-02-14",
@@ -4095,7 +4102,7 @@
      "n": 3,
      "mean": 0.2905,
      "smoothed": 0.1145,
-     "index": 1.066
+     "index": 1.067
     },
     {
      "date": "2026-02-21",
@@ -4172,21 +4179,21 @@
      "n": 4,
      "mean": 0.2093,
      "smoothed": 0.0911,
-     "index": 0.866
+     "index": 0.867
     },
     {
      "date": "2026-03-04",
      "n": 3,
      "mean": 0.0044,
      "smoothed": 0.0774,
-     "index": 0.749
+     "index": 0.75
     },
     {
      "date": "2026-03-05",
      "n": 0,
      "mean": null,
      "smoothed": 0.0774,
-     "index": 0.749
+     "index": 0.75
     },
     {
      "date": "2026-03-06",
@@ -4207,7 +4214,7 @@
      "n": 7,
      "mean": 0.2896,
      "smoothed": 0.11,
-     "index": 1.027
+     "index": 1.028
     },
     {
      "date": "2026-03-09",
@@ -4242,14 +4249,14 @@
      "n": 5,
      "mean": -0.0723,
      "smoothed": 0.0902,
-     "index": 0.858
+     "index": 0.859
     },
     {
      "date": "2026-03-14",
      "n": 4,
      "mean": -0.1046,
      "smoothed": 0.0685,
-     "index": 0.673
+     "index": 0.674
     },
     {
      "date": "2026-03-15",
@@ -4319,7 +4326,7 @@
      "n": 4,
      "mean": -0.2236,
      "smoothed": 0.0014,
-     "index": 0.101
+     "index": 0.1
     },
     {
      "date": "2026-03-25",
@@ -4333,28 +4340,28 @@
      "n": 3,
      "mean": -0.1414,
      "smoothed": -0.0124,
-     "index": -0.018
+     "index": -0.019
     },
     {
      "date": "2026-03-27",
      "n": 5,
      "mean": -0.2739,
      "smoothed": -0.0376,
-     "index": -0.233
+     "index": -0.234
     },
     {
      "date": "2026-03-28",
      "n": 6,
      "mean": -0.0304,
      "smoothed": -0.0302,
-     "index": -0.17
+     "index": -0.171
     },
     {
      "date": "2026-03-29",
      "n": 3,
      "mean": 0.0334,
      "smoothed": -0.0224,
-     "index": -0.103
+     "index": -0.104
     },
     {
      "date": "2026-03-30",
@@ -4368,7 +4375,7 @@
      "n": 3,
      "mean": 0.2898,
      "smoothed": -0.0094,
-     "index": 0.008
+     "index": 0.007
     },
     {
      "date": "2026-04-01",
@@ -4424,14 +4431,14 @@
      "n": 10,
      "mean": -0.1411,
      "smoothed": 0.0079,
-     "index": 0.156
+     "index": 0.155
     },
     {
      "date": "2026-04-09",
      "n": 4,
      "mean": -0.1874,
      "smoothed": 0.0025,
-     "index": 0.11
+     "index": 0.109
     },
     {
      "date": "2026-04-10",
@@ -4473,56 +4480,56 @@
      "n": 7,
      "mean": -0.074,
      "smoothed": -0.0036,
-     "index": 0.058
+     "index": 0.057
     },
     {
      "date": "2026-04-16",
      "n": 0,
      "mean": null,
      "smoothed": -0.0036,
-     "index": 0.058
+     "index": 0.057
     },
     {
      "date": "2026-04-17",
      "n": 0,
      "mean": null,
      "smoothed": -0.0416,
-     "index": -0.267
+     "index": -0.268
     },
     {
      "date": "2026-04-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.0416,
-     "index": -0.267
+     "index": -0.268
     },
     {
      "date": "2026-04-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.0416,
-     "index": -0.267
+     "index": -0.268
     },
     {
      "date": "2026-04-20",
      "n": 0,
      "mean": null,
      "smoothed": -0.0411,
-     "index": -0.263
+     "index": -0.264
     },
     {
      "date": "2026-04-21",
      "n": 0,
      "mean": null,
      "smoothed": -0.0529,
-     "index": -0.364
+     "index": -0.365
     },
     {
      "date": "2026-04-22",
      "n": 0,
      "mean": null,
      "smoothed": -0.0245,
-     "index": -0.121
+     "index": -0.122
     },
     {
      "date": "2026-04-23",
@@ -4536,21 +4543,21 @@
      "n": 0,
      "mean": null,
      "smoothed": -0.0093,
-     "index": 0.009
+     "index": 0.008
     },
     {
      "date": "2026-04-25",
      "n": 6,
      "mean": 0.0636,
      "smoothed": -0.0459,
-     "index": -0.303
+     "index": -0.304
     },
     {
      "date": "2026-04-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.0807,
-     "index": -0.601
+     "index": -0.602
     },
     {
      "date": "2026-04-27",
@@ -4564,98 +4571,98 @@
      "n": 4,
      "mean": -0.3523,
      "smoothed": -0.0909,
-     "index": -0.688
+     "index": -0.689
     },
     {
      "date": "2026-04-29",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.789
+     "index": -0.791
     },
     {
      "date": "2026-04-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.789
+     "index": -0.791
     },
     {
      "date": "2026-05-01",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.789
+     "index": -0.791
     },
     {
      "date": "2026-05-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.789
+     "index": -0.791
     },
     {
      "date": "2026-05-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.789
+     "index": -0.791
     },
     {
      "date": "2026-05-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.789
+     "index": -0.791
     },
     {
      "date": "2026-05-05",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.789
+     "index": -0.791
     },
     {
      "date": "2026-05-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.789
+     "index": -0.791
     },
     {
      "date": "2026-05-07",
      "n": 3,
      "mean": -0.0198,
      "smoothed": -0.0836,
-     "index": -0.626
+     "index": -0.627
     },
     {
      "date": "2026-05-08",
      "n": 4,
      "mean": -0.4093,
      "smoothed": -0.1602,
-     "index": -1.28
+     "index": -1.282
     },
     {
      "date": "2026-05-09",
      "n": 4,
      "mean": 0.2358,
      "smoothed": -0.1442,
-     "index": -1.143
+     "index": -1.145
     },
     {
      "date": "2026-05-10",
      "n": 3,
      "mean": 0.2739,
      "smoothed": -0.0745,
-     "index": -0.548
+     "index": -0.549
     },
     {
      "date": "2026-05-11",
      "n": 8,
      "mean": 0.0631,
      "smoothed": -0.0322,
-     "index": -0.186
+     "index": -0.187
     },
     {
      "date": "2026-05-12",
@@ -4676,21 +4683,21 @@
      "n": 4,
      "mean": 0.3792,
      "smoothed": 0.0489,
-     "index": 0.505
+     "index": 0.506
     },
     {
      "date": "2026-05-15",
      "n": 0,
      "mean": null,
      "smoothed": 0.0489,
-     "index": 0.505
+     "index": 0.506
     },
     {
      "date": "2026-05-16",
      "n": 0,
      "mean": null,
      "smoothed": 0.0489,
-     "index": 0.505
+     "index": 0.506
     },
     {
      "date": "2026-05-17",
@@ -4732,14 +4739,14 @@
      "n": 4,
      "mean": 0.4763,
      "smoothed": 0.1293,
-     "index": 1.192
+     "index": 1.193
     },
     {
      "date": "2026-05-23",
      "n": 0,
      "mean": null,
      "smoothed": 0.1213,
-     "index": 1.124
+     "index": 1.125
     },
     {
      "date": "2026-05-24",
@@ -4753,14 +4760,14 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.1164,
-     "index": 1.082
+     "index": 1.083
     },
     {
      "date": "2026-05-26",
      "n": 6,
      "mean": 0.0473,
      "smoothed": 0.1164,
-     "index": 1.082
+     "index": 1.083
     },
     {
      "date": "2026-05-27",
@@ -4802,14 +4809,14 @@
      "n": 5,
      "mean": -0.1557,
      "smoothed": -0.007,
-     "index": 0.029
+     "index": 0.028
     },
     {
      "date": "2026-06-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0155,
-     "index": -0.044
+     "index": -0.045
     },
     {
      "date": "2026-06-03",
@@ -4823,252 +4830,252 @@
      "n": 0,
      "mean": null,
      "smoothed": -0.008,
-     "index": 0.02
+     "index": 0.019
     },
     {
      "date": "2026-06-05",
      "n": 7,
      "mean": -0.1713,
      "smoothed": -0.0577,
-     "index": -0.404
+     "index": -0.405
     },
     {
      "date": "2026-06-06",
      "n": 3,
      "mean": 0.0531,
      "smoothed": -0.0526,
-     "index": -0.361
+     "index": -0.362
     },
     {
      "date": "2026-06-07",
      "n": 0,
      "mean": null,
      "smoothed": -0.0602,
-     "index": -0.426
+     "index": -0.427
     },
     {
      "date": "2026-06-08",
      "n": 3,
      "mean": -0.0008,
      "smoothed": -0.0574,
-     "index": -0.402
+     "index": -0.403
     },
     {
      "date": "2026-06-09",
      "n": 7,
      "mean": -0.2348,
      "smoothed": -0.0861,
-     "index": -0.647
+     "index": -0.649
     },
     {
      "date": "2026-06-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.0838,
-     "index": -0.628
+     "index": -0.629
     },
     {
      "date": "2026-06-11",
      "n": 0,
      "mean": null,
      "smoothed": -0.0909,
-     "index": -0.688
+     "index": -0.69
     },
     {
      "date": "2026-06-12",
      "n": 0,
      "mean": null,
      "smoothed": -0.0894,
-     "index": -0.675
+     "index": -0.677
     },
     {
      "date": "2026-06-13",
      "n": 10,
      "mean": -0.1605,
      "smoothed": -0.1056,
-     "index": -0.813
+     "index": -0.815
     },
     {
      "date": "2026-06-14",
      "n": 9,
      "mean": -0.2704,
      "smoothed": -0.1399,
-     "index": -1.106
+     "index": -1.108
     },
     {
      "date": "2026-06-15",
      "n": 0,
      "mean": null,
      "smoothed": -0.1381,
-     "index": -1.091
+     "index": -1.093
     },
     {
      "date": "2026-06-16",
      "n": 10,
      "mean": -0.1378,
      "smoothed": -0.138,
-     "index": -1.091
+     "index": -1.092
     },
     {
      "date": "2026-06-17",
      "n": 0,
      "mean": null,
      "smoothed": -0.1653,
-     "index": -1.324
+     "index": -1.326
     },
     {
      "date": "2026-06-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.1653,
-     "index": -1.324
+     "index": -1.326
     },
     {
      "date": "2026-06-19",
      "n": 5,
      "mean": -0.2268,
      "smoothed": -0.171,
-     "index": -1.372
+     "index": -1.374
     },
     {
      "date": "2026-06-20",
      "n": 20,
      "mean": -0.1068,
      "smoothed": -0.1614,
-     "index": -1.29
+     "index": -1.293
     },
     {
      "date": "2026-06-21",
      "n": 0,
      "mean": null,
      "smoothed": -0.1614,
-     "index": -1.29
+     "index": -1.293
     },
     {
      "date": "2026-06-22",
      "n": 6,
      "mean": -0.2053,
      "smoothed": -0.1726,
-     "index": -1.385
+     "index": -1.388
     },
     {
      "date": "2026-06-23",
      "n": 7,
      "mean": -0.187,
      "smoothed": -0.1676,
-     "index": -1.343
+     "index": -1.345
     },
     {
      "date": "2026-06-24",
      "n": 0,
      "mean": null,
      "smoothed": -0.1676,
-     "index": -1.343
+     "index": -1.345
     },
     {
      "date": "2026-06-25",
      "n": 0,
      "mean": null,
      "smoothed": -0.1676,
-     "index": -1.343
+     "index": -1.345
     },
     {
      "date": "2026-06-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.1676,
-     "index": -1.343
+     "index": -1.345
     },
     {
      "date": "2026-06-27",
      "n": 5,
      "mean": 0.1411,
      "smoothed": -0.1438,
-     "index": -1.14
+     "index": -1.142
     },
     {
      "date": "2026-06-28",
      "n": 0,
      "mean": null,
      "smoothed": -0.1223,
-     "index": -0.956
+     "index": -0.958
     },
     {
      "date": "2026-06-29",
      "n": 3,
      "mean": -0.2909,
      "smoothed": -0.1314,
-     "index": -1.034
+     "index": -1.035
     },
     {
      "date": "2026-06-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.1299,
-     "index": -1.022
+     "index": -1.023
     },
     {
      "date": "2026-07-01",
      "n": 4,
      "mean": -0.1028,
      "smoothed": -0.1278,
-     "index": -1.003
+     "index": -1.005
     },
     {
      "date": "2026-07-02",
      "n": 5,
      "mean": -0.1162,
      "smoothed": -0.1267,
-     "index": -0.994
+     "index": -0.996
     },
     {
      "date": "2026-07-03",
      "n": 3,
      "mean": -0.593,
      "smoothed": -0.1437,
-     "index": -1.139
+     "index": -1.141
     },
     {
      "date": "2026-07-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.166,
-     "index": -1.33
+     "index": -1.332
     },
     {
      "date": "2026-07-05",
      "n": 6,
      "mean": 0.1258,
      "smoothed": -0.1211,
-     "index": -0.946
+     "index": -0.948
     },
     {
      "date": "2026-07-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.1058,
-     "index": -0.815
+     "index": -0.817
     },
     {
      "date": "2026-07-07",
      "n": 0,
      "mean": null,
      "smoothed": -0.084,
-     "index": -0.629
+     "index": -0.63
     },
     {
      "date": "2026-07-08",
      "n": 3,
      "mean": 0.0145,
      "smoothed": -0.0738,
-     "index": -0.542
+     "index": -0.543
     },
     {
      "date": "2026-07-09",
      "n": 7,
      "mean": 0.0499,
      "smoothed": -0.0497,
-     "index": -0.337
+     "index": -0.338
     },
     {
      "date": "2026-07-10",
@@ -5082,224 +5089,224 @@
      "n": 13,
      "mean": -0.1051,
      "smoothed": -0.0818,
-     "index": -0.61
+     "index": -0.611
     },
     {
      "date": "2026-07-12",
      "n": 6,
      "mean": -0.1011,
      "smoothed": -0.0839,
-     "index": -0.629
+     "index": -0.63
     },
     {
      "date": "2026-07-13",
      "n": 8,
      "mean": -0.127,
      "smoothed": -0.0792,
-     "index": -0.588
+     "index": -0.589
     },
     {
      "date": "2026-07-14",
      "n": 6,
      "mean": -0.0097,
      "smoothed": -0.0727,
-     "index": -0.532
+     "index": -0.534
     },
     {
      "date": "2026-07-15",
      "n": 0,
      "mean": null,
      "smoothed": -0.0707,
-     "index": -0.515
+     "index": -0.516
     },
     {
      "date": "2026-07-16",
      "n": 6,
      "mean": -0.1547,
      "smoothed": -0.0752,
-     "index": -0.554
+     "index": -0.555
     },
     {
      "date": "2026-07-17",
      "n": 5,
      "mean": -0.1478,
      "smoothed": -0.0563,
-     "index": -0.393
+     "index": -0.394
     },
     {
      "date": "2026-07-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.0563,
-     "index": -0.393
+     "index": -0.394
     },
     {
      "date": "2026-07-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.0755,
-     "index": -0.556
+     "index": -0.558
     },
     {
      "date": "2026-07-20",
      "n": 5,
      "mean": 0.0101,
      "smoothed": -0.0686,
-     "index": -0.497
+     "index": -0.499
     },
     {
      "date": "2026-07-21",
      "n": 3,
      "mean": 0.2537,
      "smoothed": -0.0537,
-     "index": -0.37
+     "index": -0.371
     },
     {
      "date": "2026-07-22",
      "n": 7,
      "mean": -0.156,
      "smoothed": -0.067,
-     "index": -0.484
+     "index": -0.485
     },
     {
      "date": "2026-07-23",
      "n": 5,
      "mean": -0.2744,
      "smoothed": -0.0947,
-     "index": -0.721
+     "index": -0.722
     },
     {
      "date": "2026-07-24",
      "n": 6,
      "mean": -0.2632,
      "smoothed": -0.1135,
-     "index": -0.881
+     "index": -0.883
     },
     {
      "date": "2026-07-25",
      "n": 10,
      "mean": -0.0228,
      "smoothed": -0.1016,
-     "index": -0.779
+     "index": -0.781
     },
     {
      "date": "2026-07-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.1017,
-     "index": -0.78
+     "index": -0.781
     },
     {
      "date": "2026-07-27",
      "n": 0,
      "mean": null,
      "smoothed": -0.0978,
-     "index": -0.747
+     "index": -0.749
     },
     {
      "date": "2026-07-28",
      "n": 3,
      "mean": -0.1527,
      "smoothed": -0.1117,
-     "index": -0.866
+     "index": -0.867
     },
     {
      "date": "2026-07-29",
      "n": 19,
      "mean": -0.0758,
      "smoothed": -0.1018,
-     "index": -0.781
+     "index": -0.783
     },
     {
      "date": "2026-07-30",
      "n": 3,
      "mean": 0.271,
      "smoothed": -0.0801,
-     "index": -0.596
+     "index": -0.597
     },
     {
      "date": "2026-07-31",
      "n": 11,
      "mean": -0.0415,
      "smoothed": -0.0695,
-     "index": -0.505
+     "index": -0.506
     },
     {
      "date": "2026-08-01",
      "n": 3,
      "mean": -0.1729,
      "smoothed": -0.0736,
-     "index": -0.54
+     "index": -0.542
     },
     {
      "date": "2026-08-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0736,
-     "index": -0.54
+     "index": -0.542
     },
     {
      "date": "2026-08-03",
      "n": 6,
      "mean": -0.0241,
      "smoothed": -0.0752,
-     "index": -0.554
+     "index": -0.555
     },
     {
      "date": "2026-08-04",
      "n": 16,
      "mean": -0.1654,
      "smoothed": -0.1025,
-     "index": -0.787
+     "index": -0.789
     },
     {
      "date": "2026-08-05",
      "n": 10,
      "mean": -0.1363,
      "smoothed": -0.1021,
-     "index": -0.784
+     "index": -0.785
     },
     {
      "date": "2026-08-06",
      "n": 5,
      "mean": 0.318,
      "smoothed": -0.0699,
-     "index": -0.509
+     "index": -0.51
     },
     {
      "date": "2026-08-07",
      "n": 9,
      "mean": 0.0321,
      "smoothed": -0.048,
-     "index": -0.322
+     "index": -0.323
     },
     {
      "date": "2026-08-08",
      "n": 13,
      "mean": -0.0099,
      "smoothed": -0.0456,
-     "index": -0.301
+     "index": -0.302
     },
     {
      "date": "2026-08-09",
      "n": 12,
      "mean": -0.0661,
      "smoothed": -0.0478,
-     "index": -0.32
+     "index": -0.321
     },
     {
      "date": "2026-08-10",
      "n": 6,
      "mean": 0.1445,
      "smoothed": -0.0378,
-     "index": -0.235
+     "index": -0.236
     },
     {
      "date": "2026-08-11",
      "n": 10,
      "mean": 0.0817,
      "smoothed": -0.0253,
-     "index": -0.128
+     "index": -0.129
     },
     {
      "date": "2026-08-12",
@@ -5313,35 +5320,35 @@
      "n": 10,
      "mean": -0.1146,
      "smoothed": -0.0228,
-     "index": -0.106
+     "index": -0.107
     },
     {
      "date": "2026-08-14",
      "n": 16,
      "mean": -0.043,
      "smoothed": -0.0237,
-     "index": -0.114
+     "index": -0.115
     },
     {
      "date": "2026-08-15",
      "n": 7,
      "mean": 0.143,
      "smoothed": -0.0114,
-     "index": -0.009
+     "index": -0.01
     },
     {
      "date": "2026-08-16",
      "n": 4,
      "mean": -0.3122,
      "smoothed": -0.0203,
-     "index": -0.085
+     "index": -0.086
     },
     {
      "date": "2026-08-17",
      "n": 14,
      "mean": 0.2097,
      "smoothed": 0.0024,
-     "index": 0.109
+     "index": 0.108
     },
     {
      "date": "2026-08-18",
@@ -5369,21 +5376,21 @@
      "n": 5,
      "mean": -0.2698,
      "smoothed": 0.0003,
-     "index": 0.091
+     "index": 0.09
     },
     {
      "date": "2026-08-22",
      "n": 4,
      "mean": 0.2149,
      "smoothed": 0.0064,
-     "index": 0.143
+     "index": 0.142
     },
     {
      "date": "2026-08-23",
      "n": 3,
      "mean": 0.1461,
      "smoothed": 0.0148,
-     "index": 0.215
+     "index": 0.214
     },
     {
      "date": "2026-08-24",
@@ -5425,21 +5432,21 @@
      "n": 192,
      "mean": -0.0219,
      "smoothed": -0.0169,
-     "index": -0.056
+     "index": -0.057
     },
     {
      "date": "2026-08-30",
      "n": 132,
      "mean": 0.0544,
      "smoothed": -0.0101,
-     "index": 0.002
+     "index": 0.001
     },
     {
      "date": "2026-08-31",
      "n": 149,
      "mean": 0.053,
      "smoothed": -0.0064,
-     "index": 0.034
+     "index": 0.033
     },
     {
      "date": "2026-09-01",
@@ -5460,7 +5467,7 @@
      "n": 125,
      "mean": 0.0657,
      "smoothed": 0.006,
-     "index": 0.14
+     "index": 0.139
     },
     {
      "date": "2026-09-04",
@@ -5481,7 +5488,7 @@
      "n": 243,
      "mean": 0.0457,
      "smoothed": 0.0129,
-     "index": 0.199
+     "index": 0.198
     },
     {
      "date": "2026-09-07",
@@ -5586,7 +5593,7 @@
      "n": 159,
      "mean": 0.0281,
      "smoothed": 0.0244,
-     "index": 0.297
+     "index": 0.296
     },
     {
      "date": "2026-09-22",
@@ -5607,7 +5614,7 @@
      "n": 162,
      "mean": -0.0274,
      "smoothed": 0.0126,
-     "index": 0.196
+     "index": 0.195
     },
     {
      "date": "2026-09-25",
@@ -5649,21 +5656,21 @@
      "n": 127,
      "mean": 0.0944,
      "smoothed": 0.0017,
-     "index": 0.103
+     "index": 0.102
     },
     {
      "date": "2026-10-01",
      "n": 186,
      "mean": -0.0337,
      "smoothed": -0.0006,
-     "index": 0.083
+     "index": 0.082
     },
     {
      "date": "2026-10-02",
      "n": 205,
      "mean": 0.1285,
      "smoothed": 0.0137,
-     "index": 0.206
+     "index": 0.205
     },
     {
      "date": "2026-10-03",
@@ -5674,10 +5681,17 @@
     },
     {
      "date": "2026-10-04",
-     "n": 46,
-     "mean": 0.0413,
-     "smoothed": 0.018,
-     "index": 0.242
+     "n": 289,
+     "mean": 0.004,
+     "smoothed": 0.0159,
+     "index": 0.224
+    },
+    {
+     "date": "2026-10-05",
+     "n": 112,
+     "mean": 0.0927,
+     "smoothed": 0.0186,
+     "index": 0.247
     }
    ]
   },
@@ -5688,133 +5702,133 @@
      "n": 3,
      "mean": -0.1084,
      "smoothed": -0.1084,
-     "index": -1.083
+     "index": -1.085
     },
     {
      "date": "2025-09-08",
      "n": 7,
      "mean": 0.0486,
      "smoothed": 0.0015,
-     "index": -0.383
+     "index": -0.384
     },
     {
      "date": "2025-09-09",
      "n": 0,
      "mean": null,
      "smoothed": 0.0015,
-     "index": -0.383
+     "index": -0.384
     },
     {
      "date": "2025-09-10",
      "n": 0,
      "mean": null,
      "smoothed": 0.0015,
-     "index": -0.383
+     "index": -0.384
     },
     {
      "date": "2025-09-11",
      "n": 3,
      "mean": 0.1198,
      "smoothed": 0.0288,
-     "index": -0.209
+     "index": -0.21
     },
     {
      "date": "2025-09-12",
      "n": 0,
      "mean": null,
      "smoothed": 0.0288,
-     "index": -0.209
+     "index": -0.21
     },
     {
      "date": "2025-09-13",
      "n": 4,
      "mean": -0.044,
      "smoothed": 0.0117,
-     "index": -0.318
+     "index": -0.319
     },
     {
      "date": "2025-09-14",
      "n": 0,
      "mean": null,
      "smoothed": 0.0117,
-     "index": -0.318
+     "index": -0.319
     },
     {
      "date": "2025-09-15",
      "n": 0,
      "mean": null,
      "smoothed": 0.0117,
-     "index": -0.318
+     "index": -0.319
     },
     {
      "date": "2025-09-16",
      "n": 0,
      "mean": null,
      "smoothed": 0.0117,
-     "index": -0.318
+     "index": -0.319
     },
     {
      "date": "2025-09-17",
      "n": 0,
      "mean": null,
      "smoothed": 0.0117,
-     "index": -0.318
+     "index": -0.319
     },
     {
      "date": "2025-09-18",
      "n": 0,
      "mean": null,
      "smoothed": 0.0117,
-     "index": -0.318
+     "index": -0.319
     },
     {
      "date": "2025-09-19",
      "n": 0,
      "mean": null,
      "smoothed": 0.0117,
-     "index": -0.318
+     "index": -0.319
     },
     {
      "date": "2025-09-20",
      "n": 0,
      "mean": null,
      "smoothed": 0.0117,
-     "index": -0.318
+     "index": -0.319
     },
     {
      "date": "2025-09-21",
      "n": 0,
      "mean": null,
      "smoothed": 0.0374,
-     "index": -0.154
+     "index": -0.155
     },
     {
      "date": "2025-09-22",
      "n": 5,
      "mean": 0.5675,
      "smoothed": 0.2517,
-     "index": 1.212
+     "index": 1.213
     },
     {
      "date": "2025-09-23",
      "n": 0,
      "mean": null,
      "smoothed": 0.2517,
-     "index": 1.212
+     "index": 1.213
     },
     {
      "date": "2025-09-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.2517,
-     "index": 1.212
+     "index": 1.213
     },
     {
      "date": "2025-09-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.2957,
-     "index": 1.492
+     "index": 1.493
     },
     {
      "date": "2025-09-26",
@@ -5828,35 +5842,35 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.2634,
-     "index": 1.286
+     "index": 1.287
     },
     {
      "date": "2025-09-28",
      "n": 0,
      "mean": null,
      "smoothed": 0.2634,
-     "index": 1.286
+     "index": 1.287
     },
     {
      "date": "2025-09-29",
      "n": 0,
      "mean": null,
      "smoothed": 0.2634,
-     "index": 1.286
+     "index": 1.287
     },
     {
      "date": "2025-09-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.2634,
-     "index": 1.286
+     "index": 1.287
     },
     {
      "date": "2025-10-01",
      "n": 3,
      "mean": 0.0,
      "smoothed": 0.1975,
-     "index": 0.866
+     "index": 0.867
     },
     {
      "date": "2025-10-02",
@@ -5912,7 +5926,7 @@
      "n": 5,
      "mean": 0.1681,
      "smoothed": 0.0429,
-     "index": -0.119
+     "index": -0.12
     },
     {
      "date": "2025-10-10",
@@ -5940,28 +5954,28 @@
      "n": 3,
      "mean": -0.1133,
      "smoothed": 0.0487,
-     "index": -0.082
+     "index": -0.083
     },
     {
      "date": "2025-10-14",
      "n": 4,
      "mean": -0.0028,
      "smoothed": 0.0445,
-     "index": -0.109
+     "index": -0.11
     },
     {
      "date": "2025-10-15",
      "n": 3,
      "mean": -0.23,
      "smoothed": 0.0304,
-     "index": -0.199
+     "index": -0.2
     },
     {
      "date": "2025-10-16",
      "n": 6,
      "mean": -0.004,
      "smoothed": 0.0293,
-     "index": -0.206
+     "index": -0.207
     },
     {
      "date": "2025-10-17",
@@ -5982,49 +5996,49 @@
      "n": 3,
      "mean": 0.1858,
      "smoothed": 0.0418,
-     "index": -0.126
+     "index": -0.127
     },
     {
      "date": "2025-10-20",
      "n": 0,
      "mean": null,
      "smoothed": 0.0143,
-     "index": -0.301
+     "index": -0.302
     },
     {
      "date": "2025-10-21",
      "n": 0,
      "mean": null,
      "smoothed": 0.0336,
-     "index": -0.178
+     "index": -0.179
     },
     {
      "date": "2025-10-22",
      "n": 0,
      "mean": null,
      "smoothed": 0.0336,
-     "index": -0.178
+     "index": -0.179
     },
     {
      "date": "2025-10-23",
      "n": 4,
      "mean": 0.1197,
      "smoothed": 0.0263,
-     "index": -0.225
+     "index": -0.226
     },
     {
      "date": "2025-10-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.0263,
-     "index": -0.225
+     "index": -0.226
     },
     {
      "date": "2025-10-25",
      "n": 3,
      "mean": 0.2464,
      "smoothed": 0.0431,
-     "index": -0.118
+     "index": -0.119
     },
     {
      "date": "2025-10-26",
@@ -6052,42 +6066,42 @@
      "n": 10,
      "mean": -0.1738,
      "smoothed": 0.002,
-     "index": -0.38
+     "index": -0.381
     },
     {
      "date": "2025-10-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.003,
-     "index": -0.374
+     "index": -0.375
     },
     {
      "date": "2025-10-31",
      "n": 4,
      "mean": 0.2378,
      "smoothed": 0.0273,
-     "index": -0.219
+     "index": -0.22
     },
     {
      "date": "2025-11-01",
      "n": 4,
      "mean": -0.2248,
      "smoothed": -0.0187,
-     "index": -0.512
+     "index": -0.513
     },
     {
      "date": "2025-11-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0406,
-     "index": -0.652
+     "index": -0.653
     },
     {
      "date": "2025-11-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.0406,
-     "index": -0.652
+     "index": -0.653
     },
     {
      "date": "2025-11-04",
@@ -6101,7 +6115,7 @@
      "n": 4,
      "mean": 0.1947,
      "smoothed": 0.0437,
-     "index": -0.114
+     "index": -0.115
     },
     {
      "date": "2025-11-06",
@@ -6143,7 +6157,7 @@
      "n": 3,
      "mean": -0.0651,
      "smoothed": 0.1066,
-     "index": 0.287
+     "index": 0.286
     },
     {
      "date": "2025-11-12",
@@ -6157,7 +6171,7 @@
      "n": 3,
      "mean": 0.4222,
      "smoothed": 0.2238,
-     "index": 1.033
+     "index": 1.034
     },
     {
      "date": "2025-11-14",
@@ -6171,133 +6185,133 @@
      "n": 4,
      "mean": 0.3841,
      "smoothed": 0.3088,
-     "index": 1.575
+     "index": 1.576
     },
     {
      "date": "2025-11-16",
      "n": 0,
      "mean": null,
      "smoothed": 0.3088,
-     "index": 1.575
+     "index": 1.576
     },
     {
      "date": "2025-11-17",
      "n": 0,
      "mean": null,
      "smoothed": 0.3088,
-     "index": 1.575
+     "index": 1.576
     },
     {
      "date": "2025-11-18",
      "n": 0,
      "mean": null,
      "smoothed": 0.2703,
-     "index": 1.33
+     "index": 1.331
     },
     {
      "date": "2025-11-19",
      "n": 0,
      "mean": null,
      "smoothed": 0.2847,
-     "index": 1.422
+     "index": 1.423
     },
     {
      "date": "2025-11-20",
      "n": 4,
      "mean": 0.5291,
      "smoothed": 0.2915,
-     "index": 1.465
+     "index": 1.466
     },
     {
      "date": "2025-11-21",
      "n": 0,
      "mean": null,
      "smoothed": 0.2638,
-     "index": 1.288
+     "index": 1.29
     },
     {
      "date": "2025-11-22",
      "n": 0,
      "mean": null,
      "smoothed": 0.3374,
-     "index": 1.758
+     "index": 1.759
     },
     {
      "date": "2025-11-23",
      "n": 0,
      "mean": null,
      "smoothed": 0.3374,
-     "index": 1.758
+     "index": 1.759
     },
     {
      "date": "2025-11-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.3374,
-     "index": 1.758
+     "index": 1.759
     },
     {
      "date": "2025-11-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.4472,
-     "index": 2.457
+     "index": 2.46
     },
     {
      "date": "2025-11-26",
      "n": 4,
      "mean": 0.4052,
      "smoothed": 0.436,
-     "index": 2.386
+     "index": 2.388
     },
     {
      "date": "2025-11-27",
      "n": 0,
      "mean": null,
      "smoothed": 0.4395,
-     "index": 2.408
+     "index": 2.41
     },
     {
      "date": "2025-11-28",
      "n": 0,
      "mean": null,
      "smoothed": 0.4395,
-     "index": 2.408
+     "index": 2.41
     },
     {
      "date": "2025-11-29",
      "n": 0,
      "mean": null,
      "smoothed": 0.4672,
-     "index": 2.584
+     "index": 2.587
     },
     {
      "date": "2025-11-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.4672,
-     "index": 2.584
+     "index": 2.587
     },
     {
      "date": "2025-12-01",
      "n": 0,
      "mean": null,
      "smoothed": 0.4672,
-     "index": 2.584
+     "index": 2.587
     },
     {
      "date": "2025-12-02",
      "n": 6,
      "mean": -0.1432,
      "smoothed": 0.2056,
-     "index": 0.917
+     "index": 0.918
     },
     {
      "date": "2025-12-03",
      "n": 5,
      "mean": 0.0868,
      "smoothed": 0.1743,
-     "index": 0.718
+     "index": 0.719
     },
     {
      "date": "2025-12-04",
@@ -6332,238 +6346,238 @@
      "n": 4,
      "mean": -0.1755,
      "smoothed": 0.026,
-     "index": -0.227
+     "index": -0.228
     },
     {
      "date": "2025-12-09",
      "n": 4,
      "mean": -0.6614,
      "smoothed": -0.0936,
-     "index": -0.989
+     "index": -0.991
     },
     {
      "date": "2025-12-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.1986,
-     "index": -1.658
+     "index": -1.661
     },
     {
      "date": "2025-12-11",
      "n": 0,
      "mean": null,
      "smoothed": -0.1986,
-     "index": -1.658
+     "index": -1.661
     },
     {
      "date": "2025-12-12",
      "n": 0,
      "mean": null,
      "smoothed": -0.1986,
-     "index": -1.658
+     "index": -1.661
     },
     {
      "date": "2025-12-13",
      "n": 0,
      "mean": null,
      "smoothed": -0.1986,
-     "index": -1.658
+     "index": -1.661
     },
     {
      "date": "2025-12-14",
      "n": 4,
      "mean": -0.296,
      "smoothed": -0.2155,
-     "index": -1.766
+     "index": -1.769
     },
     {
      "date": "2025-12-15",
      "n": 6,
      "mean": -0.1351,
      "smoothed": -0.1989,
-     "index": -1.66
+     "index": -1.662
     },
     {
      "date": "2025-12-16",
      "n": 0,
      "mean": null,
      "smoothed": -0.2134,
-     "index": -1.752
+     "index": -1.755
     },
     {
      "date": "2025-12-17",
      "n": 0,
      "mean": null,
      "smoothed": -0.2968,
-     "index": -2.284
+     "index": -2.287
     },
     {
      "date": "2025-12-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.2968,
-     "index": -2.284
+     "index": -2.287
     },
     {
      "date": "2025-12-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.2968,
-     "index": -2.284
+     "index": -2.287
     },
     {
      "date": "2025-12-20",
      "n": 0,
      "mean": null,
      "smoothed": -0.2968,
-     "index": -2.284
+     "index": -2.287
     },
     {
      "date": "2025-12-21",
      "n": 0,
      "mean": null,
      "smoothed": -0.2968,
-     "index": -2.284
+     "index": -2.287
     },
     {
      "date": "2025-12-22",
      "n": 0,
      "mean": null,
      "smoothed": -0.3314,
-     "index": -2.505
+     "index": -2.508
     },
     {
      "date": "2025-12-23",
      "n": 0,
      "mean": null,
      "smoothed": -0.1994,
-     "index": -1.664
+     "index": -1.666
     },
     {
      "date": "2025-12-24",
      "n": 0,
      "mean": null,
      "smoothed": -0.1994,
-     "index": -1.664
+     "index": -1.666
     },
     {
      "date": "2025-12-25",
      "n": 0,
      "mean": null,
      "smoothed": -0.1994,
-     "index": -1.664
+     "index": -1.666
     },
     {
      "date": "2025-12-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.1994,
-     "index": -1.664
+     "index": -1.666
     },
     {
      "date": "2025-12-27",
      "n": 0,
      "mean": null,
      "smoothed": -0.1994,
-     "index": -1.664
+     "index": -1.666
     },
     {
      "date": "2025-12-28",
      "n": 3,
      "mean": -0.5737,
      "smoothed": -0.2813,
-     "index": -2.185
+     "index": -2.188
     },
     {
      "date": "2025-12-29",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.048
+     "index": -4.054
     },
     {
      "date": "2025-12-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.048
+     "index": -4.054
     },
     {
      "date": "2025-12-31",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.048
+     "index": -4.054
     },
     {
      "date": "2026-01-01",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.048
+     "index": -4.054
     },
     {
      "date": "2026-01-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.048
+     "index": -4.054
     },
     {
      "date": "2026-01-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.048
+     "index": -4.054
     },
     {
      "date": "2026-01-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.5737,
-     "index": -4.048
+     "index": -4.054
     },
     {
      "date": "2026-01-05",
      "n": 3,
      "mean": 0.2592,
      "smoothed": -0.1572,
-     "index": -1.394
+     "index": -1.397
     },
     {
      "date": "2026-01-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.1572,
-     "index": -1.394
+     "index": -1.397
     },
     {
      "date": "2026-01-07",
      "n": 0,
      "mean": null,
      "smoothed": -0.1572,
-     "index": -1.394
+     "index": -1.397
     },
     {
      "date": "2026-01-08",
      "n": 3,
      "mean": -0.0806,
      "smoothed": -0.1317,
-     "index": -1.232
+     "index": -1.234
     },
     {
      "date": "2026-01-09",
      "n": 3,
      "mean": -0.1589,
      "smoothed": -0.1385,
-     "index": -1.275
+     "index": -1.277
     },
     {
      "date": "2026-01-10",
      "n": 3,
      "mean": 0.4598,
      "smoothed": -0.0188,
-     "index": -0.513
+     "index": -0.514
     },
     {
      "date": "2026-01-11",
@@ -6584,49 +6598,49 @@
      "n": 9,
      "mean": 0.3725,
      "smoothed": 0.2038,
-     "index": 0.906
+     "index": 0.907
     },
     {
      "date": "2026-01-14",
      "n": 7,
      "mean": 0.5154,
      "smoothed": 0.2699,
-     "index": 1.327
+     "index": 1.328
     },
     {
      "date": "2026-01-15",
      "n": 0,
      "mean": null,
      "smoothed": 0.2699,
-     "index": 1.327
+     "index": 1.328
     },
     {
      "date": "2026-01-16",
      "n": 5,
      "mean": -0.1284,
      "smoothed": 0.2175,
-     "index": 0.993
+     "index": 0.994
     },
     {
      "date": "2026-01-17",
      "n": 0,
      "mean": null,
      "smoothed": 0.2175,
-     "index": 0.993
+     "index": 0.994
     },
     {
      "date": "2026-01-18",
      "n": 0,
      "mean": null,
      "smoothed": 0.2175,
-     "index": 0.993
+     "index": 0.994
     },
     {
      "date": "2026-01-19",
      "n": 0,
      "mean": null,
      "smoothed": 0.2139,
-     "index": 0.97
+     "index": 0.971
     },
     {
      "date": "2026-01-20",
@@ -6647,140 +6661,140 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.2293,
-     "index": 1.069
+     "index": 1.07
     },
     {
      "date": "2026-01-23",
      "n": 3,
      "mean": 0.6343,
      "smoothed": 0.2954,
-     "index": 1.49
+     "index": 1.491
     },
     {
      "date": "2026-01-24",
      "n": 3,
      "mean": 0.134,
      "smoothed": 0.2683,
-     "index": 1.317
+     "index": 1.318
     },
     {
      "date": "2026-01-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.2952,
-     "index": 1.488
+     "index": 1.49
     },
     {
      "date": "2026-01-26",
      "n": 0,
      "mean": null,
      "smoothed": 0.2952,
-     "index": 1.488
+     "index": 1.49
     },
     {
      "date": "2026-01-27",
      "n": 0,
      "mean": null,
      "smoothed": 0.2635,
-     "index": 1.287
+     "index": 1.288
     },
     {
      "date": "2026-01-28",
      "n": 0,
      "mean": null,
      "smoothed": 0.146,
-     "index": 0.537
+     "index": 0.538
     },
     {
      "date": "2026-01-29",
      "n": 0,
      "mean": null,
      "smoothed": 0.146,
-     "index": 0.537
+     "index": 0.538
     },
     {
      "date": "2026-01-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.2831,
-     "index": 1.412
+     "index": 1.413
     },
     {
      "date": "2026-01-31",
      "n": 0,
      "mean": null,
      "smoothed": 0.2831,
-     "index": 1.412
+     "index": 1.413
     },
     {
      "date": "2026-02-01",
      "n": 0,
      "mean": null,
      "smoothed": 0.2831,
-     "index": 1.412
+     "index": 1.413
     },
     {
      "date": "2026-02-02",
      "n": 0,
      "mean": null,
      "smoothed": 0.2831,
-     "index": 1.412
+     "index": 1.413
     },
     {
      "date": "2026-02-03",
      "n": 0,
      "mean": null,
      "smoothed": 0.3841,
-     "index": 2.055
+     "index": 2.057
     },
     {
      "date": "2026-02-04",
      "n": 0,
      "mean": null,
      "smoothed": 0.3841,
-     "index": 2.055
+     "index": 2.057
     },
     {
      "date": "2026-02-05",
      "n": 3,
      "mean": 0.2238,
      "smoothed": 0.3307,
-     "index": 1.715
+     "index": 1.716
     },
     {
      "date": "2026-02-06",
      "n": 6,
      "mean": -0.2427,
      "smoothed": -0.0319,
-     "index": -0.596
+     "index": -0.597
     },
     {
      "date": "2026-02-07",
      "n": 3,
      "mean": 0.3917,
      "smoothed": 0.0325,
-     "index": -0.185
+     "index": -0.186
     },
     {
      "date": "2026-02-08",
      "n": 0,
      "mean": null,
      "smoothed": 0.0325,
-     "index": -0.185
+     "index": -0.186
     },
     {
      "date": "2026-02-09",
      "n": 0,
      "mean": null,
      "smoothed": 0.0325,
-     "index": -0.185
+     "index": -0.186
     },
     {
      "date": "2026-02-10",
      "n": 7,
      "mean": 0.1509,
      "smoothed": 0.0761,
-     "index": 0.093
+     "index": 0.092
     },
     {
      "date": "2026-02-11",
@@ -6808,14 +6822,14 @@
      "n": 4,
      "mean": -0.2485,
      "smoothed": 0.0691,
-     "index": 0.048
+     "index": 0.047
     },
     {
      "date": "2026-02-15",
      "n": 0,
      "mean": null,
      "smoothed": 0.0691,
-     "index": 0.048
+     "index": 0.047
     },
     {
      "date": "2026-02-16",
@@ -6892,7 +6906,7 @@
      "n": 0,
      "mean": null,
      "smoothed": -0.0092,
-     "index": -0.451
+     "index": -0.452
     },
     {
      "date": "2026-02-27",
@@ -6906,49 +6920,49 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.1816,
-     "index": 0.764
+     "index": 0.765
     },
     {
      "date": "2026-03-01",
      "n": 0,
      "mean": null,
      "smoothed": 0.1816,
-     "index": 0.764
+     "index": 0.765
     },
     {
      "date": "2026-03-02",
      "n": 0,
      "mean": null,
      "smoothed": 0.2705,
-     "index": 1.331
+     "index": 1.332
     },
     {
      "date": "2026-03-03",
      "n": 4,
      "mean": 0.2213,
      "smoothed": 0.2508,
-     "index": 1.205
+     "index": 1.206
     },
     {
      "date": "2026-03-04",
      "n": 3,
      "mean": 0.162,
      "smoothed": 0.2303,
-     "index": 1.075
+     "index": 1.076
     },
     {
      "date": "2026-03-05",
      "n": 0,
      "mean": null,
      "smoothed": 0.2303,
-     "index": 1.075
+     "index": 1.076
     },
     {
      "date": "2026-03-06",
      "n": 0,
      "mean": null,
      "smoothed": 0.2676,
-     "index": 1.312
+     "index": 1.313
     },
     {
      "date": "2026-03-07",
@@ -6962,7 +6976,7 @@
      "n": 7,
      "mean": 0.2041,
      "smoothed": 0.1787,
-     "index": 0.746
+     "index": 0.747
     },
     {
      "date": "2026-03-09",
@@ -6997,14 +7011,14 @@
      "n": 5,
      "mean": 0.0196,
      "smoothed": 0.0785,
-     "index": 0.108
+     "index": 0.107
     },
     {
      "date": "2026-03-14",
      "n": 4,
      "mean": -0.0559,
      "smoothed": 0.0636,
-     "index": 0.013
+     "index": 0.012
     },
     {
      "date": "2026-03-15",
@@ -7053,7 +7067,7 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.1099,
-     "index": 0.308
+     "index": 0.307
     },
     {
      "date": "2026-03-22",
@@ -7109,35 +7123,35 @@
      "n": 3,
      "mean": -0.0741,
      "smoothed": 0.0123,
-     "index": -0.314
+     "index": -0.315
     },
     {
      "date": "2026-03-30",
      "n": 6,
      "mean": 0.0377,
      "smoothed": 0.0158,
-     "index": -0.292
+     "index": -0.293
     },
     {
      "date": "2026-03-31",
      "n": 3,
      "mean": 0.0,
      "smoothed": -0.0327,
-     "index": -0.601
+     "index": -0.602
     },
     {
      "date": "2026-04-01",
      "n": 4,
      "mean": -0.0863,
      "smoothed": -0.0378,
-     "index": -0.634
+     "index": -0.635
     },
     {
      "date": "2026-04-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0394,
-     "index": -0.643
+     "index": -0.645
     },
     {
      "date": "2026-04-03",
@@ -7165,49 +7179,49 @@
      "n": 7,
      "mean": -0.1019,
      "smoothed": -0.0027,
-     "index": -0.41
+     "index": -0.411
     },
     {
      "date": "2026-04-07",
      "n": 10,
      "mean": -0.0566,
      "smoothed": -0.0187,
-     "index": -0.512
+     "index": -0.513
     },
     {
      "date": "2026-04-08",
      "n": 10,
      "mean": -0.0891,
      "smoothed": -0.0309,
-     "index": -0.589
+     "index": -0.59
     },
     {
      "date": "2026-04-09",
      "n": 4,
      "mean": -0.1082,
      "smoothed": -0.0358,
-     "index": -0.621
+     "index": -0.622
     },
     {
      "date": "2026-04-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.0193,
-     "index": -0.516
+     "index": -0.517
     },
     {
      "date": "2026-04-11",
      "n": 3,
      "mean": 0.5197,
      "smoothed": 0.011,
-     "index": -0.323
+     "index": -0.324
     },
     {
      "date": "2026-04-12",
      "n": 3,
      "mean": 0.4324,
      "smoothed": 0.0391,
-     "index": -0.143
+     "index": -0.144
     },
     {
      "date": "2026-04-13",
@@ -7242,35 +7256,35 @@
      "n": 0,
      "mean": null,
      "smoothed": -0.0003,
-     "index": -0.394
+     "index": -0.395
     },
     {
      "date": "2026-04-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.0003,
-     "index": -0.394
+     "index": -0.395
     },
     {
      "date": "2026-04-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.0003,
-     "index": -0.394
+     "index": -0.395
     },
     {
      "date": "2026-04-20",
      "n": 0,
      "mean": null,
      "smoothed": 0.0146,
-     "index": -0.3
+     "index": -0.301
     },
     {
      "date": "2026-04-21",
      "n": 0,
      "mean": null,
      "smoothed": 0.0333,
-     "index": -0.18
+     "index": -0.181
     },
     {
      "date": "2026-04-22",
@@ -7305,105 +7319,105 @@
      "n": 0,
      "mean": null,
      "smoothed": -0.0062,
-     "index": -0.432
+     "index": -0.433
     },
     {
      "date": "2026-04-27",
      "n": 0,
      "mean": null,
      "smoothed": -0.0654,
-     "index": -0.809
+     "index": -0.811
     },
     {
      "date": "2026-04-28",
      "n": 4,
      "mean": -0.2746,
      "smoothed": -0.1201,
-     "index": -1.158
+     "index": -1.16
     },
     {
      "date": "2026-04-29",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.018
+     "index": -1.019
     },
     {
      "date": "2026-04-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.018
+     "index": -1.019
     },
     {
      "date": "2026-05-01",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.018
+     "index": -1.019
     },
     {
      "date": "2026-05-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.018
+     "index": -1.019
     },
     {
      "date": "2026-05-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.018
+     "index": -1.019
     },
     {
      "date": "2026-05-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.018
+     "index": -1.019
     },
     {
      "date": "2026-05-05",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.018
+     "index": -1.019
     },
     {
      "date": "2026-05-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.0981,
-     "index": -1.018
+     "index": -1.019
     },
     {
      "date": "2026-05-07",
      "n": 3,
      "mean": 0.0,
      "smoothed": -0.0754,
-     "index": -0.873
+     "index": -0.875
     },
     {
      "date": "2026-05-08",
      "n": 4,
      "mean": -0.1531,
      "smoothed": -0.0937,
-     "index": -0.99
+     "index": -0.991
     },
     {
      "date": "2026-05-09",
      "n": 4,
      "mean": 0.1277,
      "smoothed": -0.08,
-     "index": -0.903
+     "index": -0.904
     },
     {
      "date": "2026-05-10",
      "n": 3,
      "mean": 0.4298,
      "smoothed": 0.0049,
-     "index": -0.361
+     "index": -0.362
     },
     {
      "date": "2026-05-11",
@@ -7487,7 +7501,7 @@
      "n": 4,
      "mean": 0.5335,
      "smoothed": 0.1843,
-     "index": 0.781
+     "index": 0.782
     },
     {
      "date": "2026-05-23",
@@ -7501,14 +7515,14 @@
      "n": 4,
      "mean": 0.1688,
      "smoothed": 0.1733,
-     "index": 0.711
+     "index": 0.712
     },
     {
      "date": "2026-05-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.1891,
-     "index": 0.812
+     "index": 0.813
     },
     {
      "date": "2026-05-26",
@@ -7585,28 +7599,28 @@
      "n": 7,
      "mean": 0.3122,
      "smoothed": 0.0741,
-     "index": 0.08
+     "index": 0.079
     },
     {
      "date": "2026-06-06",
      "n": 3,
      "mean": 0.0,
      "smoothed": 0.0707,
-     "index": 0.058
+     "index": 0.057
     },
     {
      "date": "2026-06-07",
      "n": 0,
      "mean": null,
      "smoothed": 0.0643,
-     "index": 0.017
+     "index": 0.016
     },
     {
      "date": "2026-06-08",
      "n": 3,
      "mean": 0.0232,
      "smoothed": 0.0623,
-     "index": 0.005
+     "index": 0.004
     },
     {
      "date": "2026-06-09",
@@ -7627,21 +7641,21 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.0053,
-     "index": -0.359
+     "index": -0.36
     },
     {
      "date": "2026-06-12",
      "n": 0,
      "mean": null,
      "smoothed": 0.0332,
-     "index": -0.181
+     "index": -0.182
     },
     {
      "date": "2026-06-13",
      "n": 10,
      "mean": -0.1742,
      "smoothed": -0.0139,
-     "index": -0.481
+     "index": -0.482
     },
     {
      "date": "2026-06-14",
@@ -7683,7 +7697,7 @@
      "n": 5,
      "mean": -0.0012,
      "smoothed": 0.0694,
-     "index": 0.05
+     "index": 0.049
     },
     {
      "date": "2026-06-20",
@@ -7739,7 +7753,7 @@
      "n": 5,
      "mean": 0.29,
      "smoothed": 0.1837,
-     "index": 0.778
+     "index": 0.779
     },
     {
      "date": "2026-06-28",
@@ -7753,14 +7767,14 @@
      "n": 3,
      "mean": 0.1379,
      "smoothed": 0.1839,
-     "index": 0.779
+     "index": 0.78
     },
     {
      "date": "2026-06-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.1574,
-     "index": 0.61
+     "index": 0.611
     },
     {
      "date": "2026-07-01",
@@ -7788,21 +7802,21 @@
      "n": 0,
      "mean": null,
      "smoothed": -0.0675,
-     "index": -0.823
+     "index": -0.824
     },
     {
      "date": "2026-07-05",
      "n": 6,
      "mean": 0.2069,
      "smoothed": -0.0253,
-     "index": -0.554
+     "index": -0.555
     },
     {
      "date": "2026-07-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.0943,
-     "index": -0.994
+     "index": -0.995
     },
     {
      "date": "2026-07-07",
@@ -7816,63 +7830,63 @@
      "n": 3,
      "mean": -0.1973,
      "smoothed": -0.0028,
-     "index": -0.411
+     "index": -0.412
     },
     {
      "date": "2026-07-09",
      "n": 7,
      "mean": 0.1282,
      "smoothed": 0.0226,
-     "index": -0.248
+     "index": -0.249
     },
     {
      "date": "2026-07-10",
      "n": 3,
      "mean": -0.4083,
      "smoothed": -0.0105,
-     "index": -0.46
+     "index": -0.461
     },
     {
      "date": "2026-07-11",
      "n": 13,
      "mean": -0.2775,
      "smoothed": -0.1163,
-     "index": -1.134
+     "index": -1.136
     },
     {
      "date": "2026-07-12",
      "n": 6,
      "mean": 0.6523,
      "smoothed": -0.0293,
-     "index": -0.579
+     "index": -0.581
     },
     {
      "date": "2026-07-13",
      "n": 8,
      "mean": -0.0819,
      "smoothed": -0.0452,
-     "index": -0.681
+     "index": -0.682
     },
     {
      "date": "2026-07-14",
      "n": 6,
      "mean": 0.3438,
      "smoothed": -0.0087,
-     "index": -0.448
+     "index": -0.449
     },
     {
      "date": "2026-07-15",
      "n": 0,
      "mean": null,
      "smoothed": -0.0091,
-     "index": -0.45
+     "index": -0.451
     },
     {
      "date": "2026-07-16",
      "n": 6,
      "mean": -0.062,
      "smoothed": -0.0029,
-     "index": -0.411
+     "index": -0.412
     },
     {
      "date": "2026-07-17",
@@ -7900,126 +7914,126 @@
      "n": 5,
      "mean": 0.0426,
      "smoothed": 0.0257,
-     "index": -0.229
+     "index": -0.23
     },
     {
      "date": "2026-07-21",
      "n": 3,
      "mean": 0.134,
      "smoothed": 0.0307,
-     "index": -0.197
+     "index": -0.198
     },
     {
      "date": "2026-07-22",
      "n": 7,
      "mean": -0.5617,
      "smoothed": -0.0195,
-     "index": -0.517
+     "index": -0.518
     },
     {
      "date": "2026-07-23",
      "n": 5,
      "mean": -0.1085,
      "smoothed": -0.0416,
-     "index": -0.658
+     "index": -0.659
     },
     {
      "date": "2026-07-24",
      "n": 6,
      "mean": -0.3144,
      "smoothed": -0.0493,
-     "index": -0.706
+     "index": -0.708
     },
     {
      "date": "2026-07-25",
      "n": 10,
      "mean": -0.2512,
      "smoothed": -0.0351,
-     "index": -0.616
+     "index": -0.618
     },
     {
      "date": "2026-07-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -1.047
+     "index": -1.049
     },
     {
      "date": "2026-07-27",
      "n": 0,
      "mean": null,
      "smoothed": -0.1059,
-     "index": -1.067
+     "index": -1.069
     },
     {
      "date": "2026-07-28",
      "n": 3,
      "mean": 0.354,
      "smoothed": -0.1322,
-     "index": -1.235
+     "index": -1.237
     },
     {
      "date": "2026-07-29",
      "n": 19,
      "mean": -0.0831,
      "smoothed": -0.1187,
-     "index": -1.149
+     "index": -1.151
     },
     {
      "date": "2026-07-30",
      "n": 3,
      "mean": 0.0731,
      "smoothed": -0.1151,
-     "index": -1.126
+     "index": -1.128
     },
     {
      "date": "2026-07-31",
      "n": 11,
      "mean": 0.1432,
      "smoothed": -0.097,
-     "index": -1.01
+     "index": -1.012
     },
     {
      "date": "2026-08-01",
      "n": 3,
      "mean": 0.3308,
      "smoothed": -0.0798,
-     "index": -0.901
+     "index": -0.903
     },
     {
      "date": "2026-08-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0798,
-     "index": -0.901
+     "index": -0.903
     },
     {
      "date": "2026-08-03",
      "n": 6,
      "mean": -0.172,
      "smoothed": -0.0952,
-     "index": -0.999
+     "index": -1.001
     },
     {
      "date": "2026-08-04",
      "n": 16,
      "mean": 0.1715,
      "smoothed": -0.055,
-     "index": -0.743
+     "index": -0.744
     },
     {
      "date": "2026-08-05",
      "n": 10,
      "mean": 0.0391,
      "smoothed": -0.0062,
-     "index": -0.432
+     "index": -0.433
     },
     {
      "date": "2026-08-06",
      "n": 5,
      "mean": 0.0509,
      "smoothed": 0.0025,
-     "index": -0.377
+     "index": -0.378
     },
     {
      "date": "2026-08-07",
@@ -8033,7 +8047,7 @@
      "n": 13,
      "mean": 0.0265,
      "smoothed": 0.0451,
-     "index": -0.105
+     "index": -0.106
     },
     {
      "date": "2026-08-09",
@@ -8061,14 +8075,14 @@
      "n": 11,
      "mean": -0.0285,
      "smoothed": 0.0823,
-     "index": 0.132
+     "index": 0.131
     },
     {
      "date": "2026-08-13",
      "n": 10,
      "mean": -0.1482,
      "smoothed": 0.0636,
-     "index": 0.013
+     "index": 0.012
     },
     {
      "date": "2026-08-14",
@@ -8103,7 +8117,7 @@
      "n": 25,
      "mean": -0.0125,
      "smoothed": 0.0849,
-     "index": 0.149
+     "index": 0.148
     },
     {
      "date": "2026-08-19",
@@ -8124,7 +8138,7 @@
      "n": 5,
      "mean": 0.0442,
      "smoothed": 0.0799,
-     "index": 0.117
+     "index": 0.116
     },
     {
      "date": "2026-08-22",
@@ -8145,7 +8159,7 @@
      "n": 220,
      "mean": 0.0532,
      "smoothed": 0.0595,
-     "index": -0.013
+     "index": -0.014
     },
     {
      "date": "2026-08-25",
@@ -8173,7 +8187,7 @@
      "n": 163,
      "mean": -0.0078,
      "smoothed": 0.0906,
-     "index": 0.185
+     "index": 0.184
     },
     {
      "date": "2026-08-29",
@@ -8194,7 +8208,7 @@
      "n": 123,
      "mean": 0.211,
      "smoothed": 0.0989,
-     "index": 0.238
+     "index": 0.237
     },
     {
      "date": "2026-09-01",
@@ -8257,7 +8271,7 @@
      "n": 107,
      "mean": 0.0758,
      "smoothed": 0.1328,
-     "index": 0.453
+     "index": 0.454
     },
     {
      "date": "2026-09-10",
@@ -8278,7 +8292,7 @@
      "n": 156,
      "mean": 0.139,
      "smoothed": 0.151,
-     "index": 0.569
+     "index": 0.57
     },
     {
      "date": "2026-09-13",
@@ -8348,7 +8362,7 @@
      "n": 128,
      "mean": -0.0697,
      "smoothed": 0.0837,
-     "index": 0.141
+     "index": 0.14
     },
     {
      "date": "2026-09-23",
@@ -8362,7 +8376,7 @@
      "n": 148,
      "mean": -0.0651,
      "smoothed": 0.0646,
-     "index": 0.019
+     "index": 0.018
     },
     {
      "date": "2026-09-25",
@@ -8390,21 +8404,21 @@
      "n": 131,
      "mean": 0.0401,
      "smoothed": 0.026,
-     "index": -0.227
+     "index": -0.228
     },
     {
      "date": "2026-09-29",
      "n": 118,
      "mean": 0.0629,
      "smoothed": 0.0309,
-     "index": -0.196
+     "index": -0.197
     },
     {
      "date": "2026-09-30",
      "n": 101,
      "mean": 0.1653,
      "smoothed": 0.0407,
-     "index": -0.133
+     "index": -0.134
     },
     {
      "date": "2026-10-01",
@@ -8418,7 +8432,7 @@
      "n": 178,
      "mean": 0.2536,
      "smoothed": 0.0669,
-     "index": 0.034
+     "index": 0.033
     },
     {
      "date": "2026-10-03",
@@ -8429,10 +8443,17 @@
     },
     {
      "date": "2026-10-04",
-     "n": 31,
-     "mean": 0.032,
-     "smoothed": 0.0767,
-     "index": 0.096
+     "n": 212,
+     "mean": 0.1084,
+     "smoothed": 0.0806,
+     "index": 0.121
+    },
+    {
+     "date": "2026-10-05",
+     "n": 87,
+     "mean": 0.232,
+     "smoothed": 0.0854,
+     "index": 0.151
     }
    ],
    "roberta": [
@@ -8441,133 +8462,133 @@
      "n": 3,
      "mean": -0.0653,
      "smoothed": -0.0653,
-     "index": -0.5
+     "index": -0.501
     },
     {
      "date": "2025-09-08",
      "n": 7,
      "mean": -0.1515,
      "smoothed": -0.1256,
-     "index": -1.032
+     "index": -1.034
     },
     {
      "date": "2025-09-09",
      "n": 0,
      "mean": null,
      "smoothed": -0.1256,
-     "index": -1.032
+     "index": -1.034
     },
     {
      "date": "2025-09-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.1256,
-     "index": -1.032
+     "index": -1.034
     },
     {
      "date": "2025-09-11",
      "n": 3,
      "mean": 0.2102,
      "smoothed": -0.0481,
-     "index": -0.348
+     "index": -0.349
     },
     {
      "date": "2025-09-12",
      "n": 0,
      "mean": null,
      "smoothed": -0.0481,
-     "index": -0.348
+     "index": -0.349
     },
     {
      "date": "2025-09-13",
      "n": 4,
      "mean": 0.1213,
      "smoothed": -0.0083,
-     "index": 0.004
+     "index": 0.003
     },
     {
      "date": "2025-09-14",
      "n": 0,
      "mean": null,
      "smoothed": -0.0083,
-     "index": 0.004
+     "index": 0.003
     },
     {
      "date": "2025-09-15",
      "n": 0,
      "mean": null,
      "smoothed": -0.0083,
-     "index": 0.004
+     "index": 0.003
     },
     {
      "date": "2025-09-16",
      "n": 0,
      "mean": null,
      "smoothed": -0.0083,
-     "index": 0.004
+     "index": 0.003
     },
     {
      "date": "2025-09-17",
      "n": 0,
      "mean": null,
      "smoothed": -0.0083,
-     "index": 0.004
+     "index": 0.003
     },
     {
      "date": "2025-09-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.0083,
-     "index": 0.004
+     "index": 0.003
     },
     {
      "date": "2025-09-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.0083,
-     "index": 0.004
+     "index": 0.003
     },
     {
      "date": "2025-09-20",
      "n": 0,
      "mean": null,
      "smoothed": -0.0083,
-     "index": 0.004
+     "index": 0.003
     },
     {
      "date": "2025-09-21",
      "n": 0,
      "mean": null,
      "smoothed": 0.004,
-     "index": 0.112
+     "index": 0.111
     },
     {
      "date": "2025-09-22",
      "n": 5,
      "mean": 0.2485,
      "smoothed": 0.1965,
-     "index": 1.811
+     "index": 1.814
     },
     {
      "date": "2025-09-23",
      "n": 0,
      "mean": null,
      "smoothed": 0.1965,
-     "index": 1.811
+     "index": 1.814
     },
     {
      "date": "2025-09-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.1965,
-     "index": 1.811
+     "index": 1.814
     },
     {
      "date": "2025-09-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.192,
-     "index": 1.771
+     "index": 1.773
     },
     {
      "date": "2025-09-26",
@@ -8609,98 +8630,98 @@
      "n": 3,
      "mean": 0.1364,
      "smoothed": 0.0577,
-     "index": 0.586
+     "index": 0.587
     },
     {
      "date": "2025-10-02",
      "n": 5,
      "mean": -0.1448,
      "smoothed": -0.0018,
-     "index": 0.061
+     "index": 0.06
     },
     {
      "date": "2025-10-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.0018,
-     "index": 0.061
+     "index": 0.06
     },
     {
      "date": "2025-10-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.0018,
-     "index": 0.061
+     "index": 0.06
     },
     {
      "date": "2025-10-05",
      "n": 0,
      "mean": null,
      "smoothed": -0.0018,
-     "index": 0.061
+     "index": 0.06
     },
     {
      "date": "2025-10-06",
      "n": 12,
      "mean": 0.3586,
      "smoothed": 0.1263,
-     "index": 1.191
+     "index": 1.192
     },
     {
      "date": "2025-10-07",
      "n": 8,
      "mean": 0.1221,
      "smoothed": 0.1252,
-     "index": 1.182
+     "index": 1.183
     },
     {
      "date": "2025-10-08",
      "n": 0,
      "mean": null,
      "smoothed": 0.1252,
-     "index": 1.182
+     "index": 1.183
     },
     {
      "date": "2025-10-09",
      "n": 5,
      "mean": 0.2709,
      "smoothed": 0.1449,
-     "index": 1.356
+     "index": 1.357
     },
     {
      "date": "2025-10-10",
      "n": 0,
      "mean": null,
      "smoothed": 0.1915,
-     "index": 1.767
+     "index": 1.769
     },
     {
      "date": "2025-10-11",
      "n": 4,
      "mean": -0.1841,
      "smoothed": 0.1509,
-     "index": 1.409
+     "index": 1.41
     },
     {
      "date": "2025-10-12",
      "n": 5,
      "mean": -0.0012,
      "smoothed": 0.1328,
-     "index": 1.249
+     "index": 1.25
     },
     {
      "date": "2025-10-13",
      "n": 3,
      "mean": -0.0117,
      "smoothed": 0.1232,
-     "index": 1.164
+     "index": 1.165
     },
     {
      "date": "2025-10-14",
      "n": 4,
      "mean": -0.3936,
      "smoothed": 0.081,
-     "index": 0.791
+     "index": 0.792
     },
     {
      "date": "2025-10-15",
@@ -8714,14 +8735,14 @@
      "n": 6,
      "mean": -0.2953,
      "smoothed": 0.043,
-     "index": 0.456
+     "index": 0.457
     },
     {
      "date": "2025-10-17",
      "n": 4,
      "mean": 0.3733,
      "smoothed": 0.0675,
-     "index": 0.672
+     "index": 0.673
     },
     {
      "date": "2025-10-18",
@@ -8735,7 +8756,7 @@
      "n": 3,
      "mean": 0.1273,
      "smoothed": 0.0555,
-     "index": 0.566
+     "index": 0.567
     },
     {
      "date": "2025-10-20",
@@ -8749,28 +8770,28 @@
      "n": 0,
      "mean": null,
      "smoothed": -0.0352,
-     "index": -0.234
+     "index": -0.235
     },
     {
      "date": "2025-10-22",
      "n": 0,
      "mean": null,
      "smoothed": -0.0352,
-     "index": -0.234
+     "index": -0.235
     },
     {
      "date": "2025-10-23",
      "n": 4,
      "mean": -0.337,
      "smoothed": -0.0961,
-     "index": -0.771
+     "index": -0.773
     },
     {
      "date": "2025-10-24",
      "n": 0,
      "mean": null,
      "smoothed": -0.0961,
-     "index": -0.771
+     "index": -0.773
     },
     {
      "date": "2025-10-25",
@@ -8784,112 +8805,112 @@
      "n": 0,
      "mean": null,
      "smoothed": -0.069,
-     "index": -0.533
+     "index": -0.534
     },
     {
      "date": "2025-10-27",
      "n": 0,
      "mean": null,
      "smoothed": -0.0738,
-     "index": -0.575
+     "index": -0.576
     },
     {
      "date": "2025-10-28",
      "n": 3,
      "mean": -0.5105,
      "smoothed": -0.0747,
-     "index": -0.583
+     "index": -0.584
     },
     {
      "date": "2025-10-29",
      "n": 10,
      "mean": -0.4633,
      "smoothed": -0.164,
-     "index": -1.371
+     "index": -1.373
     },
     {
      "date": "2025-10-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.1421,
-     "index": -1.177
+     "index": -1.179
     },
     {
      "date": "2025-10-31",
      "n": 4,
      "mean": 0.128,
      "smoothed": -0.1693,
-     "index": -1.418
+     "index": -1.42
     },
     {
      "date": "2025-11-01",
      "n": 4,
      "mean": -0.238,
      "smoothed": -0.2156,
-     "index": -1.826
+     "index": -1.829
     },
     {
      "date": "2025-11-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.2523,
-     "index": -2.151
+     "index": -2.153
     },
     {
      "date": "2025-11-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.2523,
-     "index": -2.151
+     "index": -2.153
     },
     {
      "date": "2025-11-04",
      "n": 3,
      "mean": 0.0184,
      "smoothed": -0.2261,
-     "index": -1.919
+     "index": -1.922
     },
     {
      "date": "2025-11-05",
      "n": 4,
      "mean": 0.4199,
      "smoothed": -0.1523,
-     "index": -1.268
+     "index": -1.27
     },
     {
      "date": "2025-11-06",
      "n": 3,
      "mean": 0.6559,
      "smoothed": -0.0592,
-     "index": -0.446
+     "index": -0.447
     },
     {
      "date": "2025-11-07",
      "n": 3,
      "mean": 0.2508,
      "smoothed": -0.0341,
-     "index": -0.224
+     "index": -0.225
     },
     {
      "date": "2025-11-08",
      "n": 5,
      "mean": 0.0169,
      "smoothed": -0.053,
-     "index": -0.391
+     "index": -0.392
     },
     {
      "date": "2025-11-09",
      "n": 0,
      "mean": null,
      "smoothed": -0.053,
-     "index": -0.391
+     "index": -0.392
     },
     {
      "date": "2025-11-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.053,
-     "index": -0.391
+     "index": -0.392
     },
     {
      "date": "2025-11-11",
@@ -8903,63 +8924,63 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.1269,
-     "index": 1.197
+     "index": 1.198
     },
     {
      "date": "2025-11-13",
      "n": 3,
      "mean": 0.0922,
      "smoothed": 0.1237,
-     "index": 1.168
+     "index": 1.17
     },
     {
      "date": "2025-11-14",
      "n": 0,
      "mean": null,
      "smoothed": 0.1231,
-     "index": 1.163
+     "index": 1.164
     },
     {
      "date": "2025-11-15",
      "n": 4,
      "mean": -0.0879,
      "smoothed": 0.1445,
-     "index": 1.352
+     "index": 1.354
     },
     {
      "date": "2025-11-16",
      "n": 0,
      "mean": null,
      "smoothed": 0.1445,
-     "index": 1.352
+     "index": 1.354
     },
     {
      "date": "2025-11-17",
      "n": 0,
      "mean": null,
      "smoothed": 0.1445,
-     "index": 1.352
+     "index": 1.354
     },
     {
      "date": "2025-11-18",
      "n": 0,
      "mean": null,
      "smoothed": 0.1597,
-     "index": 1.486
+     "index": 1.488
     },
     {
      "date": "2025-11-19",
      "n": 0,
      "mean": null,
      "smoothed": 0.1101,
-     "index": 1.049
+     "index": 1.05
     },
     {
      "date": "2025-11-20",
      "n": 4,
      "mean": 0.1699,
      "smoothed": 0.0465,
-     "index": 0.487
+     "index": 0.488
     },
     {
      "date": "2025-11-21",
@@ -8973,21 +8994,21 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.0134,
-     "index": 0.195
+     "index": 0.194
     },
     {
      "date": "2025-11-23",
      "n": 0,
      "mean": null,
      "smoothed": 0.0134,
-     "index": 0.195
+     "index": 0.194
     },
     {
      "date": "2025-11-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.0134,
-     "index": 0.195
+     "index": 0.194
     },
     {
      "date": "2025-11-25",
@@ -9008,14 +9029,14 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.003,
-     "index": 0.104
+     "index": 0.103
     },
     {
      "date": "2025-11-28",
      "n": 0,
      "mean": null,
      "smoothed": 0.003,
-     "index": 0.104
+     "index": 0.103
     },
     {
      "date": "2025-11-29",
@@ -9043,140 +9064,140 @@
      "n": 6,
      "mean": -0.1067,
      "smoothed": -0.018,
-     "index": -0.082
+     "index": -0.083
     },
     {
      "date": "2025-12-03",
      "n": 5,
      "mean": -0.2681,
      "smoothed": -0.0838,
-     "index": -0.663
+     "index": -0.664
     },
     {
      "date": "2025-12-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.1515,
-     "index": -1.26
+     "index": -1.262
     },
     {
      "date": "2025-12-05",
      "n": 0,
      "mean": null,
      "smoothed": -0.1515,
-     "index": -1.26
+     "index": -1.262
     },
     {
      "date": "2025-12-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.1515,
-     "index": -1.26
+     "index": -1.262
     },
     {
      "date": "2025-12-07",
      "n": 0,
      "mean": null,
      "smoothed": -0.1515,
-     "index": -1.26
+     "index": -1.262
     },
     {
      "date": "2025-12-08",
      "n": 4,
      "mean": -0.2567,
      "smoothed": -0.1736,
-     "index": -1.456
+     "index": -1.458
     },
     {
      "date": "2025-12-09",
      "n": 4,
      "mean": -0.218,
      "smoothed": -0.1813,
-     "index": -1.524
+     "index": -1.526
     },
     {
      "date": "2025-12-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.2042,
-     "index": -1.726
+     "index": -1.728
     },
     {
      "date": "2025-12-11",
      "n": 0,
      "mean": null,
      "smoothed": -0.2042,
-     "index": -1.726
+     "index": -1.728
     },
     {
      "date": "2025-12-12",
      "n": 0,
      "mean": null,
      "smoothed": -0.2042,
-     "index": -1.726
+     "index": -1.728
     },
     {
      "date": "2025-12-13",
      "n": 0,
      "mean": null,
      "smoothed": -0.2042,
-     "index": -1.726
+     "index": -1.728
     },
     {
      "date": "2025-12-14",
      "n": 4,
      "mean": -0.0018,
      "smoothed": -0.169,
-     "index": -1.415
+     "index": -1.417
     },
     {
      "date": "2025-12-15",
      "n": 6,
      "mean": 0.0978,
      "smoothed": -0.1138,
-     "index": -0.928
+     "index": -0.929
     },
     {
      "date": "2025-12-16",
      "n": 0,
      "mean": null,
      "smoothed": -0.1156,
-     "index": -0.944
+     "index": -0.946
     },
     {
      "date": "2025-12-17",
      "n": 0,
      "mean": null,
      "smoothed": -0.0733,
-     "index": -0.57
+     "index": -0.571
     },
     {
      "date": "2025-12-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.0733,
-     "index": -0.57
+     "index": -0.571
     },
     {
      "date": "2025-12-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.0733,
-     "index": -0.57
+     "index": -0.571
     },
     {
      "date": "2025-12-20",
      "n": 0,
      "mean": null,
      "smoothed": -0.0733,
-     "index": -0.57
+     "index": -0.571
     },
     {
      "date": "2025-12-21",
      "n": 0,
      "mean": null,
      "smoothed": -0.0733,
-     "index": -0.57
+     "index": -0.571
     },
     {
      "date": "2025-12-22",
@@ -9190,133 +9211,133 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.058,
-     "index": 0.588
+     "index": 0.589
     },
     {
      "date": "2025-12-24",
      "n": 0,
      "mean": null,
      "smoothed": 0.058,
-     "index": 0.588
+     "index": 0.589
     },
     {
      "date": "2025-12-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.058,
-     "index": 0.588
+     "index": 0.589
     },
     {
      "date": "2025-12-26",
      "n": 0,
      "mean": null,
      "smoothed": 0.058,
-     "index": 0.588
+     "index": 0.589
     },
     {
      "date": "2025-12-27",
      "n": 0,
      "mean": null,
      "smoothed": 0.058,
-     "index": 0.588
+     "index": 0.589
     },
     {
      "date": "2025-12-28",
      "n": 3,
      "mean": -0.3716,
      "smoothed": -0.0587,
-     "index": -0.441
+     "index": -0.442
     },
     {
      "date": "2025-12-29",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.204
+     "index": -3.208
     },
     {
      "date": "2025-12-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.204
+     "index": -3.208
     },
     {
      "date": "2025-12-31",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.204
+     "index": -3.208
     },
     {
      "date": "2026-01-01",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.204
+     "index": -3.208
     },
     {
      "date": "2026-01-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.204
+     "index": -3.208
     },
     {
      "date": "2026-01-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.204
+     "index": -3.208
     },
     {
      "date": "2026-01-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.3716,
-     "index": -3.204
+     "index": -3.208
     },
     {
      "date": "2026-01-05",
      "n": 3,
      "mean": 0.0665,
      "smoothed": -0.1526,
-     "index": -1.27
+     "index": -1.272
     },
     {
      "date": "2026-01-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.1526,
-     "index": -1.27
+     "index": -1.272
     },
     {
      "date": "2026-01-07",
      "n": 0,
      "mean": null,
      "smoothed": -0.1526,
-     "index": -1.27
+     "index": -1.272
     },
     {
      "date": "2026-01-08",
      "n": 3,
      "mean": -0.0608,
      "smoothed": -0.122,
-     "index": -1.0
+     "index": -1.002
     },
     {
      "date": "2026-01-09",
      "n": 3,
      "mean": -0.2004,
      "smoothed": -0.1416,
-     "index": -1.173
+     "index": -1.175
     },
     {
      "date": "2026-01-10",
      "n": 3,
      "mean": 0.0466,
      "smoothed": -0.1039,
-     "index": -0.841
+     "index": -0.842
     },
     {
      "date": "2026-01-11",
@@ -9337,175 +9358,175 @@
      "n": 9,
      "mean": 0.4079,
      "smoothed": 0.1408,
-     "index": 1.319
+     "index": 1.321
     },
     {
      "date": "2026-01-14",
      "n": 7,
      "mean": 0.3976,
      "smoothed": 0.1953,
-     "index": 1.8
+     "index": 1.802
     },
     {
      "date": "2026-01-15",
      "n": 0,
      "mean": null,
      "smoothed": 0.1953,
-     "index": 1.8
+     "index": 1.802
     },
     {
      "date": "2026-01-16",
      "n": 5,
      "mean": 0.0324,
      "smoothed": 0.1738,
-     "index": 1.611
+     "index": 1.613
     },
     {
      "date": "2026-01-17",
      "n": 0,
      "mean": null,
      "smoothed": 0.1738,
-     "index": 1.611
+     "index": 1.613
     },
     {
      "date": "2026-01-18",
      "n": 0,
      "mean": null,
      "smoothed": 0.1738,
-     "index": 1.611
+     "index": 1.613
     },
     {
      "date": "2026-01-19",
      "n": 0,
      "mean": null,
      "smoothed": 0.183,
-     "index": 1.692
+     "index": 1.694
     },
     {
      "date": "2026-01-20",
      "n": 4,
      "mean": 0.1886,
      "smoothed": 0.1836,
-     "index": 1.697
+     "index": 1.699
     },
     {
      "date": "2026-01-21",
      "n": 0,
      "mean": null,
      "smoothed": 0.1836,
-     "index": 1.697
+     "index": 1.699
     },
     {
      "date": "2026-01-22",
      "n": 0,
      "mean": null,
      "smoothed": 0.204,
-     "index": 1.877
+     "index": 1.879
     },
     {
      "date": "2026-01-23",
      "n": 3,
      "mean": 0.5524,
      "smoothed": 0.2667,
-     "index": 2.431
+     "index": 2.434
     },
     {
      "date": "2026-01-24",
      "n": 3,
      "mean": 0.0389,
      "smoothed": 0.2661,
-     "index": 2.425
+     "index": 2.428
     },
     {
      "date": "2026-01-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.295,
-     "index": 2.681
+     "index": 2.684
     },
     {
      "date": "2026-01-26",
      "n": 0,
      "mean": null,
      "smoothed": 0.295,
-     "index": 2.681
+     "index": 2.684
     },
     {
      "date": "2026-01-27",
      "n": 0,
      "mean": null,
      "smoothed": 0.2488,
-     "index": 2.273
+     "index": 2.275
     },
     {
      "date": "2026-01-28",
      "n": 0,
      "mean": null,
      "smoothed": 0.1793,
-     "index": 1.66
+     "index": 1.662
     },
     {
      "date": "2026-01-29",
      "n": 0,
      "mean": null,
      "smoothed": 0.1793,
-     "index": 1.66
+     "index": 1.662
     },
     {
      "date": "2026-01-30",
      "n": 0,
      "mean": null,
      "smoothed": 0.2528,
-     "index": 2.308
+     "index": 2.311
     },
     {
      "date": "2026-01-31",
      "n": 0,
      "mean": null,
      "smoothed": 0.2528,
-     "index": 2.308
+     "index": 2.311
     },
     {
      "date": "2026-02-01",
      "n": 0,
      "mean": null,
      "smoothed": 0.2528,
-     "index": 2.308
+     "index": 2.311
     },
     {
      "date": "2026-02-02",
      "n": 0,
      "mean": null,
      "smoothed": 0.2528,
-     "index": 2.308
+     "index": 2.311
     },
     {
      "date": "2026-02-03",
      "n": 0,
      "mean": null,
      "smoothed": 0.2957,
-     "index": 2.686
+     "index": 2.69
     },
     {
      "date": "2026-02-04",
      "n": 0,
      "mean": null,
      "smoothed": 0.2957,
-     "index": 2.686
+     "index": 2.69
     },
     {
      "date": "2026-02-05",
      "n": 3,
      "mean": 0.0809,
      "smoothed": 0.2241,
-     "index": 2.054
+     "index": 2.057
     },
     {
      "date": "2026-02-06",
      "n": 6,
      "mean": -0.138,
      "smoothed": -0.039,
-     "index": -0.268
+     "index": -0.269
     },
     {
      "date": "2026-02-07",
@@ -9533,28 +9554,28 @@
      "n": 7,
      "mean": 0.1723,
      "smoothed": 0.0937,
-     "index": 0.903
+     "index": 0.904
     },
     {
      "date": "2026-02-11",
      "n": 3,
      "mean": 0.0525,
      "smoothed": 0.088,
-     "index": 0.854
+     "index": 0.855
     },
     {
      "date": "2026-02-12",
      "n": 3,
      "mean": -0.139,
      "smoothed": 0.0608,
-     "index": 0.613
+     "index": 0.614
     },
     {
      "date": "2026-02-13",
      "n": 0,
      "mean": null,
      "smoothed": 0.0608,
-     "index": 0.613
+     "index": 0.614
     },
     {
      "date": "2026-02-14",
@@ -9596,14 +9617,14 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.054,
-     "index": 0.553
+     "index": 0.554
     },
     {
      "date": "2026-02-20",
      "n": 3,
      "mean": 0.2905,
      "smoothed": 0.1182,
-     "index": 1.12
+     "index": 1.121
     },
     {
      "date": "2026-02-21",
@@ -9645,7 +9666,7 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.1017,
-     "index": 0.974
+     "index": 0.975
     },
     {
      "date": "2026-02-27",
@@ -9659,42 +9680,42 @@
      "n": 0,
      "mean": null,
      "smoothed": 0.1019,
-     "index": 0.976
+     "index": 0.977
     },
     {
      "date": "2026-03-01",
      "n": 0,
      "mean": null,
      "smoothed": 0.1019,
-     "index": 0.976
+     "index": 0.977
     },
     {
      "date": "2026-03-02",
      "n": 0,
      "mean": null,
      "smoothed": 0.1084,
-     "index": 1.033
+     "index": 1.034
     },
     {
      "date": "2026-03-03",
      "n": 4,
      "mean": 0.2093,
      "smoothed": 0.1487,
-     "index": 1.39
+     "index": 1.391
     },
     {
      "date": "2026-03-04",
      "n": 3,
      "mean": 0.0044,
      "smoothed": 0.1154,
-     "index": 1.095
+     "index": 1.097
     },
     {
      "date": "2026-03-05",
      "n": 0,
      "mean": null,
      "smoothed": 0.1154,
-     "index": 1.095
+     "index": 1.097
     },
     {
      "date": "2026-03-06",
@@ -9708,42 +9729,42 @@
      "n": 7,
      "mean": 0.047,
      "smoothed": 0.0564,
-     "index": 0.574
+     "index": 0.575
     },
     {
      "date": "2026-03-08",
      "n": 7,
      "mean": 0.2896,
      "smoothed": 0.1244,
-     "index": 1.175
+     "index": 1.176
     },
     {
      "date": "2026-03-09",
      "n": 3,
      "mean": -0.0303,
      "smoothed": 0.1072,
-     "index": 1.023
+     "index": 1.024
     },
     {
      "date": "2026-03-10",
      "n": 0,
      "mean": null,
      "smoothed": 0.1072,
-     "index": 1.023
+     "index": 1.024
     },
     {
      "date": "2026-03-11",
      "n": 3,
      "mean": 0.0437,
      "smoothed": 0.1009,
-     "index": 0.967
+     "index": 0.968
     },
     {
      "date": "2026-03-12",
      "n": 0,
      "mean": null,
      "smoothed": 0.1009,
-     "index": 0.967
+     "index": 0.968
     },
     {
      "date": "2026-03-13",
@@ -9764,14 +9785,14 @@
      "n": 5,
      "mean": -0.0542,
      "smoothed": 0.0536,
-     "index": 0.549
+     "index": 0.55
     },
     {
      "date": "2026-03-16",
      "n": 0,
      "mean": null,
      "smoothed": 0.0536,
-     "index": 0.549
+     "index": 0.55
     },
     {
      "date": "2026-03-17",
@@ -9848,7 +9869,7 @@
      "n": 5,
      "mean": -0.2739,
      "smoothed": -0.0292,
-     "index": -0.181
+     "index": -0.182
     },
     {
      "date": "2026-03-28",
@@ -9862,7 +9883,7 @@
      "n": 3,
      "mean": 0.0334,
      "smoothed": -0.0128,
-     "index": -0.036
+     "index": -0.037
     },
     {
      "date": "2026-03-30",
@@ -9876,14 +9897,14 @@
      "n": 3,
      "mean": 0.2898,
      "smoothed": 0.001,
-     "index": 0.086
+     "index": 0.085
     },
     {
      "date": "2026-04-01",
      "n": 4,
      "mean": 0.0295,
      "smoothed": 0.0037,
-     "index": 0.11
+     "index": 0.109
     },
     {
      "date": "2026-04-02",
@@ -9897,21 +9918,21 @@
      "n": 4,
      "mean": 0.5483,
      "smoothed": 0.0476,
-     "index": 0.497
+     "index": 0.498
     },
     {
      "date": "2026-04-04",
      "n": 0,
      "mean": null,
      "smoothed": 0.0476,
-     "index": 0.497
+     "index": 0.498
     },
     {
      "date": "2026-04-05",
      "n": 0,
      "mean": null,
      "smoothed": 0.0476,
-     "index": 0.497
+     "index": 0.498
     },
     {
      "date": "2026-04-06",
@@ -9953,14 +9974,14 @@
      "n": 3,
      "mean": 0.4656,
      "smoothed": 0.0575,
-     "index": 0.584
+     "index": 0.585
     },
     {
      "date": "2026-04-12",
      "n": 3,
      "mean": 0.2329,
      "smoothed": 0.0686,
-     "index": 0.682
+     "index": 0.683
     },
     {
      "date": "2026-04-13",
@@ -9981,84 +10002,84 @@
      "n": 7,
      "mean": -0.074,
      "smoothed": -0.0074,
-     "index": 0.012
+     "index": 0.011
     },
     {
      "date": "2026-04-16",
      "n": 0,
      "mean": null,
      "smoothed": -0.0074,
-     "index": 0.012
+     "index": 0.011
     },
     {
      "date": "2026-04-17",
      "n": 0,
      "mean": null,
      "smoothed": -0.0478,
-     "index": -0.345
+     "index": -0.346
     },
     {
      "date": "2026-04-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.0478,
-     "index": -0.345
+     "index": -0.346
     },
     {
      "date": "2026-04-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.0478,
-     "index": -0.345
+     "index": -0.346
     },
     {
      "date": "2026-04-20",
      "n": 0,
      "mean": null,
      "smoothed": -0.0482,
-     "index": -0.348
+     "index": -0.349
     },
     {
      "date": "2026-04-21",
      "n": 0,
      "mean": null,
      "smoothed": -0.0627,
-     "index": -0.477
+     "index": -0.478
     },
     {
      "date": "2026-04-22",
      "n": 0,
      "mean": null,
      "smoothed": -0.0347,
-     "index": -0.23
+     "index": -0.231
     },
     {
      "date": "2026-04-23",
      "n": 0,
      "mean": null,
      "smoothed": -0.0093,
-     "index": -0.005
+     "index": -0.006
     },
     {
      "date": "2026-04-24",
      "n": 0,
      "mean": null,
      "smoothed": -0.0093,
-     "index": -0.005
+     "index": -0.006
     },
     {
      "date": "2026-04-25",
      "n": 6,
      "mean": 0.0636,
      "smoothed": -0.0459,
-     "index": -0.328
+     "index": -0.329
     },
     {
      "date": "2026-04-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.0807,
-     "index": -0.636
+     "index": -0.637
     },
     {
      "date": "2026-04-27",
@@ -10072,98 +10093,98 @@
      "n": 4,
      "mean": -0.3523,
      "smoothed": -0.0909,
-     "index": -0.726
+     "index": -0.727
     },
     {
      "date": "2026-04-29",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.83
+     "index": -0.832
     },
     {
      "date": "2026-04-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.83
+     "index": -0.832
     },
     {
      "date": "2026-05-01",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.83
+     "index": -0.832
     },
     {
      "date": "2026-05-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.83
+     "index": -0.832
     },
     {
      "date": "2026-05-03",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.83
+     "index": -0.832
     },
     {
      "date": "2026-05-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.83
+     "index": -0.832
     },
     {
      "date": "2026-05-05",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.83
+     "index": -0.832
     },
     {
      "date": "2026-05-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.1027,
-     "index": -0.83
+     "index": -0.832
     },
     {
      "date": "2026-05-07",
      "n": 3,
      "mean": -0.0198,
      "smoothed": -0.0836,
-     "index": -0.661
+     "index": -0.662
     },
     {
      "date": "2026-05-08",
      "n": 4,
      "mean": -0.4093,
      "smoothed": -0.1602,
-     "index": -1.338
+     "index": -1.34
     },
     {
      "date": "2026-05-09",
      "n": 4,
      "mean": 0.2358,
      "smoothed": -0.1442,
-     "index": -1.196
+     "index": -1.198
     },
     {
      "date": "2026-05-10",
      "n": 3,
      "mean": 0.2739,
      "smoothed": -0.0745,
-     "index": -0.581
+     "index": -0.582
     },
     {
      "date": "2026-05-11",
      "n": 8,
      "mean": 0.0631,
      "smoothed": -0.0322,
-     "index": -0.207
+     "index": -0.208
     },
     {
      "date": "2026-05-12",
@@ -10219,56 +10240,56 @@
      "n": 7,
      "mean": 0.0696,
      "smoothed": 0.0508,
-     "index": 0.525
+     "index": 0.526
     },
     {
      "date": "2026-05-20",
      "n": 0,
      "mean": null,
      "smoothed": 0.0508,
-     "index": 0.525
+     "index": 0.526
     },
     {
      "date": "2026-05-21",
      "n": 9,
      "mean": 0.0162,
      "smoothed": 0.049,
-     "index": 0.509
+     "index": 0.51
     },
     {
      "date": "2026-05-22",
      "n": 4,
      "mean": 0.4763,
      "smoothed": 0.1134,
-     "index": 1.078
+     "index": 1.079
     },
     {
      "date": "2026-05-23",
      "n": 0,
      "mean": null,
      "smoothed": 0.1038,
-     "index": 0.993
+     "index": 0.994
     },
     {
      "date": "2026-05-24",
      "n": 4,
      "mean": 0.0632,
      "smoothed": 0.0909,
-     "index": 0.879
+     "index": 0.88
     },
     {
      "date": "2026-05-25",
      "n": 0,
      "mean": null,
      "smoothed": 0.0959,
-     "index": 0.923
+     "index": 0.924
     },
     {
      "date": "2026-05-26",
      "n": 6,
      "mean": 0.0473,
      "smoothed": 0.096,
-     "index": 0.924
+     "index": 0.925
     },
     {
      "date": "2026-05-27",
@@ -10345,385 +10366,385 @@
      "n": 3,
      "mean": 0.0531,
      "smoothed": -0.0526,
-     "index": -0.387
+     "index": -0.388
     },
     {
      "date": "2026-06-07",
      "n": 0,
      "mean": null,
      "smoothed": -0.0602,
-     "index": -0.454
+     "index": -0.455
     },
     {
      "date": "2026-06-08",
      "n": 3,
      "mean": -0.0008,
      "smoothed": -0.0574,
-     "index": -0.43
+     "index": -0.431
     },
     {
      "date": "2026-06-09",
      "n": 7,
      "mean": -0.2348,
      "smoothed": -0.0861,
-     "index": -0.684
+     "index": -0.685
     },
     {
      "date": "2026-06-10",
      "n": 0,
      "mean": null,
      "smoothed": -0.0838,
-     "index": -0.663
+     "index": -0.664
     },
     {
      "date": "2026-06-11",
      "n": 0,
      "mean": null,
      "smoothed": -0.0909,
-     "index": -0.726
+     "index": -0.727
     },
     {
      "date": "2026-06-12",
      "n": 0,
      "mean": null,
      "smoothed": -0.0894,
-     "index": -0.713
+     "index": -0.714
     },
     {
      "date": "2026-06-13",
      "n": 10,
      "mean": -0.1605,
      "smoothed": -0.1056,
-     "index": -0.855
+     "index": -0.856
     },
     {
      "date": "2026-06-14",
      "n": 9,
      "mean": -0.2704,
      "smoothed": -0.1399,
-     "index": -1.158
+     "index": -1.16
     },
     {
      "date": "2026-06-15",
      "n": 0,
      "mean": null,
      "smoothed": -0.1381,
-     "index": -1.142
+     "index": -1.144
     },
     {
      "date": "2026-06-16",
      "n": 10,
      "mean": -0.1378,
      "smoothed": -0.138,
-     "index": -1.142
+     "index": -1.143
     },
     {
      "date": "2026-06-17",
      "n": 0,
      "mean": null,
      "smoothed": -0.1653,
-     "index": -1.383
+     "index": -1.385
     },
     {
      "date": "2026-06-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.1653,
-     "index": -1.383
+     "index": -1.385
     },
     {
      "date": "2026-06-19",
      "n": 5,
      "mean": -0.2268,
      "smoothed": -0.171,
-     "index": -1.433
+     "index": -1.435
     },
     {
      "date": "2026-06-20",
      "n": 20,
      "mean": -0.1068,
      "smoothed": -0.1614,
-     "index": -1.348
+     "index": -1.35
     },
     {
      "date": "2026-06-21",
      "n": 0,
      "mean": null,
      "smoothed": -0.1614,
-     "index": -1.348
+     "index": -1.35
     },
     {
      "date": "2026-06-22",
      "n": 6,
      "mean": -0.2053,
      "smoothed": -0.1726,
-     "index": -1.447
+     "index": -1.449
     },
     {
      "date": "2026-06-23",
      "n": 7,
      "mean": -0.187,
      "smoothed": -0.1676,
-     "index": -1.403
+     "index": -1.405
     },
     {
      "date": "2026-06-24",
      "n": 0,
      "mean": null,
      "smoothed": -0.1676,
-     "index": -1.403
+     "index": -1.405
     },
     {
      "date": "2026-06-25",
      "n": 0,
      "mean": null,
      "smoothed": -0.1676,
-     "index": -1.403
+     "index": -1.405
     },
     {
      "date": "2026-06-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.1676,
-     "index": -1.403
+     "index": -1.405
     },
     {
      "date": "2026-06-27",
      "n": 5,
      "mean": 0.1411,
      "smoothed": -0.1438,
-     "index": -1.193
+     "index": -1.195
     },
     {
      "date": "2026-06-28",
      "n": 0,
      "mean": null,
      "smoothed": -0.1223,
-     "index": -1.003
+     "index": -1.005
     },
     {
      "date": "2026-06-29",
      "n": 3,
      "mean": -0.2909,
      "smoothed": -0.1314,
-     "index": -1.083
+     "index": -1.085
     },
     {
      "date": "2026-06-30",
      "n": 0,
      "mean": null,
      "smoothed": -0.1299,
-     "index": -1.07
+     "index": -1.072
     },
     {
      "date": "2026-07-01",
      "n": 4,
      "mean": -0.1028,
      "smoothed": -0.1278,
-     "index": -1.051
+     "index": -1.053
     },
     {
      "date": "2026-07-02",
      "n": 5,
      "mean": -0.1162,
      "smoothed": -0.1267,
-     "index": -1.042
+     "index": -1.044
     },
     {
      "date": "2026-07-03",
      "n": 3,
      "mean": -0.593,
      "smoothed": -0.1437,
-     "index": -1.192
+     "index": -1.193
     },
     {
      "date": "2026-07-04",
      "n": 0,
      "mean": null,
      "smoothed": -0.166,
-     "index": -1.389
+     "index": -1.391
     },
     {
      "date": "2026-07-05",
      "n": 6,
      "mean": 0.1258,
      "smoothed": -0.1211,
-     "index": -0.993
+     "index": -0.994
     },
     {
      "date": "2026-07-06",
      "n": 0,
      "mean": null,
      "smoothed": -0.1058,
-     "index": -0.857
+     "index": -0.859
     },
     {
      "date": "2026-07-07",
      "n": 0,
      "mean": null,
      "smoothed": -0.084,
-     "index": -0.665
+     "index": -0.666
     },
     {
      "date": "2026-07-08",
      "n": 3,
      "mean": 0.0145,
      "smoothed": -0.0738,
-     "index": -0.575
+     "index": -0.576
     },
     {
      "date": "2026-07-09",
      "n": 7,
      "mean": 0.0499,
      "smoothed": -0.0497,
-     "index": -0.362
+     "index": -0.363
     },
     {
      "date": "2026-07-10",
      "n": 3,
      "mean": 0.0066,
      "smoothed": -0.0454,
-     "index": -0.324
+     "index": -0.325
     },
     {
      "date": "2026-07-11",
      "n": 13,
      "mean": -0.1051,
      "smoothed": -0.0818,
-     "index": -0.645
+     "index": -0.646
     },
     {
      "date": "2026-07-12",
      "n": 6,
      "mean": -0.1011,
      "smoothed": -0.0839,
-     "index": -0.664
+     "index": -0.665
     },
     {
      "date": "2026-07-13",
      "n": 8,
      "mean": -0.127,
      "smoothed": -0.0792,
-     "index": -0.622
+     "index": -0.623
     },
     {
      "date": "2026-07-14",
      "n": 6,
      "mean": -0.0097,
      "smoothed": -0.0727,
-     "index": -0.565
+     "index": -0.566
     },
     {
      "date": "2026-07-15",
      "n": 0,
      "mean": null,
      "smoothed": -0.0707,
-     "index": -0.547
+     "index": -0.548
     },
     {
      "date": "2026-07-16",
      "n": 6,
      "mean": -0.1547,
      "smoothed": -0.0752,
-     "index": -0.587
+     "index": -0.588
     },
     {
      "date": "2026-07-17",
      "n": 5,
      "mean": -0.1478,
      "smoothed": -0.0563,
-     "index": -0.42
+     "index": -0.421
     },
     {
      "date": "2026-07-18",
      "n": 0,
      "mean": null,
      "smoothed": -0.0563,
-     "index": -0.42
+     "index": -0.421
     },
     {
      "date": "2026-07-19",
      "n": 0,
      "mean": null,
      "smoothed": -0.0755,
-     "index": -0.59
+     "index": -0.591
     },
     {
      "date": "2026-07-20",
      "n": 5,
      "mean": 0.0101,
      "smoothed": -0.0686,
-     "index": -0.529
+     "index": -0.53
     },
     {
      "date": "2026-07-21",
      "n": 3,
      "mean": 0.2537,
      "smoothed": -0.0537,
-     "index": -0.397
+     "index": -0.398
     },
     {
      "date": "2026-07-22",
      "n": 7,
      "mean": -0.156,
      "smoothed": -0.067,
-     "index": -0.515
+     "index": -0.516
     },
     {
      "date": "2026-07-23",
      "n": 5,
      "mean": -0.2744,
      "smoothed": -0.0947,
-     "index": -0.76
+     "index": -0.761
     },
     {
      "date": "2026-07-24",
      "n": 6,
      "mean": -0.2632,
      "smoothed": -0.1135,
-     "index": -0.925
+     "index": -0.927
     },
     {
      "date": "2026-07-25",
      "n": 10,
      "mean": -0.0228,
      "smoothed": -0.1016,
-     "index": -0.82
+     "index": -0.822
     },
     {
      "date": "2026-07-26",
      "n": 0,
      "mean": null,
      "smoothed": -0.1017,
-     "index": -0.821
+     "index": -0.822
     },
     {
      "date": "2026-07-27",
      "n": 0,
      "mean": null,
      "smoothed": -0.0978,
-     "index": -0.787
+     "index": -0.788
     },
     {
      "date": "2026-07-28",
      "n": 3,
      "mean": -0.1527,
      "smoothed": -0.1117,
-     "index": -0.909
+     "index": -0.911
     },
     {
      "date": "2026-07-29",
      "n": 19,
      "mean": -0.0758,
      "smoothed": -0.1018,
-     "index": -0.822
+     "index": -0.824
     },
     {
      "date": "2026-07-30",
      "n": 3,
      "mean": 0.271,
      "smoothed": -0.0801,
-     "index": -0.63
+     "index": -0.631
     },
     {
      "date": "2026-07-31",
@@ -10737,49 +10758,49 @@
      "n": 3,
      "mean": -0.1729,
      "smoothed": -0.0736,
-     "index": -0.573
+     "index": -0.574
     },
     {
      "date": "2026-08-02",
      "n": 0,
      "mean": null,
      "smoothed": -0.0736,
-     "index": -0.573
+     "index": -0.574
     },
     {
      "date": "2026-08-03",
      "n": 6,
      "mean": -0.0241,
      "smoothed": -0.0752,
-     "index": -0.587
+     "index": -0.588
     },
     {
      "date": "2026-08-04",
      "n": 16,
      "mean": -0.1654,
      "smoothed": -0.1025,
-     "index": -0.828
+     "index": -0.83
     },
     {
      "date": "2026-08-05",
      "n": 10,
      "mean": -0.1363,
      "smoothed": -0.1021,
-     "index": -0.825
+     "index": -0.826
     },
     {
      "date": "2026-08-06",
      "n": 5,
      "mean": 0.318,
      "smoothed": -0.0699,
-     "index": -0.54
+     "index": -0.541
     },
     {
      "date": "2026-08-07",
      "n": 9,
      "mean": 0.0321,
      "smoothed": -0.048,
-     "index": -0.347
+     "index": -0.348
     },
     {
      "date": "2026-08-08",
@@ -10793,14 +10814,14 @@
      "n": 12,
      "mean": -0.0661,
      "smoothed": -0.0478,
-     "index": -0.345
+     "index": -0.346
     },
     {
      "date": "2026-08-10",
      "n": 6,
      "mean": 0.1445,
      "smoothed": -0.0378,
-     "index": -0.257
+     "index": -0.258
     },
     {
      "date": "2026-08-11",
@@ -10814,14 +10835,14 @@
      "n": 11,
      "mean": 0.0777,
      "smoothed": -0.0071,
-     "index": 0.014
+     "index": 0.013
     },
     {
      "date": "2026-08-13",
      "n": 10,
      "mean": -0.1146,
      "smoothed": -0.0228,
-     "index": -0.124
+     "index": -0.125
     },
     {
      "date": "2026-08-14",
@@ -10842,14 +10863,14 @@
      "n": 4,
      "mean": -0.3122,
      "smoothed": -0.0203,
-     "index": -0.102
+     "index": -0.103
     },
     {
      "date": "2026-08-17",
      "n": 14,
      "mean": 0.2097,
      "smoothed": 0.0024,
-     "index": 0.098
+     "index": 0.097
     },
     {
      "date": "2026-08-18",
@@ -10926,7 +10947,7 @@
      "n": 163,
      "mean": -0.0319,
      "smoothed": -0.0251,
-     "index": -0.145
+     "index": -0.146
     },
     {
      "date": "2026-08-29",
@@ -10940,7 +10961,7 @@
      "n": 105,
      "mean": 0.0536,
      "smoothed": -0.0208,
-     "index": -0.107
+     "index": -0.108
     },
     {
      "date": "2026-08-31",
@@ -10961,7 +10982,7 @@
      "n": 78,
      "mean": 0.0082,
      "smoothed": -0.0117,
-     "index": -0.026
+     "index": -0.027
     },
     {
      "date": "2026-09-03",
@@ -11038,7 +11059,7 @@
      "n": 158,
      "mean": 0.0389,
      "smoothed": 0.0346,
-     "index": 0.382
+     "index": 0.383
     },
     {
      "date": "2026-09-14",
@@ -11122,7 +11143,7 @@
      "n": 146,
      "mean": 0.0246,
      "smoothed": -0.0035,
-     "index": 0.046
+     "index": 0.045
     },
     {
      "date": "2026-09-26",
@@ -11143,7 +11164,7 @@
      "n": 131,
      "mean": -0.0474,
      "smoothed": -0.0213,
-     "index": -0.111
+     "index": -0.112
     },
     {
      "date": "2026-09-29",
@@ -11157,7 +11178,7 @@
      "n": 101,
      "mean": 0.0872,
      "smoothed": -0.0087,
-     "index": -0.0
+     "index": -0.001
     },
     {
      "date": "2026-10-01",
@@ -11171,7 +11192,7 @@
      "n": 178,
      "mean": 0.1457,
      "smoothed": 0.0045,
-     "index": 0.117
+     "index": 0.116
     },
     {
      "date": "2026-10-03",
@@ -11182,10 +11203,17 @@
     },
     {
      "date": "2026-10-04",
-     "n": 31,
-     "mean": 0.0136,
-     "smoothed": 0.0106,
-     "index": 0.17
+     "n": 212,
+     "mean": -0.0383,
+     "smoothed": 0.0055,
+     "index": 0.125
+    },
+    {
+     "date": "2026-10-05",
+     "n": 87,
+     "mean": 0.0872,
+     "smoothed": 0.0087,
+     "index": 0.154
     }
    ]
   }
@@ -11194,12 +11222,12 @@
   {
    "key": "general",
    "label": "General (no topic matched)",
-   "n": 4436,
-   "share": 0.5268,
-   "mean_vader": 0.1212,
-   "mean_roberta": 0.0438,
-   "pct_positive": 0.401,
-   "pct_negative": 0.2784,
+   "n": 4606,
+   "share": 0.5249,
+   "mean_vader": 0.1262,
+   "mean_roberta": 0.0445,
+   "pct_positive": 0.404,
+   "pct_negative": 0.2772,
    "weekly": [
     {
      "week": "2019-03-17",
@@ -11493,8 +11521,8 @@
     },
     {
      "week": "2026-10-04",
-     "n": 20,
-     "mean": -0.0147
+     "n": 190,
+     "mean": 0.055
     }
    ],
    "examples": {
@@ -11530,18 +11558,18 @@
       "date": "2026-09-08"
      },
      {
+      "text": "this is my hometown Jacksonville, Florida being unable to sustain a Hooters is truly a harbinger of how fucked things are",
+      "score": -0.951,
+      "source": "bluesky",
+      "url": "https://bsky.app/profile/did:plc:aicigvm6dly54jt4yqkwi4bw/post/3mx3qclao422f",
+      "date": "2026-10-04"
+     },
+     {
       "text": "Damn, just a piss poor second half of football in all 3 phases for Jacksonville.",
       "score": -0.949,
       "source": "bluesky",
       "url": "https://bsky.app/profile/did:plc:tfotda5fkqfqowlcmpsmbjfh/post/3mvybivfuyc2l",
       "date": "2026-09-20"
-     },
-     {
-      "text": "All because some wanted this petty, hateful, thieving, greedy, traitor brat in charge. Thank you Jacksonville.",
-      "score": -0.948,
-      "source": "bluesky",
-      "url": "https://bsky.app/profile/did:plc:zjrcktop77yvx2w74gbzze2b/post/3muzjq5bbpc2h",
-      "date": "2026-09-08"
      }
     ]
    }
@@ -11549,12 +11577,12 @@
   {
    "key": "jaguars_sports",
    "label": "Jaguars and sports",
-   "n": 1267,
-   "share": 0.1505,
-   "mean_vader": 0.0823,
-   "mean_roberta": 0.0701,
-   "pct_positive": 0.487,
-   "pct_negative": 0.2384,
+   "n": 1354,
+   "share": 0.1543,
+   "mean_vader": 0.082,
+   "mean_roberta": 0.0734,
+   "pct_positive": 0.4882,
+   "pct_negative": 0.2363,
    "weekly": [
     {
      "week": "2025-08-31",
@@ -11688,8 +11716,8 @@
     },
     {
      "week": "2026-10-04",
-     "n": 15,
-     "mean": 0.0987
+     "n": 102,
+     "mean": 0.1184
     }
    ],
    "examples": {
@@ -11744,12 +11772,12 @@
   {
    "key": "river_beaches_environment",
    "label": "River, beaches, environment",
-   "n": 923,
-   "share": 0.1096,
-   "mean_vader": 0.0527,
-   "mean_roberta": -0.1222,
-   "pct_positive": 0.0791,
-   "pct_negative": 0.481,
+   "n": 1000,
+   "share": 0.114,
+   "mean_vader": 0.0414,
+   "mean_roberta": -0.1253,
+   "pct_positive": 0.074,
+   "pct_negative": 0.482,
    "weekly": [
     {
      "week": "2025-08-31",
@@ -11958,8 +11986,8 @@
     },
     {
      "week": "2026-10-04",
-     "n": 4,
-     "mean": -0.1461
+     "n": 81,
+     "mean": -0.1619
     }
    ],
    "examples": {
@@ -12014,12 +12042,12 @@
   {
    "key": "weather_storms",
    "label": "Weather and storms",
-   "n": 676,
-   "share": 0.0803,
-   "mean_vader": 0.2263,
-   "mean_roberta": -0.0377,
-   "pct_positive": 0.0178,
-   "pct_negative": 0.2382,
+   "n": 686,
+   "share": 0.0782,
+   "mean_vader": 0.2276,
+   "mean_roberta": -0.0385,
+   "pct_positive": 0.019,
+   "pct_negative": 0.2405,
    "weekly": [
     {
      "week": "2025-10-05",
@@ -12193,12 +12221,19 @@
     },
     {
      "week": "2026-10-04",
-     "n": 4,
-     "mean": -0.154
+     "n": 14,
+     "mean": -0.1116
     }
    ],
    "examples": {
     "positive": [
+     {
+      "text": "☁️ Good Morning ☁️ Happy Victory Monday Duval! Our weather is anything but a win as we wake up this morning to clouds, drizzle and more rain on the way. Don’t forget your umbrella on your way out. Also, don’t forget to have a great day today and a wonderful week ahead - Make it h...",
+      "score": 0.97,
+      "source": "bluesky",
+      "url": "https://bsky.app/profile/did:plc:i7glk7dbhaf35fyyjpy7z4v3/post/3mx4wdacbhk2k",
+      "date": "2026-10-05"
+     },
      {
       "text": "Heat index near 100° today in Berea. Todd Monken: \"The good Lord blessed us with a couple of hot days in a row. That's what we needed. I mean, that's where we're heading in a week.\" Browns open in Jacksonville and Tampa Bay. \"Today's a blessing to be out there in the heat.\"",
       "score": 0.862,
@@ -12212,13 +12247,6 @@
       "source": "bluesky",
       "url": "https://bsky.app/profile/did:plc:e2jcqpgnk6gxwcxphlmq2dfo/post/3mma2hbsfhg2c",
       "date": "2026-05-19"
-     },
-     {
-      "text": "Another Jacksonville, FL home got a much-needed cleanup today. 🍂 We cleaned out the gutters and removed the leaves, dirt, and buildup that had collected over time. Once everything was cleared, the gutters were ready to handle the next Jacksonville rain without all that debris get...",
-      "score": 0.779,
-      "source": "bluesky",
-      "url": "https://bsky.app/profile/did:plc:2cuguy44qvlej76tvlfe2437/post/3mwpz4xfj2s26",
-      "date": "2026-09-30"
      }
     ],
     "negative": [
@@ -12249,12 +12277,12 @@
   {
    "key": "jobs_economy",
    "label": "Jobs and economy",
-   "n": 357,
-   "share": 0.0424,
-   "mean_vader": 0.1181,
-   "mean_roberta": 0.1123,
-   "pct_positive": 0.7087,
-   "pct_negative": 0.0924,
+   "n": 362,
+   "share": 0.0413,
+   "mean_vader": 0.1233,
+   "mean_roberta": 0.1178,
+   "pct_positive": 0.7099,
+   "pct_negative": 0.0912,
    "weekly": [
     {
      "week": "2025-09-21",
@@ -12388,8 +12416,8 @@
     },
     {
      "week": "2026-10-04",
-     "n": 1,
-     "mean": 0.9066
+     "n": 6,
+     "mean": 0.5725
     }
    ],
    "examples": {
@@ -12444,12 +12472,12 @@
   {
    "key": "schools_education",
    "label": "Schools and education",
-   "n": 256,
-   "share": 0.0304,
-   "mean_vader": -0.0266,
-   "mean_roberta": -0.0863,
-   "pct_positive": 0.3281,
-   "pct_negative": 0.4727,
+   "n": 258,
+   "share": 0.0294,
+   "mean_vader": -0.0256,
+   "mean_roberta": -0.0842,
+   "pct_positive": 0.3295,
+   "pct_negative": 0.469,
    "weekly": [
     {
      "week": "2025-08-31",
@@ -12693,8 +12721,8 @@
     },
     {
      "week": "2026-10-04",
-     "n": 1,
-     "mean": -0.7193
+     "n": 3,
+     "mean": -0.1112
     }
    ],
    "examples": {
@@ -12749,12 +12777,12 @@
   {
    "key": "crime_safety",
    "label": "Crime and safety",
-   "n": 240,
-   "share": 0.0285,
-   "mean_vader": -0.2748,
-   "mean_roberta": -0.2967,
-   "pct_positive": 0.1292,
-   "pct_negative": 0.8083,
+   "n": 243,
+   "share": 0.0277,
+   "mean_vader": -0.2747,
+   "mean_roberta": -0.2995,
+   "pct_positive": 0.1276,
+   "pct_negative": 0.8107,
    "weekly": [
     {
      "week": "2025-09-07",
@@ -12935,6 +12963,11 @@
      "week": "2026-09-27",
      "n": 21,
      "mean": -0.3704
+    },
+    {
+     "week": "2026-10-04",
+     "n": 3,
+     "mean": -0.5276
     }
    ],
    "examples": {
@@ -12989,12 +13022,12 @@
   {
    "key": "politics_city_hall",
    "label": "Politics and City Hall",
-   "n": 155,
-   "share": 0.0184,
-   "mean_vader": 0.0827,
-   "mean_roberta": -0.023,
-   "pct_positive": 0.4,
-   "pct_negative": 0.3613,
+   "n": 157,
+   "share": 0.0179,
+   "mean_vader": 0.0838,
+   "mean_roberta": -0.0235,
+   "pct_positive": 0.4013,
+   "pct_negative": 0.3631,
    "weekly": [
     {
      "week": "2025-09-07",
@@ -13188,8 +13221,8 @@
     },
     {
      "week": "2026-10-04",
-     "n": 1,
-     "mean": 0.1094
+     "n": 3,
+     "mean": -0.002
     }
    ],
    "examples": {
@@ -13244,12 +13277,12 @@
   {
    "key": "traffic_roads",
    "label": "Traffic and roads",
-   "n": 133,
-   "share": 0.0158,
-   "mean_vader": 0.0615,
-   "mean_roberta": 0.0629,
-   "pct_positive": 0.594,
-   "pct_negative": 0.2707,
+   "n": 136,
+   "share": 0.0155,
+   "mean_vader": 0.0601,
+   "mean_roberta": 0.0547,
+   "pct_positive": 0.5809,
+   "pct_negative": 0.2794,
    "weekly": [
     {
      "week": "2025-09-21",
@@ -13345,6 +13378,11 @@
      "week": "2026-09-27",
      "n": 13,
      "mean": -0.1093
+    },
+    {
+     "week": "2026-10-04",
+     "n": 3,
+     "mean": -0.3114
     }
    ],
    "examples": {
@@ -13399,12 +13437,12 @@
   {
    "key": "downtown",
    "label": "Downtown and neighborhoods",
-   "n": 110,
-   "share": 0.0131,
-   "mean_vader": 0.0978,
-   "mean_roberta": 0.1433,
-   "pct_positive": 0.5455,
-   "pct_negative": 0.1636,
+   "n": 111,
+   "share": 0.0126,
+   "mean_vader": 0.0969,
+   "mean_roberta": 0.1426,
+   "pct_positive": 0.5495,
+   "pct_negative": 0.1622,
    "weekly": [
     {
      "week": "2025-09-21",
@@ -13478,8 +13516,8 @@
     },
     {
      "week": "2026-10-04",
-     "n": 1,
-     "mean": 0.1146
+     "n": 2,
+     "mean": 0.0936
     }
    ],
    "examples": {
@@ -13534,12 +13572,12 @@
   {
    "key": "airport_travel",
    "label": "Airport and travel",
-   "n": 83,
-   "share": 0.0099,
-   "mean_vader": 0.0356,
-   "mean_roberta": 0.0114,
-   "pct_positive": 0.3735,
-   "pct_negative": 0.3133,
+   "n": 85,
+   "share": 0.0097,
+   "mean_vader": 0.0421,
+   "mean_roberta": -0.0012,
+   "pct_positive": 0.3647,
+   "pct_negative": 0.3294,
    "weekly": [
     {
      "week": "2026-01-11",
@@ -13580,6 +13618,11 @@
      "week": "2026-09-27",
      "n": 15,
      "mean": -0.0328
+    },
+    {
+     "week": "2026-10-04",
+     "n": 2,
+     "mean": -0.525
     }
    ],
    "examples": {
@@ -13634,12 +13677,12 @@
   {
    "key": "arts_culture_events",
    "label": "Arts, culture, events",
-   "n": 77,
-   "share": 0.0091,
-   "mean_vader": 0.1212,
-   "mean_roberta": 0.1668,
-   "pct_positive": 0.6753,
-   "pct_negative": 0.2208,
+   "n": 78,
+   "share": 0.0089,
+   "mean_vader": 0.1233,
+   "mean_roberta": 0.1756,
+   "pct_positive": 0.6795,
+   "pct_negative": 0.2179,
    "weekly": [
     {
      "week": "2025-10-19",
@@ -13695,6 +13738,11 @@
      "week": "2026-09-27",
      "n": 7,
      "mean": 0.2882
+    },
+    {
+     "week": "2026-10-04",
+     "n": 1,
+     "mean": 0.8488
     }
    ],
    "examples": {
@@ -13747,10 +13795,140 @@
    }
   },
   {
+   "key": "food_drink",
+   "label": "Food and drink",
+   "n": 70,
+   "share": 0.008,
+   "mean_vader": 0.0721,
+   "mean_roberta": -0.0337,
+   "pct_positive": 0.4,
+   "pct_negative": 0.4857,
+   "weekly": [
+    {
+     "week": "2025-09-28",
+     "n": 1,
+     "mean": 0.031
+    },
+    {
+     "week": "2025-12-21",
+     "n": 1,
+     "mean": 0.0406
+    },
+    {
+     "week": "2026-03-15",
+     "n": 1,
+     "mean": 0.1676
+    },
+    {
+     "week": "2026-03-29",
+     "n": 1,
+     "mean": -0.0198
+    },
+    {
+     "week": "2026-04-12",
+     "n": 1,
+     "mean": 0.7633
+    },
+    {
+     "week": "2026-05-24",
+     "n": 1,
+     "mean": 0.2045
+    },
+    {
+     "week": "2026-07-12",
+     "n": 1,
+     "mean": -0.8474
+    },
+    {
+     "week": "2026-08-23",
+     "n": 30,
+     "mean": -0.1554
+    },
+    {
+     "week": "2026-08-30",
+     "n": 11,
+     "mean": 0.2357
+    },
+    {
+     "week": "2026-09-06",
+     "n": 1,
+     "mean": -0.4426
+    },
+    {
+     "week": "2026-09-13",
+     "n": 5,
+     "mean": 0.2144
+    },
+    {
+     "week": "2026-09-20",
+     "n": 4,
+     "mean": -0.414
+    },
+    {
+     "week": "2026-09-27",
+     "n": 8,
+     "mean": -0.1648
+    },
+    {
+     "week": "2026-10-04",
+     "n": 4,
+     "mean": 0.4287
+    }
+   ],
+   "examples": {
+    "positive": [
+     {
+      "text": "Happy National Coffee Day! ☕ While in Duval County, I stopped by Adam’s Roadrunner Catering for a cup of coffee and to visit with the folks there. Always enjoy stopping by local businesses in our communities!",
+      "score": 0.979,
+      "source": "bluesky",
+      "url": "https://bsky.app/profile/did:plc:izyxja2vdpgmz5d7bdggxyie/post/3mwped2aera2v",
+      "date": "2026-09-29"
+     },
+     {
+      "text": "Bingo. Moved to Baltimore from Jacksonville. In Florida, people celebrate the opening of a new WAWA station. They are famous for their hotdogs that roll on heated axles, and cellophane-wrapped stale sandwiches. Baltimore has some of the best restaurants in the country.",
+      "score": 0.963,
+      "source": "bluesky",
+      "url": "https://bsky.app/profile/did:plc:rmpxxvn22hm56ozog7aworsa/post/3mtwujw7nfk23",
+      "date": "2026-08-25"
+     },
+     {
+      "text": "Planning to vote for Angie Nixon this November. She owns a coffee shop and bookstore in Jacksonville called Cafe Resistance. Can’t wait to go",
+      "score": 0.953,
+      "source": "bluesky",
+      "url": "https://bsky.app/profile/did:plc:6mwxeczew746he7ppcnz35ve/post/3mui32fr57k2p",
+      "date": "2026-09-01"
+     }
+    ],
+    "negative": [
+     {
+      "text": "Me and my mom can confirm the bars in Jacksonville suck Way too racist. That Jamaican spot pissed my momma off. (Not Eva’s kitchen, they shit buss) tidal.com/track/397013...",
+      "score": -0.936,
+      "source": "bluesky",
+      "url": "https://bsky.app/profile/did:plc:nhqhfnwxs6mwlvpxtinbdrd4/post/3mwdulj22xs2o",
+      "date": "2026-09-25"
+     },
+     {
+      "text": "So awful. I knew about the Greensboro sit-in earlier in 1960 that ended with integrated lunch counters but I was unaware that activists in Jacksonville were brutalized this way",
+      "score": -0.914,
+      "source": "bluesky",
+      "url": "https://bsky.app/profile/did:plc:isgsuacdw72jweamaaguplhh/post/3mu2w36eejk2p",
+      "date": "2026-08-27"
+     },
+     {
+      "text": "I am ashamed to report that this post is how I learned that the Cocktail Party is not in Jacksonville this year.",
+      "score": -0.91,
+      "source": "bluesky",
+      "url": "https://bsky.app/profile/did:plc:grokfl3lyiuyfhshoszpxpcx/post/3mwlro5q74k2i",
+      "date": "2026-09-28"
+     }
+    ]
+   }
+  },
+  {
    "key": "transit_jta",
    "label": "Transit, biking, walking",
    "n": 68,
-   "share": 0.0081,
+   "share": 0.0077,
    "mean_vader": -0.2093,
    "mean_roberta": -0.2652,
    "pct_positive": 0.2794,
@@ -13897,144 +14075,14 @@
    }
   },
   {
-   "key": "food_drink",
-   "label": "Food and drink",
-   "n": 67,
-   "share": 0.008,
-   "mean_vader": 0.0663,
-   "mean_roberta": -0.047,
-   "pct_positive": 0.3881,
-   "pct_negative": 0.4925,
-   "weekly": [
-    {
-     "week": "2025-09-28",
-     "n": 1,
-     "mean": 0.031
-    },
-    {
-     "week": "2025-12-21",
-     "n": 1,
-     "mean": 0.0406
-    },
-    {
-     "week": "2026-03-15",
-     "n": 1,
-     "mean": 0.1676
-    },
-    {
-     "week": "2026-03-29",
-     "n": 1,
-     "mean": -0.0198
-    },
-    {
-     "week": "2026-04-12",
-     "n": 1,
-     "mean": 0.7633
-    },
-    {
-     "week": "2026-05-24",
-     "n": 1,
-     "mean": 0.2045
-    },
-    {
-     "week": "2026-07-12",
-     "n": 1,
-     "mean": -0.8474
-    },
-    {
-     "week": "2026-08-23",
-     "n": 30,
-     "mean": -0.1554
-    },
-    {
-     "week": "2026-08-30",
-     "n": 11,
-     "mean": 0.2357
-    },
-    {
-     "week": "2026-09-06",
-     "n": 1,
-     "mean": -0.4426
-    },
-    {
-     "week": "2026-09-13",
-     "n": 5,
-     "mean": 0.2144
-    },
-    {
-     "week": "2026-09-20",
-     "n": 4,
-     "mean": -0.414
-    },
-    {
-     "week": "2026-09-27",
-     "n": 8,
-     "mean": -0.1648
-    },
-    {
-     "week": "2026-10-04",
-     "n": 1,
-     "mean": 0.9236
-    }
-   ],
-   "examples": {
-    "positive": [
-     {
-      "text": "Happy National Coffee Day! ☕ While in Duval County, I stopped by Adam’s Roadrunner Catering for a cup of coffee and to visit with the folks there. Always enjoy stopping by local businesses in our communities!",
-      "score": 0.979,
-      "source": "bluesky",
-      "url": "https://bsky.app/profile/did:plc:izyxja2vdpgmz5d7bdggxyie/post/3mwped2aera2v",
-      "date": "2026-09-29"
-     },
-     {
-      "text": "Bingo. Moved to Baltimore from Jacksonville. In Florida, people celebrate the opening of a new WAWA station. They are famous for their hotdogs that roll on heated axles, and cellophane-wrapped stale sandwiches. Baltimore has some of the best restaurants in the country.",
-      "score": 0.963,
-      "source": "bluesky",
-      "url": "https://bsky.app/profile/did:plc:rmpxxvn22hm56ozog7aworsa/post/3mtwujw7nfk23",
-      "date": "2026-08-25"
-     },
-     {
-      "text": "Planning to vote for Angie Nixon this November. She owns a coffee shop and bookstore in Jacksonville called Cafe Resistance. Can’t wait to go",
-      "score": 0.953,
-      "source": "bluesky",
-      "url": "https://bsky.app/profile/did:plc:6mwxeczew746he7ppcnz35ve/post/3mui32fr57k2p",
-      "date": "2026-09-01"
-     }
-    ],
-    "negative": [
-     {
-      "text": "Me and my mom can confirm the bars in Jacksonville suck Way too racist. That Jamaican spot pissed my momma off. (Not Eva’s kitchen, they shit buss) tidal.com/track/397013...",
-      "score": -0.936,
-      "source": "bluesky",
-      "url": "https://bsky.app/profile/did:plc:nhqhfnwxs6mwlvpxtinbdrd4/post/3mwdulj22xs2o",
-      "date": "2026-09-25"
-     },
-     {
-      "text": "So awful. I knew about the Greensboro sit-in earlier in 1960 that ended with integrated lunch counters but I was unaware that activists in Jacksonville were brutalized this way",
-      "score": -0.914,
-      "source": "bluesky",
-      "url": "https://bsky.app/profile/did:plc:isgsuacdw72jweamaaguplhh/post/3mu2w36eejk2p",
-      "date": "2026-08-27"
-     },
-     {
-      "text": "I am ashamed to report that this post is how I learned that the Cocktail Party is not in Jacksonville this year.",
-      "score": -0.91,
-      "source": "bluesky",
-      "url": "https://bsky.app/profile/did:plc:grokfl3lyiuyfhshoszpxpcx/post/3mwlro5q74k2i",
-      "date": "2026-09-28"
-     }
-    ]
-   }
-  },
-  {
    "key": "healthcare",
    "label": "Health care",
-   "n": 62,
-   "share": 0.0074,
-   "mean_vader": 0.0681,
-   "mean_roberta": -0.0592,
-   "pct_positive": 0.5484,
-   "pct_negative": 0.3548,
+   "n": 63,
+   "share": 0.0072,
+   "mean_vader": 0.0771,
+   "mean_roberta": -0.0527,
+   "pct_positive": 0.5556,
+   "pct_negative": 0.3492,
    "weekly": [
     {
      "week": "2025-09-21",
@@ -14108,8 +14156,8 @@
     },
     {
      "week": "2026-10-04",
-     "n": 2,
-     "mean": 0.0651
+     "n": 3,
+     "mean": 0.1606
     }
    ],
    "examples": {
@@ -14164,12 +14212,12 @@
   {
    "key": "housing_cost",
    "label": "Housing and cost of living",
-   "n": 49,
+   "n": 51,
    "share": 0.0058,
-   "mean_vader": 0.1078,
-   "mean_roberta": -0.008,
-   "pct_positive": 0.449,
-   "pct_negative": 0.4082,
+   "mean_vader": 0.1346,
+   "mean_roberta": -0.0174,
+   "pct_positive": 0.451,
+   "pct_negative": 0.4118,
    "weekly": [
     {
      "week": "2025-09-07",
@@ -14255,6 +14303,11 @@
      "week": "2026-09-27",
      "n": 4,
      "mean": 0.2033
+    },
+    {
+     "week": "2026-10-04",
+     "n": 2,
+     "mean": -0.2491
     }
    ],
    "examples": {
@@ -14309,12 +14362,12 @@
   {
    "key": "jea_utilities",
    "label": "JEA and utilities",
-   "n": 18,
-   "share": 0.0021,
-   "mean_vader": 0.2625,
-   "mean_roberta": 0.1203,
-   "pct_positive": 0.5556,
-   "pct_negative": 0.3333,
+   "n": 19,
+   "share": 0.0022,
+   "mean_vader": 0.21,
+   "mean_roberta": 0.0769,
+   "pct_positive": 0.5263,
+   "pct_negative": 0.3684,
    "weekly": [
     {
      "week": "2025-10-19",
@@ -14355,6 +14408,11 @@
      "week": "2026-09-20",
      "n": 3,
      "mean": 0.0743
+    },
+    {
+     "week": "2026-10-04",
+     "n": 1,
+     "mean": -0.7027
     }
    ],
    "examples": {
@@ -14390,18 +14448,18 @@
       "date": "2026-09-19"
      },
      {
+      "text": "There were also dirty dealings in Jacksonville with JEA and FP&L in 2019. Aaron Zahn, former CEO of JEA went to prison over it.",
+      "score": -0.703,
+      "source": "bluesky",
+      "url": "https://bsky.app/profile/did:plc:adaw6vuofz5nlxxzhwozl4dc/post/3mx5idclr6s2y",
+      "date": "2026-10-05"
+     },
+     {
       "text": "Jacksonville residents waited months for the city to mend a huge pothole. Nobody came. So someone put a banana tree in it. Then another one. The stunt soon spread widely, drawing national notice and pushing the local utility JEA to look into it. Neighbors said the potholes had…",
       "score": -0.697,
       "source": "bluesky",
       "url": "https://bsky.app/profile/did:plc:a6r52ta5azdbgndmyhbzsaaw/post/3mwe3ucv2vyr2",
       "date": "2026-09-25"
-     },
-     {
-      "text": "“… first steps in holding some of the architects of this debacle to account, we cannot forget Mayor Curry’s culpability in this scandal. The Mayor’s administration holds responsibility for appointing, promoting and vouching for their now federally indicted partners to the JEA exe...",
-      "score": -0.653,
-      "source": "bluesky",
-      "url": "https://bsky.app/profile/did:plc:epx5kbkcyr53y5egrh7hitld/post/3m3uw34zbhc2d",
-      "date": "2025-10-23"
      }
     ]
    }
@@ -14410,9 +14468,9 @@
  "sources": [
   {
    "source": "bluesky",
-   "n": 8420,
-   "mean_vader": 0.092,
-   "mean_roberta": 0.0142
+   "n": 8775,
+   "mean_vader": 0.0939,
+   "mean_roberta": 0.0147
   }
  ]
 }
